@@ -7,20 +7,20 @@ class Document extends NextDocument<Props> {
     return (
       <Html lang="ja">
         <Head>
-          <title>株式会社令和の軍師 | 世界が Wow!!と驚くクリエイティブを</title>
+          <title>令和の軍師｜企業の長期利益を最大化するマーケティング会社</title>
           <meta
             name="description"
-            content="兵庫県三田市を拠点の広報PR会社です。WEBサイトや映像制作やチラシ・パンフなどのデザイン制作などを中心にご依頼承っております"
+            content="事業開発→ブランディング→プロモーションまで、独自の戦略を提案＆実施／競合他社と圧倒的に差別化し、顧客から選ばれる状態へ／顧客の長期利益を最大化する／２０歳で学生起業／創業６年で実績１８０社。"
             key="description"
           />
           <meta
             property="og:title"
-            content="株式会社令和の軍師 | 世界が Wow!!と驚くクリエイティブを"
+            content="令和の軍師｜企業の長期利益を最大化するマーケティング会社"
             key="og_title"
           />
           <meta
             property="og:description"
-            content="兵庫県三田市を拠点の広報PR会社です。WEBサイトや映像制作やチラシ・パンフなどのデザイン制作などを中心にご依頼承っております"
+            content="事業開発→ブランディング→プロモーションまで、独自の戦略を提案＆実施／競合他社と圧倒的に差別化し、顧客から選ばれる状態へ／顧客の長期利益を最大化する／２０歳で学生起業／創業６年で実績１８０社。"
             key="og_description"
           />
           <meta

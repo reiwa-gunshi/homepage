@@ -10,7 +10,7 @@ type Props = {
 const nav_items: nav_type[] = [
   { name: "TOP PAGE", path: "/", yomikana: "トップページ" },
   { name: "WORKS", path: "/bestworks/", yomikana: "実績紹介" },
-  { name: "contribution", path: "/contribution/", yomikana: "社会貢献" },
+  { name: "volunteer", path: "/volunteer/", yomikana: "ボランティア" },
   { name: "About us", path: "/aboutus/", yomikana: "私たちについて" },
   { name: "Blog", path: "/blog/", yomikana: "総大将ブログ" },
   { name: "Members", path: "/members/", yomikana: "メンバー" },

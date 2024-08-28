@@ -152,7 +152,7 @@ export interface nav_type {
 }
 [];
 
-export interface contribution_type {
+export interface volunteer_type {
   ttl: string;
   img_path: string;
   img_width: number;

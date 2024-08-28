@@ -57,14 +57,6 @@ const TopMembers = ({ memberData }: memberType) => {
               src="./svg/member_ttl.svg"
               alt="MEMBER文字"
             />
-            <p
-              style={{ animationDelay: "0.8s" }}
-              className={`${
-                inView ? animation.fadeInUp : animation.fadeInUpStart
-              }${styles.img_inner}`}
-            >
-              取締役
-            </p>
           </div>
           <div className={styles.inner}>
             <motion.ul
