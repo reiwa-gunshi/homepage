@@ -1,0 +1,230 @@
+@import "_mixin.scss";
+
+@mixin ttl {
+  color: #dddddd;
+  @include dnp_font;
+  width: 100%;
+  h2 {
+    @include font(72, 32, 84, 48, 700);
+    @include Oswald_font;
+    letter-spacing: 2.88px;
+    color: #e0bd00;
+    text-transform: uppercase;
+    @include mb(80, 40);
+    white-space: nowrap;
+  }
+  .sub_ttl {
+    @include font(72, 48, 48, 40, 400);
+    @include mb(64, 40);
+    @media screen and (max-width: 992px) {
+      .br {
+        @include span_br(before);
+      }
+    }
+  }
+  .detail {
+    @include font(16, 14, 48, 32, 400);
+    text-align: justify;
+  }
+}
+
+@mixin heading_ttl {
+  @include font(72, 40, 144, 48, 400);
+  letter-spacing: 3.6px;
+  color: #dddddd;
+  text-transform: uppercase;
+}
+
+.container {
+  @include container(1280px, 1050px);
+  @include liquidSize(max-width, 1280, 350);
+  @media screen and (max-width: 576px) {
+    max-width: initial;
+  }
+  .about_us_ttl {
+    width: 100%;
+    @include liquidSize(height, 450, 118);
+    position: relative;
+    @include liquidSize(padding-top, 80, 40);
+    @include liquidSize(margin-bottom, 80, 40);
+    @media screen and (max-width: 992px) {
+      padding-top: 100px;
+    }
+    .img_inner {
+      position: relative;
+      width: inherit;
+      height: inherit;
+      img {
+        object-fit: contain;
+        width: inherit;
+        height: inherit;
+      }
+    }
+  }
+  .rightImage {
+    @include section_sepa(50, 50);
+    .rightImageInner {
+      @include ttl;
+    }
+  }
+  .mission {
+    @include liquidSize(padding-bottom, 80, 40);
+    @include liquidSize(padding-top, 80, 120);
+    .mission_img {
+      width: 100%;
+      @include liquidSize(height, 420, 355);
+      position: relative;
+      .img_inner {
+        width: 100%;
+        height: inherit;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          object-fit: cover;
+          width: 100%;
+          height: inherit;
+        }
+      }
+    }
+  }
+  .vision {
+    @include section_sepa(40, 60);
+    @include liquidSize(padding-bottom, 120, 40);
+    column-gap: 50px;
+    @media screen and (max-width: 992px) {
+      @include pd(80, 40);
+    }
+    @media screen and (max-width: 576px) {
+      flex-direction: column-reverse;
+    }
+    .vision_inner {
+      @include ttl;
+      .sub_ttl {
+        @include font(48, 24, 48, 40, 400);
+        @include mb(28, 32);
+        white-space: nowrap;
+        span {
+          @include font(40, 28, 48, 40, 400);
+        }
+      }
+    }
+    .vision_img {
+      width: 100%;
+      @include liquidSize(height, 480, 251);
+      position: relative;
+      .img_inner {
+        width: 100%;
+        height: inherit;
+        position: relative;
+        img {
+          object-fit: cover;
+          width: inherit;
+          height: inherit;
+        }
+      }
+    }
+  }
+  .story {
+    @include dnp_font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 800px;
+    @include mb(136, 120);
+    margin-left: auto;
+    margin-right: auto;
+
+    h3 {
+      @include heading_ttl;
+    }
+    .sub_ttl {
+      @include font(16, 14, 32, 28, 400);
+      color: #aaaaaa;
+      @include mb(77, 40);
+    }
+    p {
+      color: #aaaaaa;
+      @include font(16, 14, 48, 35, 400);
+      text-align: justify;
+    }
+  }
+  .declaration {
+    padding: 15px 0;
+    section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__item {
+      width: calc(100% / 4 - 2%);
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+      justify-content: center;
+      @media screen and (max-width: 576px) {
+        width: calc(100% / 2 - 1%);
+      }
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+      p {
+        color: #aaaaaa;
+        @include font(16, 14, 48, 35, 400);
+        text-align: justify;
+      }
+    }
+  }
+  .info {
+    @include dnp_font;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 170px;
+    h3 {
+      @include font(72, 32, 84, 48, 700);
+      @include Oswald_font;
+      letter-spacing: 2.88px;
+      color: #e0bd00;
+      text-transform: uppercase;
+      @include mb(80, 40);
+      white-space: nowrap;
+    }
+    .table {
+      tr {
+        @include liquidSize(column-gap, 60, 14);
+        height: inherit;
+        display: flex;
+        td {
+          color: #aaaaaa;
+          @include font(24, 14, 42, 30, 400);
+          border-bottom: 1px solid #aaaaaa;
+          @include liquidSize(padding-bottom, 15, 10);
+          @include mb(25, 10);
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+
+          &:nth-child(1) {
+            width: 17%;
+            text-align: left;
+            @include liquidSize(padding-left, 10, 5);
+            @media screen and (max-width: 576px) {
+              width: 20%;
+            }
+          }
+          &:nth-child(2) {
+            width: 75%;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}

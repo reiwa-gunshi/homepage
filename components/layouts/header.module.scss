@@ -1,0 +1,154 @@
+@import "styles/_mixin.scss";
+
+.header {
+  .header_cont {
+    position: relative;
+    z-index: 1999;
+    .nav_cont {
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      pointer-events: none;
+      transition: 3s cubic-bezier(0, 1, 0.31, 1.16);
+      transform: translate(0, 30px);
+      .bg_img {
+        z-index: 2001;
+        width: inherit;
+        height: inherit;
+        position: relative;
+        .img_inner {
+          position: absolute;
+          width: inherit;
+          height: inherit;
+          top: 0;
+          left: 0;
+          background: url(/img/menu_bg-pc.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          @media screen and (max-width: 576px) {
+            background: url(/img/menu_bg-sp.jpg);
+          }
+        }
+      }
+
+      .nav {
+        z-index: 2999;
+        position: absolute;
+        top: 0;
+        left: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 740px;
+        @include liquidSize(width, 740, 355);
+        .ul {
+          display: flex;
+          justify-items: center;
+          flex-wrap: wrap;
+          @include liquidSize(row-gap, 57, 17);
+          @include liquidSize(column-gap, 140, 15);
+
+          li {
+            max-width: 300px;
+            @include liquidSize(width, 300, 160);
+            @media screen and (max-width: 576px) {
+              width: 160px;
+            }
+            a {
+              cursor: pointer;
+              transition: 0.2s;
+
+              &:hover {
+                opacity: 0.5;
+              }
+              .header_items_name {
+                @include font(40, 24, 48, 48, 700);
+                @include Oswald_font;
+                letter-spacing: 0.58px;
+                color: #dddddd;
+                text-transform: uppercase;
+                border-bottom: #dddddd 1px solid;
+                padding-bottom: 5px;
+              }
+              .header_items_yomikana {
+                @include font(16, 12, 48, 48, 400);
+                color: #dddddd;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .menu_btn {
+      cursor: pointer;
+      position: fixed;
+      z-index: 9999;
+      @include liquidSize(width, 105, 75);
+      @include liquidSize(height, 105, 75);
+      @include liquidSize(right, 40, 15);
+      @include liquidSize(top, 40, 15);
+      .menu_bg {
+        position: absolute;
+        object-fit: cover;
+        width: inherit;
+        height: auto;
+        transition: 0.3s all ease-in-out;
+      }
+      .hamburger {
+        @include flex-center;
+        flex-direction: column;
+        width: inherit;
+        height: inherit;
+        position: relative;
+        div {
+          background-color: #fff;
+          @include liquidSize(height, 3, 1);
+          @include liquidSize(width, 24, 16);
+          margin-bottom: 5px;
+          transform: transform(0) rotate(0deg);
+          opacity: 1;
+          transition: 0.3s all ease-in-out;
+          @media screen and (max-width: 576px) {
+          }
+        }
+      }
+    }
+  }
+}
+
+// 開いた時の処理
+.header {
+  .open {
+    .nav_cont {
+      pointer-events: all !important;
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+    .menu_bg {
+      transform: rotate(180deg);
+    }
+    .hamburger {
+      div {
+        &:nth-child(1) {
+          transform: translate(0px, 6px) rotate(405deg);
+        }
+        &:nth-child(2) {
+          transform: translateX(10vw);
+          opacity: 0 !important;
+        }
+        &:nth-child(3) {
+          transform: translate(0px, -10px) rotate(-225deg);
+          @media screen and (max-width: 576px) {
+            transform: translate(0px, -6px) rotate(-225deg);
+          }
+        }
+      }
+    }
+  }
+}

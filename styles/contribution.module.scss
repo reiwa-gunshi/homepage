@@ -1,0 +1,98 @@
+@import "_mixin.scss";
+
+.bestWorks {
+  @include liquidSize(padding-top, 200, 100);
+  .white_bg {
+    background: #f7f5ef;
+    .container {
+      @include container(1440px);
+      @include liquidSize(max-width, 1440, 355);
+      @include liquidSize(padding-bottom, 300, 200);
+      @media screen and (max-width: 576px) {
+        max-width: 100%;
+      }
+
+      .ttl {
+        @include dnp_font;
+        @include liquidSize(padding-top, 96, 40);
+        h2 {
+          @include font(32, 32, 48, 35, 400);
+          color: #000;
+          letter-spacing: 1.6px;
+          margin-bottom: 20px;
+          span {
+            color: #9e001b;
+          }
+        }
+        hr {
+          width: 40px;
+          height: 3px;
+          color: #000;
+        }
+        p {
+          @include liquidSize(font-size, 18, 14);
+          @include liquidSize(line-height, 36, 28);
+          @include liquidSize(margin-bottom, 74, 32);
+        }
+      }
+      .bestWork_cont {
+        .bestWork_ul {
+          .post {
+            display: block;
+            @include dnp_font;
+            border-bottom: 1px solid #000;
+            @include liquidSize(margin-bottom, 92, 53);
+            .genre {
+              @include liquidSize(font-size, 24, 12);
+              color: #000000;
+              @include liquidSize(margin-bottom, 15, 8);
+            }
+            h3 {
+              background: #fff;
+              width: 100%;
+              @include liquidSize(font-size, 40, 32);
+              padding: 15px 20px;
+              @include liquidSize(margin-bottom, 20, 10);
+            }
+            .bestworksimg {
+              width: 100%;
+              @include liquidSize(margin-bottom, 40, 30);
+              position: relative;
+              img {
+                object-fit: cover;
+              }
+            }
+            h4 {
+              @include liquidSize(font-size, 32, 24);
+              @include liquidSize(margin-bottom, 28, 22);
+            }
+            p {
+              @include liquidSize(font-size, 18, 14);
+              @include liquidSize(line-height, 36, 28);
+              @include liquidSize(margin-bottom, 32, 23);
+            }
+            .bestWorksTag {
+              display: flex;
+              flex-wrap: wrap;
+              @include liquidSize(row-gap, 64, 16);
+              @include liquidSize(column-gap, 14, 6);
+              @include liquidSize(margin-bottom, 32, 23);
+              li {
+                color: #aaaaaa;
+                @include liquidSize(font-size, 18, 12);
+              }
+            }
+            .post_cont {
+              @include liquidSize(line-height, 36, 28);
+              @include liquidSize(font-size, 18, 12);
+              a {
+                color: #3891bf;
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import "_mixin.scss";
+
+.works {
+  @include liquidSize(padding-top, 200, 100);
+  .white_bg {
+    background: white;
+    .container {
+      @include container(1440px);
+      @include liquidSize(max-width, 1440, 355);
+      @include liquidSize(padding-bottom, 300, 200);
+      @media screen and (max-width: 576px) {
+        max-width: 100%;
+      }
+      .ttl {
+        @include dnp_font;
+        @include liquidSize(padding-top, 96, 40);
+        h2 {
+          @include font(32, 32, 48, 35, 400);
+          color: #000;
+          letter-spacing: 1.6px;
+          color: #000000;
+          margin-bottom: 20px;
+          text-align: center;
+        }
+        hr {
+          width: 40px;
+          color: #000;
+          @include mb(80, 12);
+        }
+      }
+    }
+  }
+}

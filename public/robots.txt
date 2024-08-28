@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://movedoor.jp
+
+# Sitemaps
+Sitemap: https://movedoor.jp/sitemap.xml
