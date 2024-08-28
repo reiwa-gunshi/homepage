@@ -14,7 +14,7 @@ const Concept = () => {
         <div className={styles.concept_cont}>
           <div className={styles.concept_inner}>
             <h3 ref={ref} className={`${inView ? animation.coverRectAnime : animation.coverRectAnimeStart}`}>
-              <span>令和の軍師</span>
+              <span>事業を成功に導く軍師</span>
             </h3>
             <img
               className={`${inView ? animation.fadeInUp : animation.fadeInUpStart}`}
@@ -22,11 +22,11 @@ const Concept = () => {
               alt="movedoorのコーポレートロゴ"
             />
             <p className={`${inView ? animation.fadeInUp : animation.fadeInUpStart}`}>
-              戦いに勝利し、歴史に名を残した英雄たち
+              戦いに勝利し、歴史に名を残した将軍たち
               <br />
               その成功の陰に、必ず“軍師”あり
               <br />
-              世はＩＴ戦国時代、今こそ軍師が必要だ。
+              世はビジネス戦国時代、今こそ軍師が必要だ。
               <br />
             </p>
           </div>
