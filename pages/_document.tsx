@@ -25,7 +25,7 @@ class Document extends NextDocument<Props> {
           />
           <meta
             property="og:image"
-            content="https://movedoor.jp/img/recruit.jpg"
+            content="https://reiwa-gunshi.co.jp/img/recruit.jpg"
           />
           <meta name="twitter:card" content="summary_large_image" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
