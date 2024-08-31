@@ -8,7 +8,7 @@ import Animation from "../components/templates/Animation";
 
 const Contact: NextPage = ({ respost }: any) => {
   const description =
-    "MOVEDOORのお問い合わせフォームです.広報の無料相談から受けつけておりますので、ご気軽にお問い合わせください.弊社の最強の軍師がお客様の課題解決を行いに参上します。";
+    "令和の軍師のお問い合わせフォームです.広報の無料相談から受けつけておりますので、ご気軽にお問い合わせください.弊社の最強の軍師がお客様の課題解決を行いに参上します。";
   const title = "CONTACT -お問い合わせ-";
 
   return (

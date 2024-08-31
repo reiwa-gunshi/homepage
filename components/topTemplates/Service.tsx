@@ -298,12 +298,12 @@ const Service = ({ workTag }: workTag) => {
                             : animation.fadeInUpStart
                         }
                       >
-                        <Link
+                        {/* <Link
                           href={{
                             pathname: `/works/`,
                             query: { tag: items.fields.worksTagName },
                           }}
-                        >
+                        > */}
                           <a>
                             <div className={styles.icon_img}>
                               <div className={styles.iconInner}>
@@ -318,7 +318,7 @@ const Service = ({ workTag }: workTag) => {
                             </div>
                             <p>{items.fields.worksTagName}</p>
                           </a>
-                        </Link>
+                        {/* </Link> */}
                       </li>
                     );
                   })}
