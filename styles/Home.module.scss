@@ -266,13 +266,13 @@ div.animeBack {
   }
   .mesh_img_inner {
     position: absolute;
-    top: -5%;
-    right: -2%;
+    top: -8%;
+    right: 2%;
     width: 1512px;
     height: 1512px;
     @media screen and (max-width: 576px) {
       top: -10%;
-      right: -120%;
+      right: -116%;
     }
     .mesh {
       position: relative;
