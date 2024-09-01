@@ -445,7 +445,7 @@ div.animeBack {
       }
 
       .serviceFirstZoon {
-        padding-top: 160px;
+        padding-top: 100px;
         @include liquidSize(padding-left, 480, 20, 80);
         @include liquidSize(padding-right, 125, 20, 300);
         @include liquidSize(padding-bottom, 150, 80);
@@ -480,7 +480,7 @@ div.animeBack {
         @include liquidSize(top, 80, -120);
 
         @media screen and (max-width: 768px) {
-          @include liquidSize(right, -70, -25, 150);
+          @include liquidSize(right, -70, 0, 150);
         }
         img {
           position: relative;
