@@ -73,13 +73,13 @@ const Mission = () => {
                 </h4>
 
                 <p
-                  style={{ animationDelay: "1.0s" , fontSize: "1vw"}}
+                  style={{ animationDelay: "1.0s"}}
                   className={`${
                     inView ? animation.fadeInUp : animation.fadeInUpStart
                   }`}
                 >
                   <br />
-                  令和の軍師は、競合他社に真似できない、
+                  令和の軍師は、競合他社が真似できない、
                   <br />
                   独自性のある商品・サービスを開発する。
                   <br />
@@ -92,7 +92,7 @@ const Mission = () => {
                   競合他社と圧倒的な差別化を実現できる。
                   <br />
                   <br />
-                  顧客に選ばれ続ける理由や状況を構築し、
+                  顧客に圧倒的に選ばれる仕組みを構築し、
                   <br />
                   貴社の売上・長期利益を最大化し続ける。
                 </p>

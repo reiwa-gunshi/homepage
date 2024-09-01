@@ -337,10 +337,18 @@ div.animeBack {
             @include font(16, 14, 48, 32, 400);
             @include mb(75, 72);
             color: #e0bd00;
+            font-size: 1.6vw;
             span {
               &:nth-child(1) {
                 @include span_br(after);
               }
+            }
+            @media (max-width: 768px) {
+              font-size: 2vw; /* スマホ版のフォントサイズ */
+            }
+          
+            @media (min-width: 769px) {
+              font-size: 1.6vw; /* パソコン版のフォントサイズ */
             }
             @media screen and (min-width: 576px) {
               span {
