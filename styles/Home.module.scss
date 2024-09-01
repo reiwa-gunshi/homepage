@@ -746,16 +746,17 @@ div.animeBack {
                   h4 {
                     @include liquidSize(font-size, 32, 24);
                     border-bottom: #000 1px solid;
-                    padding-bottom: 3px;
                     @media (max-width: 768px) {
+                      padding-bottom: 16px;
                       font-size: 5vw; /* スマホ版のフォントサイズ */
                     }
                     @media (min-width: 769px) {
+                      padding-bottom: 3px;
                       font-size: 1.5vw; /* パソコン版のフォントサイズ */
                     }
                   }
                   p {
-                    @include liquidSize(margin-top, 25, 10);
+                    @include liquidSize(margin-top, 25, 16);
                     @include liquidSize(font-size, 16, 13);
                     @include liquidSize(line-height, 32, 22);
                   }
