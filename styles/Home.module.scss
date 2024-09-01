@@ -210,6 +210,12 @@ div.animeBack {
       h3 {
         @include font(72, 40, 72, 40, 400);
         @include mb(64, 40);
+        @media (max-width: 768px) {
+          font-size: 1vw; /* スマホ版のフォントサイズ */
+        }
+        @media (min-width: 769px) {
+          font-size: 2vw; /* パソコン版のフォントサイズ */
+        }
       }
       img {
         @include mb(80, 40);
