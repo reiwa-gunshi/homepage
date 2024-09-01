@@ -970,6 +970,7 @@ div.animeBack {
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      padding-top: 88px;
       > img {
         @include mb(55, 15);
         @include liquidSize(width, 374, 149);
