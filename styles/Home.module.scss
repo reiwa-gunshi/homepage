@@ -211,10 +211,10 @@ div.animeBack {
         @include font(72, 40, 72, 40, 400);
         @include mb(64, 40);
         @media (max-width: 768px) {
-          font-size: 5vw; /* スマホ版のフォントサイズ */
+          font-size: 7vw; /* スマホ版のフォントサイズ */
         }
         @media (min-width: 769px) {
-          font-size: 2vw; /* パソコン版のフォントサイズ */
+          font-size: 4vw; /* パソコン版のフォントサイズ */
         }
       }
       img {
