@@ -250,7 +250,7 @@ const Service = ({ workTag }: workTag) => {
                           >
                             <div className={styles.japaneseScrollCont}>
                               <Image
-                                width={1500}
+                                width={1600}
                                 height={478}
                                 layout="responsive"
                                 src="/svg/japaneseScrollBase.png"
