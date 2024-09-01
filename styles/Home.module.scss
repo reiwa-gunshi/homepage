@@ -451,6 +451,7 @@ div.animeBack {
           padding-right: 0;
         }
         p {
+          @include font(16, 14, 48, 32, 400);
           color: white;
           @include liquidSize(margin-bottom, 25, 10);
           @include liquidSize(font-size, 16, 13);
