@@ -92,7 +92,7 @@ const Service = ({ workTag }: workTag) => {
               </div>
 
               <div className={styles.service_content_p}>
-                <p style={{fontSize: 32}}>
+                <p style={{fontSize: 24}}>
                   マーケティングの全てを提案・相談できる、
                   <br />
                   マーケティング責任者＝軍師を提供します。

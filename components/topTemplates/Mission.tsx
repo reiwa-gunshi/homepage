@@ -78,6 +78,7 @@ const Mission = () => {
                     inView ? animation.fadeInUp : animation.fadeInUpStart
                   }`}
                 >
+                  <br />
                   令和の軍師は、競合他社に真似できない、
                   <br />
                   独自性のある商品・サービスを開発する。
