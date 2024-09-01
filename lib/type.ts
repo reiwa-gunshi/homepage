@@ -160,3 +160,8 @@ export interface volunteer_type {
   detail: string;
 }
 [];
+
+export interface point {
+  ttl: string;
+  contents: string;
+}
