@@ -1180,10 +1180,10 @@ div.animeBack {
     position: relative;
 
     .news_word {
-      left: 0;
+      right: 0;
       top: 0;
       position: absolute;
-      @include liquidSize(width, 345, 66, 320);
+      @include liquidSize(width, 345, 66, 120);
       @media screen and (max-width: 786px) {
         position: relative;
         transform: rotate(-90deg) translate(-30px, 100px);
