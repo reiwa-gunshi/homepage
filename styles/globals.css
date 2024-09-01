@@ -426,20 +426,20 @@ th {
 
 /* WORKSのSWIPER */
 
-.top_work .myswiper .swiper-button-next:after {
+/* .top_work .myswiper .swiper-button-next:after {
   background-image: url("../public/svg/works_next.svg");
 }
 .top_work .myswiper .swiper-button-prev:after {
   background-image: url("../public/svg/works_prev.svg");
-}
+} */
 
 /* MEMEBERのSWIPER */
-.top_member .myswiper .swiper-button-next:after {
+/* .top_member .myswiper .swiper-button-next:after {
   background-image: url("../public/svg/member_next.svg");
-}
-.top_member .myswiper .swiper-button-prev:after {
+} */
+/* .top_member .myswiper .swiper-button-prev:after {
   background-image: url("../public/svg/member_prev.svg");
-}
+} */
 
 /* SWIPER */
 .myswiper .swiper-button-next:after,
@@ -450,11 +450,11 @@ th {
   background-size: contain;
   background-repeat: no-repeat;
 }
-.swiper-button-next,
+/* .swiper-button-next,
 .swiper-button-prev {
   width: 70px !important;
   height: 70px !important;
-}
+} */
 
 @media screen and (max-width: 992px) {
   .swiper-button-next,
