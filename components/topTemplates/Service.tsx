@@ -137,7 +137,7 @@ const Service = ({ workTag }: workTag) => {
                     />
                   </div>
                   <div
-                    className={`${styles.chart_green} ${styles.chartAbsolute}`}
+                    className={`${styles.chart_yellow} ${styles.chartAbsolute}`}
                   >
                     <Image
                       width={615}
@@ -147,12 +147,12 @@ const Service = ({ workTag }: workTag) => {
                         inView ? animation.scaleUp : animation.scaleUpStart
                       }`}
                       layout="responsive"
-                      src="/img/chart_green.png"
-                      alt="緑の表"
+                      src="/img/chart_yellow.png"
+                      alt="黄色の表"
                     />
                   </div>
                   <div
-                    className={`${styles.chart_yellow} ${styles.chartAbsolute}`}
+                    className={`${styles.chart_green} ${styles.chartAbsolute}`}
                   >
                     <Image
                       width={615}
@@ -162,8 +162,8 @@ const Service = ({ workTag }: workTag) => {
                         inView ? animation.scaleUp : animation.scaleUpStart
                       }`}
                       layout="responsive"
-                      src="/img/chart_yellow.png"
-                      alt="黄色の表"
+                      src="/img/chart_green.png"
+                      alt="緑の表"
                     />
                   </div>
                   <div
@@ -189,16 +189,6 @@ const Service = ({ workTag }: workTag) => {
                     />
                   </div>
 
-                  <div className={styles.Competitor_big}>
-                    <Image
-                      width={216}
-                      height={24}
-                      layout="responsive"
-                      src="/img/Competitor_big.png"
-                      alt="マーケ・コンサル"
-                    />
-                  </div>
-
                   <div className={styles.Competitor_nomal}>
                     <Image
                       width={216}
@@ -206,6 +196,16 @@ const Service = ({ workTag }: workTag) => {
                       layout="responsive"
                       src="/img/Competitor_nomal.png"
                       alt="制作会社"
+                    />
+                  </div>
+
+                  <div className={styles.Competitor_big}>
+                    <Image
+                      width={216}
+                      height={24}
+                      layout="responsive"
+                      src="/img/Competitor_big.png"
+                      alt="マーケ・コンサル"
                     />
                   </div>
                 </div>
