@@ -545,12 +545,22 @@ div.animeBack {
           .Competitor_mycompany {
             @include liquidSize(width, 88, 68);
             @include mb(10, 0);
+            @media (max-width: 768px) { /* スマホ版のフォントサイズ */
+              padding-left: 24px;
+              padding-right: 8px;
+            }
           }
           .Competitor_big {
             @include liquidSize(width, 216, 122);
+            @media (max-width: 768px) { /* スマホ版のフォントサイズ */
+              padding-left: 15px;
+            }
           }
           .Competitor_nomal {
             @include liquidSize(width, 216, 122);
+            @media (max-width: 768px) { /* スマホ版のフォントサイズ */
+              padding-left: 15px;
+            }
           }
           img {
             position: relative;
