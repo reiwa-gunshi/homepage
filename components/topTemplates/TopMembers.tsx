@@ -69,7 +69,7 @@ const TopMembers = ({ memberData }: memberType) => {
                 <Swiper
                   modules={[Navigation, Pagination]}
                   spaceBetween={30}
-                  slidesPerView={2}
+                  slidesPerView={1}
                   speed={200}
                   centeredSlides={true}
                   centerInsufficientSlides={true}
@@ -118,7 +118,7 @@ const TopMembers = ({ memberData }: memberType) => {
                       </SwiperSlide>
                     );
                   })}
-                  <div className={styles.swiper_button_next}></div>
+                  {/* <div className={styles.swiper_button_next}></div> */}
                 </Swiper>
               ) : (
                 <>

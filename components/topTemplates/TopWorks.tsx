@@ -110,7 +110,7 @@ const TopWorks = ({ workData }: workData) => {
                     </SwiperSlide>
                   );
                 })}
-                <div className={styles.swiper_button_next}></div>
+                {/* <div className={styles.swiper_button_next}></div> */}
               </Swiper>
             </ul>
           </div>
