@@ -51,10 +51,10 @@ const Footer = (props: { nav_items: nav_type[] }) => {
         <img
           className={styles.footer_logo}
           src="/svg/footer_logo.svg"
-          alt="MOVEDOORロゴ"
+          alt="令和の軍師ロゴ"
         />
         <div className={styles.copyright}>
-          <p>Copyright © 2023 movedoor All rights reserved.</p>
+          <p>Copyright © 2023 reiwanogunshi All rights reserved.</p>
         </div>
       </footer>
     </>
