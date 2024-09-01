@@ -147,7 +147,7 @@ div.animeBack {
       .h1_sub_ttl {
         @include Oswald_font;
         color: white;
-        @include font(55, 20, 80, 20, 500);
+        @include font(55, 20, 80, 32, 500);
         @media screen and (max-width: 576px) {
           margin: 0 auto;
         }
