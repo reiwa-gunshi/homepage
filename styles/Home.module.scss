@@ -338,7 +338,6 @@ div.animeBack {
               width: 90vw;
               white-space: nowrap; /* テキストを1行に収める */
             }
-          
             @media (min-width: 769px) {
               font-size: 3.5vw; /* パソコン版のフォントサイズ */
             }
@@ -356,7 +355,6 @@ div.animeBack {
             @media (max-width: 768px) {
               font-size: 3vw; /* スマホ版のフォントサイズ */
             }
-          
             @media (min-width: 769px) {
               font-size: 1.4vw; /* パソコン版のフォントサイズ */
             }
@@ -457,6 +455,12 @@ div.animeBack {
           @include liquidSize(margin-bottom, 25, 10);
           @include liquidSize(font-size, 16, 13);
           @include liquidSize(line-height, 32, 22);
+          @media (max-width: 768px) {
+            font-size: 4vw; /* スマホ版のフォントサイズ */
+          }
+          @media (min-width: 769px) {
+            font-size: 1vw; /* パソコン版のフォントサイズ */
+          }
         }
       }
 
