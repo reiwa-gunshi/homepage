@@ -456,10 +456,10 @@ div.animeBack {
           @include liquidSize(font-size, 16, 13);
           @include liquidSize(line-height, 32, 22);
           @media (max-width: 768px) {
-            font-size: 4vw; /* スマホ版のフォントサイズ */
+            font-size: 3.4vw; /* スマホ版のフォントサイズ */
           }
           @media (min-width: 769px) {
-            font-size: 1vw; /* パソコン版のフォントサイズ */
+            font-size: 1.4vw; /* パソコン版のフォントサイズ */
           }
         }
       }
