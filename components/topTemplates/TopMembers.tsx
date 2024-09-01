@@ -118,7 +118,6 @@ const TopMembers = ({ memberData }: memberType) => {
                       </SwiperSlide>
                     );
                   })}
-                  {/* <div className={styles.swiper_button_next}></div> */}
                 </Swiper>
               ) : (
                 <>
