@@ -1186,7 +1186,7 @@ div.animeBack {
       @include liquidSize(width, 345, 66, 120);
       @media screen and (max-width: 786px) {
         position: relative;
-        transform: rotate(-90deg) translate(-30px, 100px);
+        transform: rotate(-90deg) translate(-30px, 80px);
       }
     }
     ul {
