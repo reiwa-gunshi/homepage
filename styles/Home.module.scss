@@ -346,7 +346,7 @@ div.animeBack {
               white-space: nowrap; /* テキストを1行に収める */
             }
             @media (min-width: 769px) {
-              @include mb(54, 56);
+              @include mb(54, 64);
               font-size: 3.5vw; /* パソコン版のフォントサイズ */
             }
           }
