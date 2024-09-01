@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import { workData } from "../../lib/type";
 import Link from "next/link";
+import { useEffect, useState } from 'react';
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -15,11 +16,20 @@ import "swiper/css/pagination";
 
 const TopWorks = ({ workData }: workData) => {
   const { width } = getWindowSize();
+  const [showNavigation, setShowNavigation] = useState(true);
 
   const [missionRef, inView] = useInView({
     threshold: [0.25],
     triggerOnce: true,
   });
+
+  useEffect(() => {
+    if (workData.length <= 1) {
+      setShowNavigation(false);
+    } else {
+      setShowNavigation(true);
+    }
+  }, [workData]);
 
   return (
     <>
@@ -56,60 +66,53 @@ const TopWorks = ({ workData }: workData) => {
                 centeredSlides={true}
                 centerInsufficientSlides={true}
                 loop={true}
-                navigation
+                navigation={showNavigation}
                 className="myswiper"
               >
-                {workData.map((items, index) => {
-                  return (
-                    <SwiperSlide key={index}>
-                      <li>
-                        <Link
-                          href={{ pathname: `/works/${items.fields.workTtl}` }}
-                        >
-                          <a>
-                            <div className={styles.close_inner}>
-                              <div className={styles.works_bg}>
-                                <div className={styles.img_inner}>
-                                  {index % 2 != 0 ? (
-                                    <Image
-                                      src="/img/works_red_bg.jpg"
-                                      layout="fill"
-                                      alt="ワークス背景素材"
-                                    />
-                                  ) : (
-                                    <Image
-                                      src="/img/works_yellow_bg.jpg"
-                                      layout="fill"
-                                      alt="ワークス背景素材"
-                                    />
-                                  )}
-                                </div>
-                              </div>
-                              <div className={styles.works_img}>
-                                <div className={styles.img_inner}>
+                {workData.map((items, index) => (
+                  <SwiperSlide key={index}>
+                    <li>
+                      <Link href={{ pathname: `/works/${items.fields.workTtl}` }}>
+                        <a>
+                          <div className={styles.close_inner}>
+                            <div className={styles.works_bg}>
+                              <div className={styles.img_inner}>
+                                {index % 2 !== 0 ? (
                                   <Image
-                                    src={
-                                      "https:" +
-                                      items.fields.workThumb.fields.file.url
-                                    }
+                                    src="/img/works_red_bg.jpg"
                                     layout="fill"
                                     alt="ワークス背景素材"
                                   />
-                                </div>
+                                ) : (
+                                  <Image
+                                    src="/img/works_yellow_bg.jpg"
+                                    layout="fill"
+                                    alt="ワークス背景素材"
+                                  />
+                                )}
                               </div>
                             </div>
-                            <div className={styles.open_inner}>
-                              <div className={styles.company_name}>
-                                <p>{items.fields.workSubTtl}</p>
-                                <h6>{items.fields.workTtl}</h6>
+                            <div className={styles.works_img}>
+                              <div className={styles.img_inner}>
+                                <Image
+                                  src={"https:" + items.fields.workThumb.fields.file.url}
+                                  layout="fill"
+                                  alt="ワークス背景素材"
+                                />
                               </div>
                             </div>
-                          </a>
-                        </Link>
-                      </li>
-                    </SwiperSlide>
-                  );
-                })}
+                          </div>
+                          <div className={styles.open_inner}>
+                            <div className={styles.company_name}>
+                              <p>{items.fields.workSubTtl}</p>
+                              <h6>{items.fields.workTtl}</h6>
+                            </div>
+                          </div>
+                        </a>
+                      </Link>
+                    </li>
+                  </SwiperSlide>
+                ))}
                 {/* <div className={styles.swiper_button_next}></div> */}
               </Swiper>
             </ul>
