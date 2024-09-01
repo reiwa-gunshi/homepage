@@ -73,7 +73,7 @@ const Mission = () => {
                 </h4>
 
                 <p
-                  style={{ animationDelay: "1.0s" , fontSize: "4vw"}}
+                  style={{ animationDelay: "1.0s" , fontSize: "1vw"}}
                   className={`${
                     inView ? animation.fadeInUp : animation.fadeInUpStart
                   }`}
