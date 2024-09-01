@@ -410,10 +410,11 @@ div.animeBack {
     }
     .strong_img_inner {
       position: absolute;
-      left: 0;
-      top: -70px;
+      left: -20px;
+      top: -20px;
       width: 254px;
       z-index: 115;
+      transform: rotate(-90deg); // 90度回転させる
       .img {
         position: relative;
       }

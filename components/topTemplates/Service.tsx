@@ -97,8 +97,8 @@ const Service = ({ workTag }: workTag) => {
               width={254}
               height={146}
               layout="responsive"
-              src="/svg/strongPoint.svg"
-              alt="STRONGPOINT"
+              src="/svg/service_bg_word.svg"
+              alt="Service"
             />
           </div>
         </div>
