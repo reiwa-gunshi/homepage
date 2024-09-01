@@ -54,8 +54,8 @@ const TopMembers = ({ memberData }: memberType) => {
               className={`${
                 inView ? animation.fadeInUp : animation.fadeInUpStart
               }${styles.img_inner}`}
-              src="./svg/member_ttl.svg"
-              alt="MEMBER文字"
+              src="./svg/top_marketer.svg"
+              alt="TOP MARKETERの文字"
             />
           </div>
           <div className={styles.inner}>
