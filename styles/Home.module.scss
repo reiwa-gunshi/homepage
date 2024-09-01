@@ -733,10 +733,10 @@ div.animeBack {
                     border-bottom: #000 1px solid;
                     padding-bottom: 3px;
                     @media (max-width: 768px) {
-                      font-size: 4vw; /* スマホ版のフォントサイズ */
+                      font-size: 8vw; /* スマホ版のフォントサイズ */
                     }
                     @media (min-width: 769px) {
-                      font-size: 3vw; /* パソコン版のフォントサイズ */
+                      font-size: 2vw; /* パソコン版のフォントサイズ */
                     }
                   }
                   p {
