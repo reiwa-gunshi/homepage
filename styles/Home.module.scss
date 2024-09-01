@@ -326,11 +326,19 @@ div.animeBack {
             @include font(72, 40, 96, 72, 400);
             @include mb(54, 66);
             letter-spacing: 0px;
+            font-size: 4vw;
             @include dnp_font;
             span {
               @media screen and (max-width: 576px) {
                 @include span_br(before);
               }
+            }
+            @media (max-width: 768px) {
+              font-size: 2vw; /* スマホ版のフォントサイズ */
+            }
+          
+            @media (min-width: 769px) {
+              font-size: 4vw; /* パソコン版のフォントサイズ */
             }
           }
           p {
