@@ -402,6 +402,7 @@ div.animeBack {
     .service_img_inner {
       position: absolute;
       right: 0;
+      z-index: 9999;
       @include liquidSize(top, -360, -130);
       @include liquidSize(width, 368, 70, 160);
       @media screen and (max-width: 992px) {
