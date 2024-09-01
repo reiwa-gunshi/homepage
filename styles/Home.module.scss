@@ -334,7 +334,9 @@ div.animeBack {
               }
             }
             @media (max-width: 768px) {
-              font-size: 5vw; /* スマホ版のフォントサイズ */
+              font-size: 5vw;
+              width: 90vw;
+              white-space: nowrap; /* テキストを1行に収める */
             }
           
             @media (min-width: 769px) {
