@@ -201,8 +201,8 @@ const Service = ({ workTag }: workTag) => {
 
                   <div className={styles.Competitor_nomal}>
                     <Image
-                      width={120}
-                      height={24}
+                      width={216}
+                      height={25}
                       layout="responsive"
                       src="/img/Competitor_nomal.png"
                       alt="制作会社"
