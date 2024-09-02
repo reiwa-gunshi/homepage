@@ -267,7 +267,7 @@ div.animeBack {
   .mesh_img_inner {
     position: absolute;
     top: -16%;
-    right: -20%;
+    right: -24%;
     width: 1512px;
     height: 1512px;
     @media screen and (max-width: 576px) {
@@ -275,8 +275,8 @@ div.animeBack {
       right: -116%;
     }
     @media (min-width: 769px) { /* パソコン版のフォントサイズ */
-      @include liquidSize(width, 3000, 320);
-      @include liquidSize(height, 3000, 320);
+      @include liquidSize(width, 2200, 320);
+      @include liquidSize(height, 2200, 320);
     }
     .mesh {
       position: relative;
