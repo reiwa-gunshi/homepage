@@ -52,8 +52,8 @@ const TopMembers = ({ memberData }: memberType) => {
           } ${styles.tommy_pc}`}
         >
           <Image
-            // width={265}
-            // height={265}
+            width={265}
+            height={265}
             src="/img/tommy_pc.png"
             layout="fill"
             alt="諸富稜"

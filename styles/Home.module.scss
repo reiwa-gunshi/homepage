@@ -964,11 +964,12 @@ div.animeBack {
   }
   @media (min-width: 769px) { /* パソコン版のフォントサイズ */
     .tommy_pc {
+      z-index: 5;
       position: absolute;
       @include liquidSize(top, -300, -50);
       @include liquidSize(right, 150, -70);
-      @include liquidSize(width, 700, 320);
-      @include liquidSize(height, 600, 320);
+      @include liquidSize(width, 600, 320);
+      @include liquidSize(height, 500, 320);
     }
   }
   .container {
