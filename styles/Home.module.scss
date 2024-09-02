@@ -970,6 +970,10 @@ div.animeBack {
       @include liquidSize(right, 150, -70);
       @include liquidSize(width, 600, 320);
       @include liquidSize(height, 500, 320);
+      @media screen and (max-width: 992px) and (min-width: 576px) {
+        width: 365px;
+        height: 365px;
+      }
     }
   }
   .container {
