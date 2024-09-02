@@ -62,6 +62,19 @@ const Mission = () => {
                 src="./svg/OurMission.svg"
                 alt="Our Mission"
               />
+              <div
+                className={`${
+                  inView ? animation.fadeInUp : animation.fadeInUpStart
+                } ${styles.five_people_img}`}
+              >
+                <Image
+                  width={2133}
+                  height={1440}
+                  src="/img/5people.png"
+                  layout="fill"
+                  alt="５人の写真"
+                />
+              </div>
               <div className={styles.mission_detail}>
                 <h4
                   style={{ animationDelay: "1.5s" }}

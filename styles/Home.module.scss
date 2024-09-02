@@ -241,7 +241,7 @@ div.animeBack {
     background: transparent
       radial-gradient(
         closest-side at 50% 50%,
-        #ffd700 0%,
+        #00eeff 0%,
         #ffd800 32%,
         #847000 100%
       )
@@ -384,6 +384,18 @@ div.animeBack {
               }
             }
           }
+          .five_people_img {
+            z-index: 5;
+            position: absolute;
+            @include liquidSize(top, 0, 0);
+            @include liquidSize(right, 0, 0);
+            @include liquidSize(width, 2000, 320);
+            @include liquidSize(height, 1400, 320);
+            @media screen and (max-width: 992px) and (min-width: 576px) {
+              width: 365px;
+              height: 365px;
+            }
+          }
         }
 
         .ttl_back {
@@ -419,7 +431,7 @@ div.animeBack {
     }
     .strong_img_inner {
       position: absolute;
-      left: -20px;
+      left: 20px;
       top: -20px;
       width: 254px;
       z-index: 115;
@@ -462,7 +474,7 @@ div.animeBack {
       }
 
       .service_content_p {
-        @include liquidSize(padding, 30, 15);
+        @include liquidSize(padding, 30, 30);
         @media screen and (max-width: 768px) {
           padding-right: 0;
         }
@@ -476,6 +488,7 @@ div.animeBack {
           @media (max-width: 768px) {
             font-size: 3.4vw; /* スマホ版のフォントサイズ */
             line-height: 1.6; /* スマホ版の行間 */
+            text-align: center; /* ここで中央寄せ */
           }
           @media (min-width: 769px) {
             font-size: 1.4vw; /* パソコン版のフォントサイズ */
