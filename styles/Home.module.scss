@@ -274,6 +274,10 @@ div.animeBack {
       top: -10%;
       right: -116%;
     }
+    @media (min-width: 769px) { /* パソコン版のフォントサイズ */
+      @include liquidSize(width, 3000, 320);
+      @include liquidSize(height, 3000, 320);
+    }
     .mesh {
       position: relative;
       object-fit: cover;
