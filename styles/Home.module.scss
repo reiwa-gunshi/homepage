@@ -962,10 +962,10 @@ div.animeBack {
     .morotomi_img {
       position: absolute;
       z-index: 4;
-      @include liquidSize(top, -250, -50);
-      @include liquidSize(right, 350, -70);
-      @include liquidSize(width, 552, 320);
-      @include liquidSize(height, 552, 320);
+      @include liquidSize(top, -300, -50);
+      @include liquidSize(right, 150, -70);
+      @include liquidSize(width, 500, 320);
+      @include liquidSize(height, 500, 320);
       @media screen and (max-width: 692px) and (min-width: 476px) {
         width: 265px;
         height: 265px;
