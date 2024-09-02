@@ -234,14 +234,14 @@ div.animeBack {
   .yellow_rect {
     position: absolute;
     display: block;
-    top: 10%;
+    top: -32px;
     left: 0;
     @include liquidSize(width, 1440, 260);
-    @include liquidSize(height, 800, 750);
+    @include liquidSize(height, 1000, 750);
     background: transparent
       radial-gradient(
         closest-side at 50% 50%,
-        #00eeff 0%,
+        #ffd700 0%,
         #ffd800 32%,
         #847000 100%
       )
