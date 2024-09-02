@@ -49,12 +49,12 @@ const TopMembers = ({ memberData }: memberType) => {
         <div
           className={`${
             inView ? animation.fadeInUp : animation.fadeInUpStart
-          } ${styles.morotomi_img}`}
+          } ${styles.tommy_pc}`}
         >
           <Image
-            width={265}
-            height={265}
-            src="/img/tommy_img.png"
+            // width={265}
+            // height={265}
+            src="/img/tommy_pc.png"
             layout="fill"
             alt="諸富稜"
           />

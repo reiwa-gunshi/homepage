@@ -963,23 +963,12 @@ div.animeBack {
     }
   }
   @media (min-width: 769px) { /* パソコン版のフォントサイズ */
-    font-size: 1.4vw;
-    .morotomi_img {
+    .tommy_pc {
       position: absolute;
-      z-index: 4;
       @include liquidSize(top, -300, -50);
       @include liquidSize(right, 150, -70);
-      @include liquidSize(width, 500, 320);
-      @include liquidSize(height, 500, 320);
-      @media screen and (max-width: 692px) and (min-width: 476px) {
-        width: 265px;
-        height: 265px;
-      }
-      img {
-        width: 100%;
-        object-fit: contain;
-        position: relative;
-      }
+      @include liquidSize(width, 700, 320);
+      @include liquidSize(height, 600, 320);
     }
   }
   .container {
