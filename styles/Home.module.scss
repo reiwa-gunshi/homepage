@@ -236,7 +236,7 @@ div.animeBack {
     display: block;
     top: -32px;
     left: 0;
-    @include liquidSize(width, 1440, 260);
+    @include liquidSize(width, 1320, 260);
     @include liquidSize(height, 1000, 750);
     background: transparent
       radial-gradient(
