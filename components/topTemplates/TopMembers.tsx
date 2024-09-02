@@ -46,7 +46,19 @@ const TopMembers = ({ memberData }: memberType) => {
             alt="三崎龍人"
           />
         </div>
-
+        <div
+          className={`${
+            inView ? animation.fadeInUp : animation.fadeInUpStart
+          } ${styles.morotomi_img}`}
+        >
+          <Image
+            width={265}
+            height={265}
+            src="/img/tommy_img.png"
+            layout="fill"
+            alt="諸富稜"
+          />
+        </div>
         <div ref={memberRef} className={styles.container}>
           <div className={styles.cat_ttl}>
             <img

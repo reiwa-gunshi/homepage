@@ -957,6 +957,26 @@ div.animeBack {
       position: relative;
     }
   }
+  @media (min-width: 769px) { /* パソコン版のフォントサイズ */
+    font-size: 1.4vw;
+    .morotomi_img {
+      position: absolute;
+      z-index: 4;
+      @include liquidSize(top, -250, -50);
+      @include liquidSize(right, 350, -70);
+      @include liquidSize(width, 552, 320);
+      @include liquidSize(height, 552, 320);
+      @media screen and (max-width: 692px) and (min-width: 476px) {
+        width: 265px;
+        height: 265px;
+      }
+      img {
+        width: 100%;
+        object-fit: contain;
+        position: relative;
+      }
+    }
+  }
   .container {
     z-index: 5;
     position: relative;
