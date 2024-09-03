@@ -928,7 +928,7 @@ div.animeBack {
 
   .yellow_div {
     position: absolute;
-    top: -50%;
+    top: -12%;
     left: 0;
     z-index: 1;
     @media screen and (max-width: 576px) {
@@ -940,7 +940,7 @@ div.animeBack {
         no-repeat padding-box;
       mix-blend-mode: exclusion;
       width: 100%;
-      @include liquidSize(height, 1600, 1050);
+      @include liquidSize(height, 1200, 1050);
     }
     .triangle_area {
       position: relative;
