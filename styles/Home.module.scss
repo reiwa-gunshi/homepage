@@ -924,7 +924,7 @@ div.animeBack {
   position: relative;
   @include pd(50, 25);
   @include liquidSize(padding-top, 150, 230);
-  @include liquidSize(padding-bottom, 880, 140);
+  @include liquidSize(padding-bottom, 480, 140);
 
   .yellow_div {
     position: absolute;
