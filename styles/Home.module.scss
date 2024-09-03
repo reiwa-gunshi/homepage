@@ -923,12 +923,12 @@ div.animeBack {
 .member {
   position: relative;
   @include pd(50, 25);
-  @include liquidSize(padding-top, 50, 230);
+  @include liquidSize(padding-top, 150, 230);
   @include liquidSize(padding-bottom, 280, 140);
 
   .yellow_div {
     position: absolute;
-    top: -12%;
+    top: 0%;
     left: 0;
     z-index: 1;
     @media screen and (max-width: 576px) {
