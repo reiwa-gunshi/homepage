@@ -924,7 +924,7 @@ div.animeBack {
   position: relative;
   @include pd(50, 25);
   @include liquidSize(padding-top, 150, 230);
-  @include liquidSize(padding-bottom, 280, 140);
+  @include liquidSize(padding-bottom, 880, 140);
 
   .yellow_div {
     position: absolute;
@@ -940,7 +940,7 @@ div.animeBack {
         no-repeat padding-box;
       mix-blend-mode: exclusion;
       width: 100%;
-      @include liquidSize(height, 1200, 1050);
+      @include liquidSize(height, 1600, 1050);
     }
     .triangle_area {
       position: relative;
