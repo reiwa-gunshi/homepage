@@ -972,10 +972,10 @@ div.animeBack {
   .misaki_img {
     position: absolute;
     z-index: 4;
-    @include liquidSize(top, 160, -50);
+    @include liquidSize(top, 200, -50);
     @include liquidSize(left, -50, -70);
-    @include liquidSize(width, 852, 320);
-    @include liquidSize(height, 852, 320);
+    @include liquidSize(width, 800, 320);
+    @include liquidSize(height, 800, 320);
     @media screen and (max-width: 992px) and (min-width: 576px) {
       width: 365px;
       height: 365px;
