@@ -12,11 +12,11 @@ const Footer = (props: { nav_items: nav_type[] }) => {
         <div className={styles.pamphlet}>
           <div className={styles.grid}>
             <div className={styles.pamphlet_ttl}>
-              <p className={styles.sub}>令和の軍師の全てがこの１冊に</p>
-              <p>『軍師の書』</p>
+              <p className={styles.sub}>弊社の事業説明資料はこちら</p>
+              <p>『軍師プラン』</p>
             </div>
             <div className={styles.btn}>
-              <Link href="https://movedoor.sharepoint.com/:b:/s/sharefolder/EacbABEPDXNMnu59_AZ8YEIBjz6Svi9ISFq67s0iXFlsHw?e=RrkyI7">
+              <Link href="https://movedoor.sharepoint.com/:b:/s/sharefolder/EffWkIlgPQ5Ki3Z_3p5KfXwBDcoqwtgrEajhlZan9ThVOg?e=0tYG6Q">
                 <a>
                   <div className={styles.rect_btn}>
                     <div className={styles.inner}>download</div>
