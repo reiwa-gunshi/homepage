@@ -12,7 +12,7 @@ const Footer = (props: { nav_items: nav_type[] }) => {
         <div className={styles.pamphlet}>
           <div className={styles.grid}>
             <div className={styles.pamphlet_ttl}>
-              <p className={styles.sub}>弊社の事業説明資料はこちら</p>
+              <p className={styles.sub}>弊社の事業説明資料はこちら↓</p>
               <p>『軍師プラン』</p>
             </div>
             <div className={styles.btn}>
