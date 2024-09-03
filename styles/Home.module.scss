@@ -939,12 +939,16 @@ div.animeBack {
         linear-gradient(90deg, #847000 0%, #ffd800 50%, #847000 100%) 0% 0%
         no-repeat padding-box;
       mix-blend-mode: exclusion;
-      width: 100%;
+      width: 100vw;
       @include liquidSize(height, 1600, 1050);
+      background-size: cover;
     }
     .triangle_area {
       position: relative;
       @include liquidSize(height, 300, 60);
+      img {
+        width: 100vw;
+      }
     }
     .keiji_img {
       position: absolute;
