@@ -1036,8 +1036,8 @@ div.animeBack {
         justify-content: center;
         @include custom_gap(0, 0, 40, 60);
         li {
-          width: 160px;
-          height: 320px;
+          width: 240px;
+          height: 480px;
           overflow: hidden;
           @media screen and (max-width: 786px) {
             overflow: initial;
