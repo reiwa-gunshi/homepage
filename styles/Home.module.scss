@@ -835,7 +835,7 @@ div.animeBack {
       > img {
         padding-top: 100px;
         @include mb(55, 15);
-        @include liquidSize(width, 1600, 400);
+        @include liquidSize(width, 1400, 400);
       }
     }
     .inner {
