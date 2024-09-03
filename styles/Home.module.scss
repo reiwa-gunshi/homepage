@@ -1038,6 +1038,8 @@ div.animeBack {
       ul {
         display: flex;
         justify-content: center;
+        padding-top: 160px;
+        padding-bottom: 120px;
         @include custom_gap(0, 0, 40, 60);
         li {
           width: 240px;
