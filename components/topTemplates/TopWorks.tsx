@@ -45,6 +45,14 @@ const TopWorks = ({ workData }: workData) => {
               実績紹介
             </p>
           </div>
+          <div className={styles.achievements}>
+            <img
+              width={3584}
+              height={2018}
+              src="/img/achievements_red.png"
+              alt="主な実績"
+            />
+          </div>
           <div className={styles.inner}>
             <ul
               style={{ animationDelay: "1s" }}

@@ -826,7 +826,18 @@ div.animeBack {
         @include deco_txt;
       }
     }
-
+    .achievements {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      > img {
+        padding-top: 100px;
+        @include mb(55, 15);
+        @include liquidSize(width, 1600, 400);
+      }
+    }
     .inner {
       @include pd(80, 40);
       ul {
