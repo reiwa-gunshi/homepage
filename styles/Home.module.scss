@@ -501,7 +501,7 @@ div.animeBack {
         position: absolute;
         @include liquidSize(right, -70, 80, 0);
         @include liquidSize(width, 160, 70);
-        @include liquidSize(top, 80, -125);
+        @include liquidSize(top, 132, -125);
 
         @media screen and (max-width: 768px) {
           @include liquidSize(right, -70, 0, 150);
