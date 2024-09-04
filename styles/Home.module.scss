@@ -446,7 +446,7 @@ div.animeBack {
   }
   .inner {
     @include liquidSize(width, 1440, 325);
-    background: #000;
+    background: #00000000;
     @include liquidSize(margin-top, 240, 150);
     position: relative;
 
@@ -461,7 +461,7 @@ div.animeBack {
       position: relative;
       @include dnp_font;
 
-      background-color: #000000;
+      background-color: #00000000;
       @media screen and (max-width: 786px) {
         width: 90%;
       }
