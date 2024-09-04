@@ -674,8 +674,8 @@ div.animeBack {
         }
       }
       .serviceSecondZoon {
-        @include liquidSize(padding-left, 480, 20, 80);
-        @include liquidSize(padding-right, 110, 20);
+        @include liquidSize(padding-left, 80, 20, 80);
+        // @include liquidSize(padding-right, 0, 0);
         @include liquidSize(padding-bottom, 150, 80);
       }
       .three_point {
