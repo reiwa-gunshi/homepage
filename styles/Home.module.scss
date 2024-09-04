@@ -683,6 +683,9 @@ div.animeBack {
         @media screen and (max-width: 576px) {
           width: 120%;
         }
+        @media screen and (min-width: 577px) {
+          width: 60vw;
+        }
         .cont {
           .japaneseScrollBase {
             position: relative;
