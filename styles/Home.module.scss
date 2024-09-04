@@ -798,21 +798,9 @@ div.animeBack {
                     }
                   }
                   p {
-                    margin-top: 25px;
-                    font-size: 20px;
-                    line-height: 32px;
-                    @media (max-width: 768px) {
-                      font-size: 13px;
-                      line-height: 22px;
-                    }
-                    @media (min-width: 769px) and (max-width: 2724px) {
-                      font-size: 12px;
-                      line-height: 28px;
-                    }
-                    @media (min-width: 2725px) {
-                      font-size: 12px;
-                      line-height: 28px;
-                    }
+                    @include liquidSize(margin-top, 25, 20);
+                    @include liquidSize(font-size, 20, 13);
+                    @include liquidSize(line-height, 32, 22);
                   }
                 }
               }
