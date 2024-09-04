@@ -674,8 +674,9 @@ div.animeBack {
         }
       }
       .serviceSecondZoon {
-        @include liquidSize(padding-left, 160, 20, 80);
-        // @include liquidSize(padding-right, 0, 0);
+        padding-top: 100px;
+        @include liquidSize(padding-left, 480, 20, 80);
+        @include liquidSize(padding-right, 125, 20, 300);
         @include liquidSize(padding-bottom, 150, 80);
       }
       .three_point {
@@ -934,7 +935,7 @@ div.animeBack {
     left: 0;
     z-index: 1;
     @media screen and (max-width: 576px) {
-      top: -20%;
+      top: -2%;
     }
     .yellow_bg {
       background: transparent
@@ -942,7 +943,7 @@ div.animeBack {
         no-repeat padding-box;
       mix-blend-mode: exclusion;
       width: 100vw;
-      @include liquidSize(height, 1600, 1050);
+      @include liquidSize(height, 1600, 860);
       background-size: cover;
     }
     .triangle_area {
@@ -986,6 +987,10 @@ div.animeBack {
       width: 365px;
       height: 365px;
     }
+    @media screen and (max-width: 576px) {
+      @include liquidSize(width, 600, 300);
+      @include liquidSize(height, 600, 300);
+    }
     img {
       width: 100%;
       object-fit: contain;
@@ -1007,7 +1012,7 @@ div.animeBack {
     }
   }
   .container {
-    z-index: 5;
+    z-index: 50;
     position: relative;
     @include container(960px);
     @media screen and (max-width: 576px) {
@@ -1040,8 +1045,10 @@ div.animeBack {
       ul {
         display: flex;
         justify-content: center;
-        padding-top: 160px;
-        padding-bottom: 120px;
+        @media screen and (min-width: 576px) {
+          padding-top: 160px;
+          padding-bottom: 120px;
+        }
         @include custom_gap(0, 0, 40, 60);
         li {
           width: 240px;
