@@ -499,12 +499,14 @@ div.animeBack {
 
       .strength_img_inner {
         position: absolute;
-        @include liquidSize(right, -70, 80, 0);
         @include liquidSize(width, 160, 70);
         @include liquidSize(top, 132, -125);
 
         @media screen and (max-width: 768px) {
           @include liquidSize(right, -70, 0, 150);
+        }
+        @media screen and (min-width: 769px) {
+          @include liquidSize(right, -40, 80, 0);
         }
         img {
           position: relative;
