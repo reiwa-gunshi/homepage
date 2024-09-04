@@ -597,6 +597,9 @@ div.animeBack {
         @media screen and (max-width: 786px) {
           width: 110%;
         }
+        @media screen and (min-width: 787px) {
+          width: 130%;
+        }
         .ttl {
           @include liquidSize(width, 80, 40);
           @include liquidSize(margin-right, 20, 5);
@@ -623,6 +626,9 @@ div.animeBack {
             cursor: pointer;
             @media screen and (max-width: 786px) {
               width: 30%;
+            }
+            @media screen and (min-width: 787px) {
+              width: 20%;
             }
             a {
               @include font(16, 14, 45, 25, 400);
