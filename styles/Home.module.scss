@@ -770,6 +770,10 @@ div.animeBack {
                     width: 90vw;
                     padding-left: 50px;
                   }
+                  @media screen and (min-width: 787px) {
+                    @include liquidSize(padding-left, 20vw, 40);
+                    @include liquidSize(padding-right, 20vw, 15);
+                  }
                   h4,
                   p {
                     z-index: 5;
@@ -784,12 +788,12 @@ div.animeBack {
                     }
                     @media (min-width: 769px) {
                       padding-bottom: 3px;
-                      font-size: 1.5vw; /* パソコン版のフォントサイズ */
+                      font-size: 2vw; /* パソコン版のフォントサイズ */
                     }
                   }
                   p {
                     @include liquidSize(margin-top, 25, 20);
-                    @include liquidSize(font-size, 16, 13);
+                    @include liquidSize(font-size, 32, 13);
                     @include liquidSize(line-height, 32, 22);
                   }
                 }
