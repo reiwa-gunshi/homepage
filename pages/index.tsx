@@ -28,7 +28,7 @@ const Home: NextPage<Props> = ({
   newsData,
 }: Props) => {
   const description =
-    "事業開発→ブランディング→プロモーションまで、独自の戦略を提案＆実施／競合他社と圧倒的に差別化し、顧客から選ばれる状態へ／顧客の長期利益を最大化する／２０歳で学生起業／創業６年で実績１８０社。。";
+    "事業開発→ブランディング→プロモーションまで、独自の戦略を提案＆実施／競合他社と圧倒的に差別化し、顧客から選ばれる状態へ／顧客の長期利益を最大化する／２０歳で学生起業／創業６年で実績１８０社。";
   const title = "株式会社MOVEDOOR";
   return (
     <>
@@ -91,7 +91,7 @@ export const getStaticProps: GetStaticProps = async () => {
     content_type: "works",
     "fields.bestworks": "true",
     limit: 5,
-    order: "-fields.order",
+    order: "fields.order",
   });
   const res_news = await client.getEntries({
     content_type: "news",

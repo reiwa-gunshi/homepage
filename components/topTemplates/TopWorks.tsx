@@ -22,8 +22,6 @@ const TopWorks = ({ workData }: workData) => {
     triggerOnce: true,
   });
 
-  const firstItem = workData[0]; // workDataの最初の要素を取得
-
   return (
     <>
       <div ref={missionRef} className={`${styles.works} top_work`}>
