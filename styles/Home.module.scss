@@ -593,7 +593,7 @@ div.animeBack {
 
       .service_intro {
         display: flex;
-        @include liquidSize(margin-top, 100, 40);
+        @include liquidSize(margin-top, 200, 40);
         @media screen and (max-width: 786px) {
           width: 110%;
         }
