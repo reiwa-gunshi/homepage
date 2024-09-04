@@ -961,7 +961,7 @@ div.animeBack {
       @include liquidSize(width, 640, 240);
       @include liquidSize(height, 800, 320);
       @media screen and (max-width: 576px) {
-        bottom: -5%;
+        bottom: 0%;
       }
       .img_inner {
         width: 100%;
