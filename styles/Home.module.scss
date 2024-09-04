@@ -943,7 +943,7 @@ div.animeBack {
         no-repeat padding-box;
       mix-blend-mode: exclusion;
       width: 100vw;
-      @include liquidSize(height, 1600, 860);
+      @include liquidSize(height, 1600, 920);
       background-size: cover;
     }
     .triangle_area {
