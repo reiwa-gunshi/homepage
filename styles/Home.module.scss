@@ -802,7 +802,7 @@ div.animeBack {
   }
   .yoshimoto_img {
     position: absolute;
-    @include liquidSize(right, -200, -40);
+    @include liquidSize(right, -320, -40);
     @include liquidSize(bottom, -200, -90);
     .img_inner {
       @include liquidSize(width, 400, 180);
