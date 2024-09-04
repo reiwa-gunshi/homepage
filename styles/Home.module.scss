@@ -268,13 +268,15 @@ div.animeBack {
     position: absolute;
     top: -16%;
     right: -14%;
-    width: 1512px;
-    height: 1512px;
     @media screen and (max-width: 576px) {
-      top: -16%;
-      right: -116%;
+      width: 1012px;
+      height: 1012px;
+      top: -8%;
+      right: -80%;
     }
     @media (min-width: 769px) { /* パソコン版のフォントサイズ */
+      width: 1512px;
+      height: 1512px;
       @include liquidSize(width, 2040, 320);
       @include liquidSize(height, 2040, 320);
     }
