@@ -1206,7 +1206,7 @@ div.animeBack {
 
   .blog_word {
     @include liquidSize(left, 195, 22);
-    top: 0%;
+    top:10%;
     transform: translate(-50%, -50%) rotate(90deg);
     position: absolute;
     @include liquidSize(width, 398, 232);
