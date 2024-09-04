@@ -692,7 +692,7 @@ div.animeBack {
           width: 120%;
         }
         @media screen and (min-width: 577px) {
-          width: 50vw;
+          width: 56vw;
         }
         .cont {
           .japaneseScrollBase {
@@ -782,7 +782,7 @@ div.animeBack {
                     position: relative;
                   }
                   h4 {
-                    @include liquidSize(font-size, 32, 24);
+                    // @include liquidSize(font-size, 32, 24);
                     border-bottom: #000 1px solid;
                     @media (max-width: 768px) {
                       padding-bottom: 16px;
