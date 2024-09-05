@@ -63,13 +63,13 @@
     }
   }
   .rightImage {
-    @include section_sepa(50, 50);
+    @include section_sepa(60, 40);
     .rightImageInner {
       @include ttl;
     }
   }
   .mission {
-    @include liquidSize(padding-bottom, 80, 40);
+    @include liquidSize(padding-bottom, 120, 40);
     @include liquidSize(padding-top, 80, 120);
     .mission_img {
       width: 100%;
@@ -91,8 +91,8 @@
     }
   }
   .vision {
-    @include section_sepa(40, 60);
-    @include liquidSize(padding-bottom, 120, 40);
+    @include section_sepa(35, 60);
+    @include liquidSize(padding-bottom, 40, 20);
     column-gap: 50px;
     @media screen and (max-width: 992px) {
       @include pd(80, 40);
@@ -115,7 +115,7 @@
     }
     .vision_img {
       width: 100%;
-      @include liquidSize(height, 480, 251);
+      @include liquidSize(height, 400, 250);
       position: relative;
       .img_inner {
         width: 100%;
