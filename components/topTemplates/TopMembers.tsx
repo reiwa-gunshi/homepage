@@ -175,10 +175,10 @@ const TopMembers = ({ memberData }: memberType) => {
               inView ? animation.fadeInUp : animation.fadeInUpStart
             } ${styles.center}`}
           >
-            <RectBtn
+            {/* <RectBtn
               url="/members/"
               bg_color="#DDDDDD 0% 0% no-repeat padding-box"
-            ></RectBtn>
+            ></RectBtn> */}
           </div>
         </div>
         <div className={styles.yellow_div}>

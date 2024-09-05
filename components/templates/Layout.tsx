@@ -13,7 +13,7 @@ const nav_items: nav_type[] = [
   { name: "volunteer", path: "/volunteer/", yomikana: "ボランティア" },
   { name: "About us", path: "/aboutus/", yomikana: "私たちについて" },
   { name: "Blog", path: "/blog/", yomikana: "総大将ブログ" },
-  { name: "Members", path: "/members/", yomikana: "メンバー" },
+  // { name: "Members", path: "/members/", yomikana: "メンバー" },
   { name: "Contact", path: "/contact/", yomikana: "お問合せ" },
 ];
 
