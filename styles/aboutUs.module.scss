@@ -14,9 +14,10 @@
     white-space: nowrap;
   }
   .sub_ttl {
-    @include font(72, 48, 48, 40, 400);
+    @include font(56, 48, 48, 40, 400);
     @include mb(64, 40);
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 768px) {
+      @include font(56, 28, 48, 40, 400);
       .br {
         @include span_br(before);
       }
@@ -102,11 +103,13 @@
     .vision_inner {
       @include ttl;
       .sub_ttl {
-        @include font(48, 24, 48, 40, 400);
-        @include mb(28, 32);
-        white-space: nowrap;
-        span {
-          @include font(40, 28, 48, 40, 400);
+        @include font(56, 48, 48, 40, 400);
+        @include mb(64, 40);
+        @media screen and (max-width: 768px) {
+          @include font(56, 28, 48, 40, 400);
+          .br {
+            @include span_br(before);
+          }
         }
       }
     }
@@ -141,9 +144,14 @@
       @include heading_ttl;
     }
     .sub_ttl {
-      @include font(16, 14, 32, 28, 400);
-      color: #aaaaaa;
-      @include mb(77, 40);
+      @include font(56, 48, 48, 40, 400);
+      @include mb(64, 40);
+      @media screen and (max-width: 768px) {
+        @include font(56, 28, 48, 40, 400);
+        .br {
+          @include span_br(before);
+        }
+      }
     }
     p {
       color: #aaaaaa;
