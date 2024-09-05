@@ -57,16 +57,26 @@ const aboutUs: NextPage = () => {
               className={`${styles.mission_inner} ${styles.rightImageInner}`}
             >
               <motion.h2 variants={childFadeInUpItems}>
-                <motion.span>Our mission</motion.span>
+                <motion.span>ＣＯＮＣＥＰＴ</motion.span>
               </motion.h2>
               <motion.p
                 variants={childFadeInUpItems}
                 className={styles.sub_ttl}
               >
-                企業の長期利益を最大化
+                令和の軍師
               </motion.p>
               <motion.p variants={childFadeItems} className={styles.detail}>
-                令和の軍師と共に、他社が真似できない、新たな商品・サービスを開発しませんか？ブランディング＆プロモーションも同様。独自のアイデア・戦略を提案することで、競合他社と圧倒的な差別化を実現します。消費者から選ばれ続ける仕組みを構築し、貴社の利益を長期に渡り、最大化します。
+                企業の戦を勝利に導く、令和時代の軍師となる。
+                <br />
+                そんな熱い想いから、「令和の軍師」と名付けた。
+                <br />
+                ホームページや名刺など、全てのビジュアルを
+                <br />
+                軍師に相応しい先進的な和テイストに仕上げた。
+                <br />
+                ロゴは家紋とドア（変化・挑戦の象徴）を融合。
+                <br />
+                服装は毎日着物、本社は築百年の古民家である。
               </motion.p>
             </section>
             <section>
@@ -111,15 +121,25 @@ const aboutUs: NextPage = () => {
             </section>
 
             <section className={styles.vision_inner}>
-              <motion.h2 variants={childFadeInUpItems}>Our vision</motion.h2>
+              <motion.h2 variants={childFadeInUpItems}>ＶＩＳＩＯＮ①</motion.h2>
               <motion.p
                 variants={childFadeInUpItems}
                 className={styles.sub_ttl}
               >
-                日本の閉塞感を打破する
+                先駆者を創る
               </motion.p>
               <motion.p variants={childFadeItems} className={styles.detail}>
-                失われた３０年。少子高齢化に人口減少。いまの若者は日本に閉塞感を感じている。日本が衰退するなら、挑戦には意味が無い。上手くはずが無い。　—　本当にそうだろうか？　我々は強く訴える。次世代を歩む我々が、社会に挑戦と変化を生み出す。業界に新しい価値を生む、先駆者を創る。その積み重ねが次の挑戦に勇気を与える。先駆者に影響され、次の挑戦が生まれる。これが、令和の軍師の存在意義だ。さぁ、日本の閉塞感を打破しよう。
+                先駆者は、世の中の固定観念・常識を打ち破り、
+                <br />
+                他社とは異なる発想で、新しい価値を提供する。
+                <br />
+                そして、事業成長を遂げ、業界に変化を起こす。
+                <br />
+                その引金を引けるのは、きっと若者・よそ者だ。
+                <br />
+                Ｚ世代ならではのクリエイティビティを発揮し、
+                <br />
+                令和の軍師は、クライアントを先駆者に変える。
               </motion.p>
             </section>
           </motion.div>
@@ -138,16 +158,26 @@ const aboutUs: NextPage = () => {
               className={`${styles.mission_inner} ${styles.rightImageInner}`}
             >
               <motion.h2 variants={childFadeInUpItems}>
-                <motion.span>Our CONCEPT</motion.span>
+                <motion.span>ＶＩＳＩＯＮ②</motion.span>
               </motion.h2>
               <motion.p
                 variants={childFadeInUpItems}
                 className={styles.sub_ttl}
               >
-                事業を成功に導く軍師
+                日本の閉塞感を打破する
               </motion.p>
               <motion.p variants={childFadeItems} className={styles.detail}>
-                戦いに勝利し、歴史に名を残した将軍たち、その成功の陰に、必ず軍師あり。世はＩＴ戦国時代だ。企業の戦を勝利に導く、令和時代の軍師となる。そんな熱い想いから、「令和の軍師」と名付けた。コンセプトを体現する和のビジュアルに仕上げた。古風ではなく、令和に相応しい和のデザインだ。ロゴは社名であるドアを家紋に組み込む。服装は着物、本社は築百年の古民家、ここまで徹底する。
+                失われた３０年。少子高齢化に加え、人口減少。
+                <br />
+                多くの若者は、日本の未来に不安を感じている。
+                <br />
+                だが、次世代こそが、社会に変化と革新を生む。
+                <br />
+                我々も企業の軍師として、先駆者を創り続ける。
+                <br />
+                先駆者の姿は、必ず次の挑戦者に勇気を与える。
+                <br />
+                先駆者に影響されて、また次の挑戦が生まれる。
               </motion.p>
             </section>
             <section>
@@ -193,16 +223,25 @@ const aboutUs: NextPage = () => {
             </section>
 
             <section className={styles.vision_inner}>
-              <motion.h2 variants={childFadeInUpItems}>OUR STORY</motion.h2>
+              <motion.h2 variants={childFadeInUpItems}>ＶＩＳＩＯＮ③</motion.h2>
               <motion.p
                 variants={childFadeInUpItems}
                 className={styles.sub_ttl}
               >
-                創業秘話
+                若者に挑戦する勇気を
               </motion.p>
               <motion.p variants={childFadeItems} className={styles.detail}>
-                2018年、関西学院大学に通う学生５人が業を起こす。当時は映像とデザインを専門とした「制作会社」だった。しかし、信用も実績も無い学生が仕事やお金を得ることは、あまりに難しいことだった。さらに、大学卒業と同時にコロナ禍に直面する。それでも何度も壁を乗り越え、ゼロから実績を重ね、無我夢中で制作に没頭する。一方で、顧客の事業成長に貢献する実感が持てずにいた。
-                ひとつの制作物では、事業成長を実現できない。そんな中で新たな答えに辿り着く。戦略・制作・発信の全てを担うこと。そして、「令和の軍師」として成長と変化を売る広報ＰＲ会社を目指し始める。
+                自分が学生起業する時、かなりの反対を受けた。
+                <br />
+                どうせ上手くいかないと、何十人にも言われた。
+                <br />
+                挑戦したいのに、怖くて一歩目が踏み出せない。
+                <br />
+                そんな若者の葛藤、迷いが痛いほど理解できる。
+                <br />
+                だからこそ、自分のような若者が挑戦し続けて、
+                <br />
+                必ず成功して、若者に挑戦する勇気を与えたい。
               </motion.p>
             </section>
           </motion.div>
@@ -220,10 +259,20 @@ const aboutUs: NextPage = () => {
               className={`${styles.mission_inner} ${styles.rightImageInner}`}
             >
               <motion.h2 variants={childFadeInUpItems}>
-                <motion.span>Next generation</motion.span>
+                <motion.span>ＳＴＯＲＹ</motion.span>
               </motion.h2>
               <motion.p variants={childFadeItems} className={styles.detail}>
-                デジタル技術の発展や進化は、社会全体を急速に変化させていくものであると認識しています。それに伴い、弊社自身も様々な社会ニーズに対応する企業へと変わっていかなといけない。高解像度やVRなど新たな映像技術の活用、ソーシャルメディアを中心としたマーケティング戦略の変革、データ分析を通じたターゲットマーケティングの向上、これらに十分対応できる企業に成長することが社会の競争環境における優位性を確立する必須の方法であると考える。
+                ２０歳で学生起業し、７年経営を続けています。
+                <br />
+                設立時はデザイン＆動画の制作事業が中心です。
+                <br />
+                その後、宣伝→ブランディング→事業開発まで
+                <br />
+                専門分野を拡大しました。成長に伴い肩書きも
+                <br />
+                制作会社→広報ＰＲ会社→ブランディング会社、
+                <br />
+                →今のマーケティング会社と変化してきました。
               </motion.p>
             </section>
             <section>
