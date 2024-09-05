@@ -165,9 +165,3 @@ export interface point {
   ttl: string;
   contents: string;
 }
-
-export interface anbout_us {
-  ttl: string;
-  sub_ttl: string;
-  contents: string;
-}

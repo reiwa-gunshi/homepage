@@ -5,8 +5,6 @@ import animeStyles from "../hooks/animation.module.css";
 import Image from "next/image";
 import type { NextPage } from "next";
 import Animation from "../components/templates/Animation";
-import { anbout_us } from "../lib/type";
-import { useEffect, useState } from 'react';
 import { getWindowSize } from "../hooks/GetWindowSize";
 
 import { motion } from "framer-motion";
@@ -23,78 +21,7 @@ const AboutUs: NextPage = () => {
     '令和の軍師のMISSIONは"広報PRで事業成長を実現する"というものです。クライアントの集客・採用・ブランディングを勝利に導きます。また学生起業した道のりやワッと驚くミッションまで令和の軍師の歴史を入れています。';
   const title = "ABOUT US -私たちについて-";
 
-  const [aboutUs, setAboutUs] = useState<anbout_us[]>([]);
   const { width } = getWindowSize();
-
-  useEffect(() => {
-    if (width > 768) { // パソコンの場合
-      setAboutUs([
-        {
-          ttl: "CONCEPT",
-          sub_ttl: "令和の軍師",
-          contents:
-            "企業の戦を勝利に導く、令和時代の軍師となる。そんな熱い想いから、「令和の軍師」と名付けた。<br />ホームページや名刺など、全てのビジュアルを軍師に相応しい、先進的な和テイストに仕上げた。<br />ロゴは家紋とドア（変化・挑戦の象徴）を融合。服装は毎日着物、本社は築百年の古民家である。",
-        },
-        {
-          ttl: "VISION①",
-          sub_ttl: "先駆者を創る",
-          contents:
-            "先駆者は、世の中の固定観念・常識を打ち破り、他社とは異なる発想で、新しい価値を提供する。<br />そして、事業成長を遂げ、業界に変化を起こす。その引金を引けるのは、きっと若者・よそ者だ。<br />Ｚ世代ならではのクリエイティビティを発揮し、令和の軍師は、クライアントを先駆者に変える。",
-        },
-        {
-          ttl: "VISION②",
-          sub_ttl: "日本の閉塞感を打破する",
-          contents:
-            "失われた３０年。少子高齢化に加え、人口減少。多くの若者は、日本の未来に不安を感じている。<br />だが、次世代こそが、社会に変化と革新を生む。我々も企業の軍師として、先駆者を創り続ける。<br />先駆者の姿は、必ず次の挑戦者に勇気を与える。先駆者に影響されて、また次の挑戦が生まれる。",
-        },
-        {
-          ttl: "VISION③",
-          sub_ttl: "若者に挑戦する勇気を",
-          contents:
-            "自分が学生起業する時、かなりの反対を受けた。どうせ上手くいかないと、何十人にも言われた。<br />挑戦したいのに、怖くて一歩目が踏み出せない。そんな若者の葛藤、迷いが痛いほど理解できる。<br />だからこそ、自分のような若者が挑戦し続けて、必ず成功して、若者に挑戦する勇気を与えたい。",
-        },
-        {
-          ttl: "STORY",
-          sub_ttl: "",
-          contents:
-            "２０歳で学生起業し、７年経営を続けています。設立時はデザイン＆動画の制作事業が中心です。<br />その後、宣伝→ブランディング→事業開発まで、専門分野を拡大しました。成長に伴い肩書きも<br />制作会社→広報ＰＲ会社→ブランディング会社→今のマーケティング会社と変化してきました。",
-        },
-      ]);
-    } else { // スマホの場合
-      setAboutUs([
-        {
-          ttl: "CONCEPT",
-          sub_ttl: "令和の軍師",
-          contents:
-            "企業の戦を勝利に導く、令和時代の軍師となる。<br />そんな熱い想いから、「令和の軍師」と名付けた。<br />ホームページや名刺など、全てのビジュアルを<br />軍師に相応しい先進的な和テイストに仕上げた。<br />ロゴは家紋とドア（変化・挑戦の象徴）を融合。<br />服装は毎日着物、本社は築百年の古民家である。",
-        },
-        {
-          ttl: "VISION①",
-          sub_ttl: "先駆者を創る",
-          contents:
-            "先駆者は、世の中の固定観念・常識を打ち破り、<br />他社とは異なる発想で、新しい価値を提供する。<br />そして、事業成長を遂げ、業界に変化を起こす。<br />その引金を引けるのは、きっと若者・よそ者だ。<br />Ｚ世代ならではのクリエイティビティを発揮し、<br />令和の軍師は、クライアントを先駆者に変える。",
-        },
-        {
-          ttl: "VISION②",
-          sub_ttl: "日本の閉塞感を打破する",
-          contents:
-            "失われた３０年。少子高齢化に加え、人口減少。<br />多くの若者は、日本の未来に不安を感じている。<br />だが、次世代こそが、社会に変化と革新を生む。<br />我々も企業の軍師として、先駆者を創り続ける。<br />先駆者の姿は、必ず次の挑戦者に勇気を与える。<br />先駆者に影響されて、また次の挑戦が生まれる。",
-        },
-        {
-          ttl: "VISION③",
-          sub_ttl: "若者に挑戦する勇気を",
-          contents:
-            "自分が学生起業する時、かなりの反対を受けた。<br />どうせ上手くいかないと、何十人にも言われた。<br />挑戦したいのに、怖くて一歩目が踏み出せない。<br />そんな若者の葛藤、迷いが痛いほど理解できる。<br />だからこそ、自分のような若者が挑戦し続けて、<br />必ず成功して、若者に挑戦する勇気を与えたい。",
-        },
-        {
-          ttl: "STORY",
-          sub_ttl: "",
-          contents:
-            "２０歳で学生起業し、７年経営を続けています。<br />設立時はデザイン＆動画の制作事業が中心です。<br />その後、宣伝→ブランディング→事業開発まで<br />専門分野を拡大しました。成長に伴い肩書きも<br />制作会社→広報ＰＲ会社→ブランディング会社、<br />→今のマーケティング会社と変化してきました。",
-        },
-      ]);
-    }
-  }, [width]);
 
   return (
     <>
@@ -124,35 +51,31 @@ const AboutUs: NextPage = () => {
           </div>
 
           {/* 私たちのミッション */}
-          {width > 768 && (
+          {width > 768 ? (
             <motion.div
               variants={childFadeInUpContainer}
               initial="hidden"
               animate="show"
               className={`${styles.mission} ${styles.rightImage}`}
             >
-              <section
-                className={`${styles.mission_inner} ${styles.rightImageInner}`}
-              >
+              <section className={`${styles.mission_inner} ${styles.rightImageInner}`}>
                 <motion.h2 variants={childFadeInUpItems}>
-                  <motion.span>{aboutUs[0].ttl}</motion.span>
+                  <motion.span>CONCEPT</motion.span>
                 </motion.h2>
-                <motion.p
-                  variants={childFadeInUpItems}
-                  className={styles.sub_ttl}
-                >
-                  {aboutUs[0].sub_ttl}
+                <motion.p variants={childFadeInUpItems} className={styles.sub_ttl}>
+                  令和の軍師
                 </motion.p>
                 <motion.p variants={childFadeItems} className={styles.detail}>
-                  {aboutUs[0].contents}
+                  企業の戦を勝利に導く、令和時代の軍師となる。そんな熱い想いから、「令和の軍師」と名付けた。
+                  <br />
+                  ホームページや名刺など、全てのビジュアルを軍師に相応しい、先進的な和テイストに仕上げた。
+                  <br />
+                  ロゴは家紋とドア（変化・挑戦の象徴）を融合。服装は毎日着物、本社は築百年の古民家である。
                 </motion.p>
               </section>
               <section>
                 <div className={styles.mission_img}>
-                  <motion.div
-                    variants={childFadeItems}
-                    className={styles.img_inner}
-                  >
+                  <motion.div variants={childFadeItems} className={styles.img_inner}>
                     <Image
                       width={420}
                       height={420}
@@ -163,35 +86,37 @@ const AboutUs: NextPage = () => {
                 </div>
               </section>
             </motion.div>
-          )} : {(
+          ) : (
             <motion.div
               variants={childFadeInUpContainer}
               initial="hidden"
               animate="show"
               className={`${styles.mission} ${styles.rightImage}`}
             >
-              <section
-                className={`${styles.mission_inner} ${styles.rightImageInner}`}
-              >
+              <section className={`${styles.mission_inner} ${styles.rightImageInner}`}>
                 <motion.h2 variants={childFadeInUpItems}>
-                  <motion.span>{aboutUs[0].ttl}</motion.span>
+                  <motion.span>CONCEPT</motion.span>
                 </motion.h2>
-                <motion.p
-                  variants={childFadeInUpItems}
-                  className={styles.sub_ttl}
-                >
-                  {aboutUs[0].sub_ttl}
+                <motion.p variants={childFadeInUpItems} className={styles.sub_ttl}>
+                  令和の軍師
                 </motion.p>
                 <motion.p variants={childFadeItems} className={styles.detail}>
-                  {aboutUs[0].contents}
+                  企業の戦を勝利に導く、令和時代の軍師となる。
+                  <br />
+                  そんな熱い想いから、「令和の軍師」と名付けた。
+                  <br />
+                  ホームページや名刺など、全てのビジュアルを
+                  <br />
+                  軍師に相応しい先進的な和テイストに仕上げた。
+                  <br />
+                  ロゴは家紋とドア（変化・挑戦の象徴）を融合。
+                  <br />
+                  服装は毎日着物、本社は築百年の古民家である。
                 </motion.p>
               </section>
               <section>
                 <div className={styles.mission_img}>
-                  <motion.div
-                    variants={childFadeItems}
-                    className={styles.img_inner}
-                  >
+                  <motion.div variants={childFadeItems} className={styles.img_inner}>
                     <Image
                       width={420}
                       height={420}
@@ -206,158 +131,350 @@ const AboutUs: NextPage = () => {
           {/* 私たちのミッション終わり */}
 
           {/* 私たちのビジョン */}
-
-          <motion.div
-            variants={childFadeInUpContainer}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.8, margin: "200px" }}
-            className={styles.vision}
-          >
-            <section className={styles.vision_img}>
-              <motion.div
-                variants={childFadeItems}
-                className={styles.img_inner}
-              >
-                <Image
-                  width={640}
-                  height={640}
-                  src="/img/vision.png"
-                  alt="時代を壊す"
-                />
-              </motion.div>
-            </section>
-
-            <section className={styles.vision_inner}>
-              <motion.h2 variants={childFadeInUpItems}>{aboutUs[1].ttl}</motion.h2>
-              <motion.p
-                variants={childFadeInUpItems}
-                className={styles.sub_ttl}
-              >
-                {aboutUs[1].sub_ttl}
-              </motion.p>
-              <motion.p variants={childFadeItems} className={styles.detail}>
-              {aboutUs[1].contents}
-              </motion.p>
-            </section>
-          </motion.div>
-
-          {/* 私たちのビジョン　終わり */}
-
-          {/* 令和の軍師コンセプト */}
-
-          <motion.div
-            variants={childFadeInUpContainer}
-            initial="hidden"
-            animate="show"
-            className={`${styles.mission} ${styles.rightImage}`}
-          >
-            <section
-              className={`${styles.mission_inner} ${styles.rightImageInner}`}
+          {width > 768 ? (
+            <motion.div
+              variants={childFadeInUpContainer}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.8, margin: "200px" }}
+              className={styles.vision}
             >
-              <motion.h2 variants={childFadeInUpItems}>
-                <motion.span>{aboutUs[2].ttl}</motion.span>
-              </motion.h2>
-              <motion.p
-                variants={childFadeInUpItems}
-                className={styles.sub_ttl}
-              >
-                {aboutUs[2].sub_ttl}
-              </motion.p>
-              <motion.p variants={childFadeItems} className={styles.detail}>
-                {aboutUs[2].contents}
-              </motion.p>
-            </section>
-            <section>
-              <div className={styles.mission_img}>
-                <motion.div
-                  variants={childFadeItems}
-                  className={styles.img_inner}
-                >
+              <section className={styles.vision_img}>
+                <motion.div variants={childFadeItems} className={styles.img_inner}>
                   <Image
-                    width={420}
-                    height={420}
-                    src="/img/ourconcept.png"
-                    alt="傘を持つ諸富稜"
+                    width={640}
+                    height={640}
+                    src="/img/vision.png"
+                    alt="時代を壊す"
                   />
                 </motion.div>
-              </div>
-            </section>
-          </motion.div>
+              </section>
+
+              <section className={styles.vision_inner}>
+                <motion.h2 variants={childFadeInUpItems}>VISION①</motion.h2>
+                <motion.p variants={childFadeInUpItems} className={styles.sub_ttl}>
+                  先駆者を創る
+                </motion.p>
+                <motion.p variants={childFadeItems} className={styles.detail}>
+                  先駆者は、世の中の固定観念・常識を打ち破り、他社とは異なる発想で、新しい価値を提供する。
+                  <br />
+                  そして、事業成長を遂げ、業界に変化を起こす。その引金を引けるのは、きっと若者・よそ者だ。
+                  <br />
+                  Ｚ世代ならではのクリエイティビティを発揮し、令和の軍師は、クライアントを先駆者に変える。
+                </motion.p>
+              </section>
+            </motion.div>
+          ) : (
+            <motion.div
+              variants={childFadeInUpContainer}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.8, margin: "200px" }}
+              className={styles.vision}
+            >
+              <section className={styles.vision_img}>
+                <motion.div variants={childFadeItems} className={styles.img_inner}>
+                  <Image
+                    width={640}
+                    height={640}
+                    src="/img/vision.png"
+                    alt="時代を壊す"
+                  />
+                </motion.div>
+              </section>
+
+              <section className={styles.vision_inner}>
+                <motion.h2 variants={childFadeInUpItems}>VISION①</motion.h2>
+                <motion.p variants={childFadeInUpItems} className={styles.sub_ttl}>
+                  先駆者を創る
+                </motion.p>
+                <motion.p variants={childFadeItems} className={styles.detail}>
+                  先駆者は、世の中の固定観念・常識を打ち破り、
+                  <br />
+                  他社とは異なる発想で、新しい価値を提供する。
+                  <br />
+                  そして、事業成長を遂げ、業界に変化を起こす。
+                  <br />
+                  その引金を引けるのは、きっと若者・よそ者だ。
+                  <br />
+                  Ｚ世代ならではのクリエイティビティを発揮し、
+                  <br />
+                  令和の軍師は、クライアントを先駆者に変える。
+                </motion.p>
+              </section>
+            </motion.div>
+          )}
+          {/* 私たちのビジョン終わり */}
+
+
+          {/* 令和の軍師コンセプト */}
+          {width > 768 ? (
+            <motion.div
+              variants={childFadeInUpContainer}
+              initial="hidden"
+              animate="show"
+              className={`${styles.mission} ${styles.rightImage}`}
+            >
+              <section
+                className={`${styles.mission_inner} ${styles.rightImageInner}`}
+              >
+                <motion.h2 variants={childFadeInUpItems}>
+                  <motion.span>VISION②</motion.span>
+                </motion.h2>
+                <motion.p
+                  variants={childFadeInUpItems}
+                  className={styles.sub_ttl}
+                >
+                  日本の閉塞感を打破する
+                </motion.p>
+                <motion.p variants={childFadeItems} className={styles.detail}>
+                  失われた３０年。少子高齢化に加え、人口減少。多くの若者は、日本の未来に不安を感じている。
+                  <br />
+                  だが、次世代こそが、社会に変化と革新を生む。我々も企業の軍師として、先駆者を創り続ける。
+                  <br />
+                  先駆者の姿は、必ず次の挑戦者に勇気を与える。先駆者に影響されて、また次の挑戦が生まれる。
+                </motion.p>
+              </section>
+              <section>
+                <div className={styles.mission_img}>
+                  <motion.div
+                    variants={childFadeItems}
+                    className={styles.img_inner}
+                  >
+                    <Image
+                      width={420}
+                      height={420}
+                      src="/img/ourconcept.png"
+                      alt="傘を持つ諸富稜"
+                    />
+                  </motion.div>
+                </div>
+              </section>
+            </motion.div>
+          ) : (
+            <motion.div
+              variants={childFadeInUpContainer}
+              initial="hidden"
+              animate="show"
+              className={`${styles.mission} ${styles.rightImage}`}
+            >
+              <section
+                className={`${styles.mission_inner} ${styles.rightImageInner}`}
+              >
+                <motion.h2 variants={childFadeInUpItems}>
+                  <motion.span>VISION②</motion.span>
+                </motion.h2>
+                <motion.p
+                  variants={childFadeInUpItems}
+                  className={styles.sub_ttl}
+                >
+                  日本の閉塞感を打破する
+                </motion.p>
+                <motion.p variants={childFadeItems} className={styles.detail}>
+                  失われた３０年。少子高齢化に加え、人口減少。
+                  <br />
+                  多くの若者は、日本の未来に不安を感じている。
+                  <br />
+                  だが、次世代こそが、社会に変化と革新を生む。
+                  <br />
+                  我々も企業の軍師として、先駆者を創り続ける。
+                  <br />
+                  先駆者の姿は、必ず次の挑戦者に勇気を与える。
+                  <br />
+                  先駆者に影響されて、また次の挑戦が生まれる。
+                </motion.p>
+              </section>
+              <section>
+                <div className={styles.mission_img}>
+                  <motion.div
+                    variants={childFadeItems}
+                    className={styles.img_inner}
+                  >
+                    <Image
+                      width={420}
+                      height={420}
+                      src="/img/ourconcept.png"
+                      alt="傘を持つ諸富稜"
+                    />
+                  </motion.div>
+                </div>
+              </section>
+            </motion.div>
+          )}
 
           {/* 令和の軍師コンセプト終わり */}
 
           {/* 創業秘話 */}
-
-          <motion.div
-            variants={childFadeInUpContainer}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.8, margin: "200px" }}
-            className={styles.vision}
-          >
-            <section className={styles.vision_img}>
-              <motion.div
-                variants={childFadeItems}
-                className={styles.img_inner}
-              >
-                <Image
-                  width={640}
-                  height={480}
-                  src="/img/story_img.png"
-                  alt="創業秘話の画像"
-                />
-              </motion.div>
-            </section>
-
-            <section className={styles.vision_inner}>
-              <motion.h2 variants={childFadeInUpItems}>{aboutUs[3].ttl}</motion.h2>
-              <motion.p
-                variants={childFadeInUpItems}
-                className={styles.sub_ttl}
-              >
-                {aboutUs[3].sub_ttl}
-              </motion.p>
-              <motion.p variants={childFadeItems} className={styles.detail}>
-                {aboutUs[3].contents}
-              </motion.p>
-            </section>
-          </motion.div>
-
-          {/* 創業秘話　終わり */}
-
-          {/* デジタルによる変化 */}
-          <motion.div
-            variants={childFadeInUpContainer}
-            initial="hidden"
-            animate="show"
-            className={`${styles.mission} ${styles.rightImage}`}
-          >
-            <section
-              className={`${styles.mission_inner} ${styles.rightImageInner}`}
+          {width > 768 ? (
+            <motion.div
+              variants={childFadeInUpContainer}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.8, margin: "200px" }}
+              className={styles.vision}
             >
-              <motion.h2 variants={childFadeInUpItems}>
-                <motion.span>{aboutUs[4].ttl}</motion.span>
-              </motion.h2>
-              <motion.p variants={childFadeItems} className={styles.detail} dangerouslySetInnerHTML={{ __html: aboutUs[4].contents }}>
-              </motion.p>
-            </section>
-            <section>
-              <div className={styles.mission_img}>
+              <section className={styles.vision_img}>
                 <motion.div
                   variants={childFadeItems}
                   className={styles.img_inner}
                 >
                   <Image
-                    width={420}
-                    height={420}
-                    src="/img/ourconcept.png"
-                    alt="傘を持つ諸富稜"
+                    width={640}
+                    height={480}
+                    src="/img/story_img.png"
+                    alt="創業秘話の画像"
                   />
                 </motion.div>
-              </div>
-            </section>
-          </motion.div>
+              </section>
+
+              <section className={styles.vision_inner}>
+                <motion.h2 variants={childFadeInUpItems}>VISION③</motion.h2>
+                <motion.p
+                  variants={childFadeInUpItems}
+                  className={styles.sub_ttl}
+                >
+                  若者に挑戦する勇気を
+                </motion.p>
+                <motion.p variants={childFadeItems} className={styles.detail}>
+                  自分が学生起業する時、かなりの反対を受けた。どうせ上手くいかないと、何十人にも言われた。
+                  <br />
+                  挑戦したいのに、怖くて一歩目が踏み出せない。そんな若者の葛藤、迷いが痛いほど理解できる。
+                  <br />
+                  だからこそ、自分のような若者が挑戦し続けて、必ず成功して、若者に挑戦する勇気を与えたい。
+                </motion.p>
+              </section>
+            </motion.div>
+          ) : (
+            <motion.div
+              variants={childFadeInUpContainer}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.8, margin: "200px" }}
+              className={styles.vision}
+            >
+              <section className={styles.vision_img}>
+                <motion.div
+                  variants={childFadeItems}
+                  className={styles.img_inner}
+                >
+                  <Image
+                    width={640}
+                    height={480}
+                    src="/img/story_img.png"
+                    alt="創業秘話の画像"
+                  />
+                </motion.div>
+              </section>
+
+              <section className={styles.vision_inner}>
+                <motion.h2 variants={childFadeInUpItems}>VISION③</motion.h2>
+                <motion.p
+                  variants={childFadeInUpItems}
+                  className={styles.sub_ttl}
+                >
+                  若者に挑戦する勇気を
+                </motion.p>
+                <motion.p variants={childFadeItems} className={styles.detail}>
+                  自分が学生起業する時、かなりの反対を受けた。
+                  <br />
+                  どうせ上手くいかないと、何十人にも言われた。
+                  <br />
+                  挑戦したいのに、怖くて一歩目が踏み出せない。
+                  <br />
+                  そんな若者の葛藤、迷いが痛いほど理解できる。
+                  <br />
+                  だからこそ、自分のような若者が挑戦し続けて、
+                  <br />
+                  必ず成功して、若者に挑戦する勇気を与えたい。
+                </motion.p>
+              </section>
+            </motion.div>
+          )}
+
+          {/* 創業秘話　終わり */}
+
+          {/* デジタルによる変化 */}
+          {width > 768 ? (
+            <motion.div
+              variants={childFadeInUpContainer}
+              initial="hidden"
+              animate="show"
+              className={`${styles.mission} ${styles.rightImage}`}
+            >
+              <section
+                className={`${styles.mission_inner} ${styles.rightImageInner}`}
+              >
+                <motion.h2 variants={childFadeInUpItems}>
+                  <motion.span>STORY</motion.span>
+                </motion.h2>
+                <motion.p variants={childFadeItems} className={styles.detail}>
+                  ２０歳で学生起業し、７年経営を続けています。設立時はデザイン＆動画の制作事業が中心です。
+                  <br />
+                  その後、宣伝→ブランディング→事業開発まで、専門分野を拡大しました。成長に伴い肩書きも
+                  <br />
+                  制作会社→広報ＰＲ会社→ブランディング会社→今のマーケティング会社と変化してきました。
+                </motion.p>
+              </section>
+              <section>
+                <div className={styles.mission_img}>
+                  <motion.div
+                    variants={childFadeItems}
+                    className={styles.img_inner}
+                  >
+                    <Image
+                      width={420}
+                      height={420}
+                      src="/img/ourconcept.png"
+                      alt="傘を持つ諸富稜"
+                    />
+                  </motion.div>
+                </div>
+              </section>
+            </motion.div>
+          ) : (
+            <motion.div
+              variants={childFadeInUpContainer}
+              initial="hidden"
+              animate="show"
+              className={`${styles.mission} ${styles.rightImage}`}
+            >
+              <section
+                className={`${styles.mission_inner} ${styles.rightImageInner}`}
+              >
+                <motion.h2 variants={childFadeInUpItems}>
+                  <motion.span>STORY</motion.span>
+                </motion.h2>
+                <motion.p variants={childFadeItems} className={styles.detail}>
+                  ２０歳で学生起業し、７年経営を続けています。
+                  <br />
+                  設立時はデザイン＆動画の制作事業が中心です。
+                  <br />
+                  その後、宣伝→ブランディング→事業開発まで
+                  <br />
+                  専門分野を拡大しました。成長に伴い肩書きも
+                  <br />
+                  制作会社→広報ＰＲ会社→ブランディング会社、
+                  <br />
+                  →今のマーケティング会社と変化してきました。
+                </motion.p>
+              </section>
+              <section>
+                <div className={styles.mission_img}>
+                  <motion.div
+                    variants={childFadeItems}
+                    className={styles.img_inner}
+                  >
+                    <Image
+                      width={420}
+                      height={420}
+                      src="/img/ourconcept.png"
+                      alt="傘を持つ諸富稜"
+                    />
+                  </motion.div>
+                </div>
+              </section>
+            </motion.div>
+          )}
 
           {/* デジタルによる変化 */}
 
