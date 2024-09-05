@@ -243,6 +243,11 @@ const Service = ({ workTag }: workTag) => {
             </div>
 
             <div className={styles.serviceSecondZoon}>
+              <div className={styles.main_support_contents}>
+                <h4>
+                  主な支援内容
+                </h4>
+              </div>
               <div ref={ScrollRef} className={styles.three_point}>
                 <div className={styles.cont}>
                   {threePoint.map((one: any, index: number) => {

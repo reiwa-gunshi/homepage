@@ -333,7 +333,7 @@ div.animeBack {
           @include dnp_font;
           @include custom_padding_container(240, 30);
           @include liquidSize(padding-bottom, 120, 160);
-          color: #e0bd00;
+          color: #e0be00;
           h4 {
             @include font(72, 40, 96, 72, 400);
             letter-spacing: 0px;
@@ -682,10 +682,42 @@ div.animeBack {
         }
       }
       .serviceSecondZoon {
-        padding-top: 100px;
+        padding-top: 40px;
         @include liquidSize(padding-left, 480, 20, 80);
         @include liquidSize(padding-right, 125, 20, 300);
         @include liquidSize(padding-bottom, 150, 80);
+      }
+      .main_support_contents {
+        // @include liquidSize(padding-top, 350, 166);
+        z-index: 66;
+        position: relative;
+        width: 140%;
+        @include dnp_font;
+        // @include liquidSize(padding-bottom, 120, 160);
+        color: #e0be00;
+        h4 {
+          @include font(72, 40, 96, 20, 400);
+          letter-spacing: 0px;
+          font-size: 4vw;
+          @include dnp_font;
+          span {
+            @media screen and (max-width: 576px) {
+              @include span_br(before);
+            }
+          }
+          @media (max-width: 768px) {
+            @include liquidSize(padding-bottom, 0, 0);
+            @include mb(54, 32);
+            font-size: 8vw; /* スマホ版のフォントサイズ */
+            width: 90vw;
+            white-space: nowrap; /* テキストを1行に収める */
+          }
+          @media (min-width: 769px) {
+            @include liquidSize(padding-bottom, 24, 24);
+            @include mb(54, 100);
+            font-size: 3.5vw; /* パソコン版のフォントサイズ */
+          }
+        }
       }
       .three_point {
         @media screen and (max-width: 576px) {
