@@ -14,7 +14,7 @@
     white-space: nowrap;
   }
   .sub_ttl {
-    @include font(56, 48, 48, 40, 400);
+    @include font(52, 48, 48, 40, 400);
     @include mb(64, 40);
     @media screen and (max-width: 768px) {
       @include font(56, 28, 48, 40, 400);
@@ -103,7 +103,7 @@
     .vision_inner {
       @include ttl;
       .sub_ttl {
-        @include font(56, 48, 48, 40, 400);
+        @include font(52, 48, 48, 40, 400);
         @include mb(64, 40);
         @media screen and (max-width: 768px) {
           @include font(56, 28, 48, 40, 400);
@@ -144,7 +144,7 @@
       @include heading_ttl;
     }
     .sub_ttl {
-      @include font(56, 48, 48, 40, 400);
+      @include font(52, 48, 48, 40, 400);
       @include mb(64, 40);
       @media screen and (max-width: 768px) {
         @include font(56, 28, 48, 40, 400);
