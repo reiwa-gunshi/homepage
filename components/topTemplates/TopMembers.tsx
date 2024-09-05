@@ -93,7 +93,7 @@ const TopMembers = ({ memberData }: memberType) => {
                     return (
                       <SwiperSlide key={index}>
                         <li>
-                          <Link href={`/member/${items.fields.slug}`}>
+                          {/* <Link href={`/member/${items.fields.slug}`}> */}
                             <a className="top_member_a">
                               <div className={styles.close_inner}>
                                 <div className={styles.member_name}>
@@ -125,7 +125,7 @@ const TopMembers = ({ memberData }: memberType) => {
                                 </div>
                               </div>
                             </a>
-                          </Link>
+                          {/* </Link> */}
                         </li>
                       </SwiperSlide>
                     );
@@ -136,7 +136,7 @@ const TopMembers = ({ memberData }: memberType) => {
                   {memberData.map((items, index) => {
                     return (
                       <motion.li variants={childFadeInUpItems} key={index}>
-                        <Link href={`/member/${items.fields.slug}`}>
+                        {/* <Link href={`/member/${items.fields.slug}`}> */}
                           <a className="top_member_a">
                             <div className={styles.close_inner}>
                               <div className={styles.member_name}>
@@ -161,7 +161,7 @@ const TopMembers = ({ memberData }: memberType) => {
                               </div>
                             </div>
                           </a>
-                        </Link>
+                        {/* </Link> */}
                       </motion.li>
                     );
                   })}
