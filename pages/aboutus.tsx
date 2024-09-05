@@ -144,7 +144,7 @@ const AboutUs: NextPage = () => {
                   <Image
                     width={640}
                     height={640}
-                    src="/img/vision.png"
+                    src="/img/ourconcept.png"
                     alt="時代を壊す"
                   />
                 </motion.div>
@@ -177,7 +177,7 @@ const AboutUs: NextPage = () => {
                   <Image
                     width={640}
                     height={640}
-                    src="/img/vision.png"
+                    src="/img/ourconcept.png"
                     alt="時代を壊す"
                   />
                 </motion.div>
@@ -244,7 +244,7 @@ const AboutUs: NextPage = () => {
                     <Image
                       width={420}
                       height={420}
-                      src="/img/ourconcept.png"
+                      src="/img/vision.png"
                       alt="傘を持つ諸富稜"
                     />
                   </motion.div>
@@ -293,7 +293,7 @@ const AboutUs: NextPage = () => {
                     <Image
                       width={420}
                       height={420}
-                      src="/img/ourconcept.png"
+                      src="/img/vision.png"
                       alt="傘を持つ諸富稜"
                     />
                   </motion.div>
@@ -423,7 +423,7 @@ const AboutUs: NextPage = () => {
                     <Image
                       width={420}
                       height={420}
-                      src="/img/ourconcept.png"
+                      src="/img/mono_tommy.png"
                       alt="傘を持つ諸富稜"
                     />
                   </motion.div>
@@ -466,7 +466,7 @@ const AboutUs: NextPage = () => {
                     <Image
                       width={420}
                       height={420}
-                      src="/img/ourconcept.png"
+                      src="/img/mono_tommy.png"
                       alt="傘を持つ諸富稜"
                     />
                   </motion.div>
