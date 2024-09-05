@@ -57,7 +57,7 @@ const aboutUs: NextPage = () => {
               className={`${styles.mission_inner} ${styles.rightImageInner}`}
             >
               <motion.h2 variants={childFadeInUpItems}>
-                <motion.span>ＣＯＮＣＥＰＴ</motion.span>
+                <motion.span>CONCEPT</motion.span>
               </motion.h2>
               <motion.p
                 variants={childFadeInUpItems}
@@ -121,7 +121,7 @@ const aboutUs: NextPage = () => {
             </section>
 
             <section className={styles.vision_inner}>
-              <motion.h2 variants={childFadeInUpItems}>ＶＩＳＩＯＮ①</motion.h2>
+              <motion.h2 variants={childFadeInUpItems}>VISION①</motion.h2>
               <motion.p
                 variants={childFadeInUpItems}
                 className={styles.sub_ttl}
@@ -158,7 +158,7 @@ const aboutUs: NextPage = () => {
               className={`${styles.mission_inner} ${styles.rightImageInner}`}
             >
               <motion.h2 variants={childFadeInUpItems}>
-                <motion.span>ＶＩＳＩＯＮ②</motion.span>
+                <motion.span>VISION②</motion.span>
               </motion.h2>
               <motion.p
                 variants={childFadeInUpItems}
@@ -223,7 +223,7 @@ const aboutUs: NextPage = () => {
             </section>
 
             <section className={styles.vision_inner}>
-              <motion.h2 variants={childFadeInUpItems}>ＶＩＳＩＯＮ③</motion.h2>
+              <motion.h2 variants={childFadeInUpItems}>VISION③</motion.h2>
               <motion.p
                 variants={childFadeInUpItems}
                 className={styles.sub_ttl}
@@ -259,7 +259,7 @@ const aboutUs: NextPage = () => {
               className={`${styles.mission_inner} ${styles.rightImageInner}`}
             >
               <motion.h2 variants={childFadeInUpItems}>
-                <motion.span>ＳＴＯＲＹ</motion.span>
+                <motion.span>STORY</motion.span>
               </motion.h2>
               <motion.p variants={childFadeItems} className={styles.detail}>
                 ２０歳で学生起業し、７年経営を続けています。
