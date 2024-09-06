@@ -270,36 +270,6 @@ const Service = ({ workTag }: workTag) => {
                       />
                     </div>
                   )}
-
-                  {/* <div className={styles.Competitor_mycompany}>
-                    <Image
-                      width={100}
-                      height={36}
-                      layout="responsive"
-                      src="/img/Competitor_mycompany_yoko.png"
-                      alt="弊社の強み"
-                    />
-                  </div>
-
-                  <div className={styles.Competitor_nomal}>
-                    <Image
-                      width={280}
-                      height={36}
-                      layout="responsive"
-                      src="/img/Competitor_nomal.png"
-                      alt="制作会社"
-                    />
-                  </div>
-
-                  <div className={styles.Competitor_big}>
-                    <Image
-                      width={280}
-                      height={36}
-                      layout="responsive"
-                      src="/img/Competitor_big.png"
-                      alt="マーケ・コンサル"
-                    />
-                  </div> */}
                 </div>
               </div>
             </div>
