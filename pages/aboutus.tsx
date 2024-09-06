@@ -523,11 +523,9 @@ const AboutUs: NextPage = () => {
                   <tr>
                     <td>沿革</td>
                     <td>
-                      2018　スタジオMOVEDOOR 創業 <br />
-                      2022　株式会社MOVEDOOR 設立
+                      2018　MOVEDOOR 創業
                       <br />
-                      2023　株式会社令和の軍師 社名変更
-                      <br />
+                      2023　令和の軍師 社名変更
                     </td>
                   </tr>
                   <tr>
