@@ -63,25 +63,26 @@ const Footer = (props: { nav_items: nav_type[] }) => {
         </div>
         <div className={styles.footer_nav}>
           <ul className={styles.footer_ul}>
-            {isMobile
-              ? nav_items.map((item, index) => (
-                  <li key={index}>
-                    <Link href={item.path}>
-                      <a>{item.name}</a>
-                    </Link>
-                  </li>
-                ))
-              : chunkedNavItems.map((chunk, chunkIndex) => (
-                  <div key={chunkIndex}>
-                    {chunk.map((item: any, index: any) => (
-                      <li key={index}>
-                        <Link href={item.path}>
-                          <a>{item.name}</a>
-                        </Link>
-                      </li>
-                    ))}
+            {isMobile ? nav_items.map((item, index) => (
+              <li key={index}>
+                <Link href={item.path}>
+                  <a>{item.name}</a>
+                </Link>
+              </li>
+            )) : chunkedNavItems.map((chunk, chunkIndex) => (
+              <div key={chunkIndex}>
+                {chunk.map((item: any, index: any) => (
+                  <div key={index}>
+                    <li key={index}>
+                      <Link href={item.path}>
+                        <a>{item.name}</a>
+                      </Link>
+                    </li>
+                    <li key={index}><br/></li>
                   </div>
                 ))}
+              </div>
+            ))}
           </ul>
         </div>
         <img
