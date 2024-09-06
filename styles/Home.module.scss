@@ -297,7 +297,7 @@ div.animeBack {
         z-index: 66;
         position: absolute;
         @include liquidSize(bottom, -280, -135);
-        @include liquidSize(left, -160, -135);
+        @include liquidSize(left, -160, -133);
         transform-origin: center;
 
         .img_inner {
@@ -347,7 +347,7 @@ div.animeBack {
             @media (max-width: 768px) {
               @include liquidSize(padding-bottom, 0, 0);
               @include mb(54, 32);
-              font-size: 7vw; /* スマホ版のフォントサイズ */
+              font-size: 6.8vw; /* スマホ版のフォントサイズ */
               width: 90vw;
               white-space: nowrap; /* テキストを1行に収める */
             }
