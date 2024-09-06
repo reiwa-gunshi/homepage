@@ -14,7 +14,7 @@ const Concept = () => {
         <div className={styles.concept_cont}>
           <div className={styles.concept_inner}>
             <h3 ref={ref} className={`${inView ? animation.coverRectAnime : animation.coverRectAnimeStart}`}>
-              <span>事業を成功に導く軍師</span>
+              <span>勝利に導くマーケティング会社</span>
             </h3>
             <img
               className={`${inView ? animation.fadeInUp : animation.fadeInUpStart}`}
