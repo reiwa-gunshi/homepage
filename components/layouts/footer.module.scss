@@ -87,12 +87,12 @@
     .footer_ul {
       display: flex;
       justify-content: space-between;
-      align-items: center;
       flex-wrap: wrap;
       @include liquidSize(column-gap, 100, 20);
       @include liquidSize(row-gap, 30, 20);
       @media screen and (max-width: 768px) {
         flex-direction: column;
+        @include liquidSize(padding-left, 120, 80);
       }
       li {
         color: #ffffff;
