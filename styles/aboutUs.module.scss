@@ -122,9 +122,12 @@
         width: 100%;
         height: inherit;
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         img {
           object-fit: cover;
-          width: inherit;
+          width: 100%;
           height: inherit;
         }
       }
