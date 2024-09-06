@@ -66,7 +66,7 @@ const AboutUs: NextPage = () => {
                   令和の軍師
                 </motion.p>
                 <motion.p variants={childFadeItems} className={styles.detail}>
-                  企業の戦を勝利に導く、令和時代の軍師となる。そんな熱い想いから、「令和の軍師」と名付けた。
+                  企業の戦を勝利に導く、令和時代の軍師となる。そんな熱い想いから「令和の軍師」と名付けた。
                   <br />
                   ホームページや名刺など、全てのビジュアルを軍師に相応しい、先進的な和テイストに仕上げた。
                   <br />
@@ -103,7 +103,7 @@ const AboutUs: NextPage = () => {
                 <motion.p variants={childFadeItems} className={styles.detail}>
                   企業の戦を勝利に導く、令和時代の軍師となる。
                   <br />
-                  そんな熱い想いから、「令和の軍師」と名付けた。
+                  そんな熱い想いから「令和の軍師」と名付けた。
                   <br />
                   ホームページや名刺など、全てのビジュアルを
                   <br />
