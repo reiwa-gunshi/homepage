@@ -39,7 +39,6 @@
 .container {
   @include container(1280px, 1050px);
   @include liquidSize(max-width, 1280, 350);
-  // @include liquidSize(padding-left, 80, 50);
   @media screen and (max-width: 576px) {
     max-width: initial;
     padding-left: 32px;
