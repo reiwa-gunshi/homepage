@@ -553,88 +553,43 @@ div.animeBack {
           }
         }
 
-        // .competitor {
-        //   position: relative;
-        //   display: flex;
-        //   flex-direction: column;
-        //   row-gap: 20px;
-        //   @include mb(20, 0);
-        //   width: 100%;
-        //   @media screen and (max-width: 786px) {
-        //     flex-direction: row;
-        //     align-items: end;
-        //     justify-content: space-between;
-        //     // padding: 4 10px;
-        //   }
-        //   // .Competitor_mycompany {
-        //   //   // @include liquidSize(width, 280, 68);
-        //   //   // @include mb(10, 0);
-        //   //   // @media (max-width: 768px) { /* スマホ版のフォントサイズ */
-        //   //   //   padding-left: 24px;
-        //   //   //   padding-right: 8px;
-        //   //   // }
-        //   //   // @media (max-width: 768px) { /* スマホ版のフォントサイズ */
-        //   //   //   @include liquidSize(width, 280, 122);
-        //   //   //   // @include mb(10, 0);
-        //   //   //   // padding-left: 24px;
-        //   //   //   // padding-right: 8px;
-        //   //   // }
-        //   //   @include liquidSize(width, 88, 68);
-        //   //   @include mb(10, 0);
-        //   //   @media (max-width: 768px) { /* スマホ版のフォントサイズ */
-        //   //     padding-left: 24px;
-        //   //     padding-right: 8px;
-        //   //   }
-        //   //   @media (min-width: 769px) { /* PC版のフォントサイズ */
-        //   //     @include liquidSize(width, 280, 100);
-        //   //   }
-        //   // }
-        //   .Competitor_big {
-        //     @include liquidSize(width, 280, 122);
-        //     @media (max-width: 768px) { /* スマホ版のフォントサイズ */
-        //       padding-left: 15px;
-        //     }
-        //   }
-        //   .Competitor_nomal {
-        //     @include liquidSize(width, 280, 122);
-        //     @media (max-width: 768px) { /* スマホ版のフォントサイズ */
-        //       padding-left: 15px;
-        //     }
-        //   }
-        //   img {
-        //     position: relative;
-        //     object-fit: cover;
-        //   }
-        // }
         .competitor {
           position: relative;
-          display: flex;
-          flex-direction: column;
           row-gap: 20px;
-          @include mb(20, 0);
+          @include mb(-80, 0);
           width: 100%;
-          @media screen and (max-width: 786px) {
-            flex-direction: row;
-            align-items: end;
-            justify-content: space-between;
-            padding: 4 10px;
-          }
-          .Competitor_mycompany {
-            @include liquidSize(width, 88, 68);
-            @include mb(10, 0);
-            @media (max-width: 768px) { /* スマホ版のフォントサイズ */
-              padding-left: 24px;
-              padding-right: 8px;
+          .competitor_children {
+            display: flex;
+            flex-direction: column;
+            @media screen and (max-width: 786px) {
+              flex-direction: row;
+              align-items: end;
+              justify-content: space-between;
+              padding: 4 10px;
+            }
+            .Competitor_mycompany {
+              @include liquidSize(width, 88, 68);
+              @include mb(10, 0);
+              @media (max-width: 768px) { /* スマホ版のフォントサイズ */
+                padding-left: 24px;
+                padding-right: 8px;
+              }
+            }
+            .Competitor_big {
+              @include liquidSize(width, 216, 122);
+              @media (max-width: 768px) { /* スマホ版のフォントサイズ */
+                padding-left: 15px;
+              }
+            }
+            .Competitor_nomal {
+              @include liquidSize(width, 216, 122);
+              @media (max-width: 768px) { /* スマホ版のフォントサイズ */
+                padding-left: 15px;
+              }
             }
           }
-          .Competitor_big {
-            @include liquidSize(width, 216, 122);
-            @media (max-width: 768px) { /* スマホ版のフォントサイズ */
-              padding-left: 15px;
-            }
-          }
-          .Competitor_nomal {
-            @include liquidSize(width, 216, 122);
+          .Competitor {
+            @include liquidSize(height, 216, 122);
             @media (max-width: 768px) { /* スマホ版のフォントサイズ */
               padding-left: 15px;
             }
