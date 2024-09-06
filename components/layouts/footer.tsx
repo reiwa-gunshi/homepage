@@ -1,6 +1,7 @@
 import styles from "../layouts/footer.module.scss";
 import RectBtn from "../atoms/rectBtn";
 import Link from "next/link";
+import React from 'react';
 import Image from "next/image";
 import { nav_type } from "../../lib/type";
 
@@ -36,18 +37,26 @@ const Footer = (props: { nav_items: nav_type[] }) => {
           </div>
         </div>
         <div className={styles.footer_nav}>
-          <ul className={styles.footer_ul}>
-            {nav_items.map((items, footer_map_index) => {
+        <ul className={styles.footer_ul}>
+          {nav_items.map((items, footer_map_index) => {
+            if (footer_map_index % 3 === 0) {
               return (
-                <li key={footer_map_index}>
-                  <Link href={items.path}>
-                    <a>{items.name}</a>
-                  </Link>
-                </li>
+                <React.Fragment key={footer_map_index}>
+                  {nav_items.slice(footer_map_index, footer_map_index + 3).map((item, index) => (
+                    <li key={footer_map_index + index}>
+                      <Link href={item.path}>
+                        <a>{item.name}</a>
+                      </Link>
+                    </li>
+                  ))}
+                  <br />
+                </React.Fragment>
               );
-            })}
-          </ul>
-        </div>
+            }
+            return null;
+          })}
+        </ul>
+      </div>
         <img
           className={styles.footer_logo}
           src="/svg/footer_logo.svg"
