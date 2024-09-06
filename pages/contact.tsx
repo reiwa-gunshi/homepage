@@ -36,7 +36,7 @@ const Contact: NextPage = ({ respost }: any) => {
                 <iframe
                   width="640"
                   height="1200"
-                  src="https://forms.office.com/Pages/ResponsePage.aspx?id=CyGJzk68BUid5SVSV-wkDIHQKLFHbghPh_VSXYmAk8ZUNFlBSlBOOFZFWERJUzhKMzFCQVFZRU5RNS4u&embed=true"
+                  src="https://docs.google.com/forms/d/e/1FAIpQLScxWAMl8njChvbVgfzcPLWaOsS66_-Dr1mobk8M55FhTmURog/viewform?usp=sharing"
                   style={{
                     border: "none",
                     maxWidth: "100%",
