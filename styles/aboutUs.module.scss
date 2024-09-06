@@ -75,6 +75,9 @@
     .mission_img {
       width: 100%;
       @include liquidSize(height, 420, 355);
+      @media screen and (max-width: 768px) {
+        padding-top: 20px;
+      }
       position: relative;
       .img_inner {
         width: 100%;
@@ -117,6 +120,9 @@
     .vision_img {
       width: 100%;
       @include liquidSize(height, 400, 250);
+      @media screen and (max-width: 768px) {
+        padding-top: 60px;
+      }
       position: relative;
       .img_inner {
         width: 100%;
