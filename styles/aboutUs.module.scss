@@ -64,7 +64,7 @@
     }
   }
   .rightImage {
-    @include section_sepa(60, 40);
+    @include section_sepa(60, 35);
     .rightImageInner {
       @include ttl;
     }
@@ -95,7 +95,7 @@
     }
   }
   .vision {
-    @include section_sepa(35, 60);
+    @include section_sepa(40, 60);
     @include liquidSize(padding-bottom, 40, 20);
     column-gap: 50px;
     @media screen and (max-width: 992px) {
