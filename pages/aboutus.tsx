@@ -75,7 +75,7 @@ const AboutUs: NextPage = () => {
               </section>
               <section>
                 <div className={styles.mission_img}>
-                  <motion.div variants={childFadeItems} className={styles.img_inner_right}>
+                  <motion.div variants={childFadeItems} className={styles.img_inner}>
                     <Image
                       width={420}
                       height={420}
@@ -140,7 +140,7 @@ const AboutUs: NextPage = () => {
               className={styles.vision}
             >
               <section className={styles.vision_img}>
-                <motion.div variants={childFadeItems} className={styles.img_inner_left}>
+                <motion.div variants={childFadeItems} className={styles.img_inner}>
                   <Image
                     width={640}
                     height={640}
@@ -173,7 +173,7 @@ const AboutUs: NextPage = () => {
               className={styles.vision}
             >
               <section className={styles.vision_img}>
-                <motion.div variants={childFadeItems} className={styles.img_inner_left}>
+                <motion.div variants={childFadeItems} className={styles.img_inner}>
                   <Image
                     width={640}
                     height={640}
