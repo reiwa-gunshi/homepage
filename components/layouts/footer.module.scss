@@ -99,7 +99,7 @@
         @include liquidSize(font-size, 24, 24, 24);
         @include dnp_font;
         text-transform: uppercase;
-        width: 150px;
+        width: 240px;
         @media screen and (max-width: 768px) {
           margin-bottom: 30px;
         }
