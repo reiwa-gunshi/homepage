@@ -230,19 +230,29 @@ const Service = ({ workTag }: workTag) => {
                 </div>
                 <div className={styles.competitor}>
                   <div className={styles.Competitor_mycompany}>
-                    <Image
-                      width={88}
-                      height={32}
-                      layout="responsive"
-                      src="/img/Competitor_mycompany.png"
-                      alt="弊社の強み"
-                    />
+                    {width > 768 ? (
+                      <Image
+                        width={280}
+                        height={36}
+                        layout="responsive"
+                        src="/img/Competitor_mycompany.png"
+                        alt="弊社の強み"
+                      />
+                    ) : (
+                      <Image
+                        width={280}
+                        height={36}
+                        layout="responsive"
+                        src="/img/Competitor_mycompany_yoko.png"
+                        alt="弊社の強み"
+                      />
+                    )}
                   </div>
 
                   <div className={styles.Competitor_nomal}>
                     <Image
-                      width={216}
-                      height={25}
+                      width={280}
+                      height={36}
                       layout="responsive"
                       src="/img/Competitor_nomal.png"
                       alt="制作会社"
@@ -251,8 +261,8 @@ const Service = ({ workTag }: workTag) => {
 
                   <div className={styles.Competitor_big}>
                     <Image
-                      width={216}
-                      height={24}
+                      width={280}
+                      height={36}
                       layout="responsive"
                       src="/img/Competitor_big.png"
                       alt="マーケ・コンサル"
