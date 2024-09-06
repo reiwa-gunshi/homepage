@@ -4,9 +4,34 @@ import Link from "next/link";
 import React from 'react';
 import Image from "next/image";
 import { nav_type } from "../../lib/type";
+import { useState, useEffect } from 'react';
+
+const chunkArray = (array: any, chunkSize: any) => {
+  const result = [];
+  for (let i = 0; i < array.length; i += chunkSize) {
+    result.push(array.slice(i, i + chunkSize));
+  }
+  return result;
+};
 
 const Footer = (props: { nav_items: nav_type[] }) => {
   const { nav_items } = props;
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize();
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  const chunkedNavItems = chunkArray(nav_items, 2);
+
   return (
     <>
       <footer className={styles.footer}>
@@ -37,26 +62,28 @@ const Footer = (props: { nav_items: nav_type[] }) => {
           </div>
         </div>
         <div className={styles.footer_nav}>
-        <ul className={styles.footer_ul}>
-          {nav_items.map((items, footer_map_index) => {
-            if (footer_map_index % 3 === 0) {
-              return (
-                <React.Fragment key={footer_map_index}>
-                  {nav_items.slice(footer_map_index, footer_map_index + 3).map((item, index) => (
-                    <li key={footer_map_index + index}>
-                      <Link href={item.path}>
-                        <a>{item.name}</a>
-                      </Link>
-                    </li>
-                  ))}
-                  <br />
-                </React.Fragment>
-              );
-            }
-            return null;
-          })}
-        </ul>
-      </div>
+          <ul className={styles.footer_ul}>
+            {isMobile
+              ? nav_items.map((item, index) => (
+                  <li key={index}>
+                    <Link href={item.path}>
+                      <a>{item.name}</a>
+                    </Link>
+                  </li>
+                ))
+              : chunkedNavItems.map((chunk, chunkIndex) => (
+                  <div key={chunkIndex}>
+                    {chunk.map((item: any, index: any) => (
+                      <li key={index}>
+                        <Link href={item.path}>
+                          <a>{item.name}</a>
+                        </Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+          </ul>
+        </div>
         <img
           className={styles.footer_logo}
           src="/svg/footer_logo.svg"
