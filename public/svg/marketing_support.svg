@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="744" height="164" viewBox="0 0 744 164">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.752" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="gold"/>
+      <stop offset="0.325" stop-color="#ffd800"/>
+      <stop offset="1" stop-color="#847000"/>
+    </radialGradient>
+  </defs>
+  <g id="グループ_3038" data-name="グループ 3038" transform="translate(-2833 -2962)">
+    <g id="グループ_3037" data-name="グループ 3037" transform="translate(3380 -1026)">
+      <path id="合体_29" data-name="合体 29" d="M-97,324V234h-52V160H-6v74H595v90Z" transform="translate(-398 3828)" fill="url(#radial-gradient)"/>
+      <text id="マーケティング支援" transform="translate(-146 4135)" font-size="76" font-family="DNPShueiShogoMinStd-Hv, DNPShueiShogoMinStd"><tspan x="-342" y="0">マーケティング支援</tspan></text>
+      <g id="グループ_2966" data-name="グループ 2966" transform="translate(-2504 37.374)">
+        <text id="主な" transform="translate(2029 4008.626)" font-size="58" font-family="DNPShueiShogoMinStd-Hv, DNPShueiShogoMinStd"><tspan x="-58" y="0">主な</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

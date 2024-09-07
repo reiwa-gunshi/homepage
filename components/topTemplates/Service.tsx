@@ -276,9 +276,31 @@ const Service = ({ workTag }: workTag) => {
 
             <div className={styles.serviceSecondZoon}>
               <div className={styles.main_support_contents}>
-                <h4>
+                {/* <h4>
                   主な支援内容
-                </h4>
+                </h4> */}
+                {/* <Image
+                  width={772}
+                  height={164}
+                  layout="responsive"
+                  className={styles.mesh}
+                  src="/svg/marketing_support.svg"
+                  alt="主なマーケティング支援"
+                /> */}
+                {/* <Image
+                  width={772}
+                  height={164}
+                  layout="responsive"
+                  // className={styles.mesh}
+                  src="/img/marketing_support.png"
+                  alt="主なマーケティング支援"
+                /> */}
+                <img
+                  width={772}
+                  height={164}
+                  src="/img/marketing_support.png"
+                  alt="主なマーケティング支援"
+                />
               </div>
               <div ref={ScrollRef} className={styles.three_point}>
                 <div className={styles.cont}>

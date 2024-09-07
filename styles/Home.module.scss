@@ -696,35 +696,18 @@ div.animeBack {
         @include liquidSize(padding-bottom, 150, 80);
       }
       .main_support_contents {
-        // @include liquidSize(padding-top, 350, 166);
-        z-index: 66;
-        position: relative;
-        width: 140%;
-        @include dnp_font;
-        // @include liquidSize(padding-bottom, 120, 160);
-        color: #e0be00;
-        h4 {
-          @include font(72, 40, 96, 20, 400);
-          letter-spacing: 0px;
-          font-size: 4vw;
-          @include dnp_font;
-          span {
-            @media screen and (max-width: 576px) {
-              @include span_br(before);
-            }
-          }
-          @media (max-width: 768px) {
-            @include liquidSize(padding-bottom, 0, 0);
-            @include mb(54, 32);
-            font-size: 8vw; /* スマホ版のフォントサイズ */
-            width: 90vw;
-            white-space: nowrap; /* テキストを1行に収める */
-          }
-          @media (min-width: 769px) {
-            @include liquidSize(padding-bottom, 24, 24);
-            @include mb(54, 100);
-            font-size: 3.5vw; /* パソコン版のフォントサイズ */
-          }
+        @media screen and (max-width: 786px) {
+          @include liquidSize(padding-left, 16, 8);
+          @include liquidSize(padding-right, 56, 32);
+          width: 120%;
+        }
+        @media screen and (min-width: 787px) {
+          @include liquidSize(padding, 32, 24);
+          width: 120%;
+        }
+        img {
+          @include mb(55, 15);
+          @include liquidSize(width, 1400, 400);
         }
       }
       .three_point {
