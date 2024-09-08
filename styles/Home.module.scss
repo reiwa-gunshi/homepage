@@ -699,11 +699,11 @@ div.animeBack {
         @media screen and (max-width: 786px) {
           @include liquidSize(padding-left, 16, 8);
           @include liquidSize(padding-right, 56, 32);
-          width: 110%;
+          width: 90%;
         }
         @media screen and (min-width: 787px) {
           @include liquidSize(padding, 32, 24);
-          width: 100%;
+          width: 80%;
         }
         img {
           @include mb(55, 15);
