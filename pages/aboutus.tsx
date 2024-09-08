@@ -60,7 +60,7 @@ const AboutUs: NextPage = () => {
             >
               <section className={`${styles.mission_inner} ${styles.rightImageInner}`}>
                 <motion.h2 variants={childFadeInUpItems}>
-                  <motion.span>CONCEPT</motion.span>
+                  <motion.span>company</motion.span>
                 </motion.h2>
                 <motion.p variants={childFadeInUpItems} className={styles.sub_ttl}>
                   令和の軍師
@@ -95,7 +95,7 @@ const AboutUs: NextPage = () => {
             >
               <section className={`${styles.mission_inner} ${styles.rightImageInner}`}>
                 <motion.h2 variants={childFadeInUpItems}>
-                  <motion.span>CONCEPT</motion.span>
+                  <motion.span>company</motion.span>
                 </motion.h2>
                 <motion.p variants={childFadeInUpItems} className={styles.sub_ttl}>
                   令和の軍師
@@ -151,7 +151,7 @@ const AboutUs: NextPage = () => {
               </section>
 
               <section className={styles.vision_inner}>
-                <motion.h2 variants={childFadeInUpItems}>VISION①</motion.h2>
+                <motion.h2 variants={childFadeInUpItems}>CONCEPT</motion.h2>
                 <motion.p variants={childFadeInUpItems} className={styles.sub_ttl}>
                   先駆者を創る
                 </motion.p>
@@ -184,7 +184,7 @@ const AboutUs: NextPage = () => {
               </section>
 
               <section className={styles.vision_inner}>
-                <motion.h2 variants={childFadeInUpItems}>VISION①</motion.h2>
+                <motion.h2 variants={childFadeInUpItems}>CONCEPT</motion.h2>
                 <motion.p variants={childFadeInUpItems} className={styles.sub_ttl}>
                   先駆者を創る
                 </motion.p>
@@ -219,7 +219,7 @@ const AboutUs: NextPage = () => {
                 className={`${styles.mission_inner} ${styles.rightImageInner}`}
               >
                 <motion.h2 variants={childFadeInUpItems}>
-                  <motion.span>VISION②</motion.span>
+                  <motion.span>VISION</motion.span>
                 </motion.h2>
                 <motion.p
                   variants={childFadeInUpItems}
@@ -262,7 +262,7 @@ const AboutUs: NextPage = () => {
                 className={`${styles.mission_inner} ${styles.rightImageInner}`}
               >
                 <motion.h2 variants={childFadeInUpItems}>
-                  <motion.span>VISION②</motion.span>
+                  <motion.span>VISION</motion.span>
                 </motion.h2>
                 <motion.p
                   variants={childFadeInUpItems}
@@ -327,7 +327,7 @@ const AboutUs: NextPage = () => {
               </section>
 
               <section className={styles.vision_inner}>
-                <motion.h2 variants={childFadeInUpItems}>VISION③</motion.h2>
+                <motion.h2 variants={childFadeInUpItems}>VISION</motion.h2>
                 <motion.p
                   variants={childFadeInUpItems}
                   className={styles.sub_ttl}
@@ -366,7 +366,7 @@ const AboutUs: NextPage = () => {
               </section>
 
               <section className={styles.vision_inner}>
-                <motion.h2 variants={childFadeInUpItems}>VISION③</motion.h2>
+                <motion.h2 variants={childFadeInUpItems}>VISION</motion.h2>
                 <motion.p
                   variants={childFadeInUpItems}
                   className={styles.sub_ttl}
@@ -404,7 +404,7 @@ const AboutUs: NextPage = () => {
                 className={`${styles.mission_inner} ${styles.rightImageInner}`}
               >
                 <motion.h2 variants={childFadeInUpItems}>
-                  <motion.span>STORY</motion.span>
+                  <motion.span>HISTORY</motion.span>
                 </motion.h2>
                 <motion.p variants={childFadeItems} className={styles.detail}>
                   ２０歳で学生起業し、７年経営を続けています。設立時はデザイン＆動画の制作事業が中心です。
@@ -441,7 +441,7 @@ const AboutUs: NextPage = () => {
                 className={`${styles.mission_inner} ${styles.rightImageInner}`}
               >
                 <motion.h2 variants={childFadeInUpItems}>
-                  <motion.span>STORY</motion.span>
+                  <motion.span>HISTORY</motion.span>
                 </motion.h2>
                 <motion.p variants={childFadeItems} className={styles.detail}>
                   ２０歳で学生起業し、７年経営を続けています。
