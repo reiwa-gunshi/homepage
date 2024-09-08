@@ -31,7 +31,7 @@ const FirstView = () => {
 
             <div className={styles.h1_sub_ttl}>
               <div className={`${styles.sub_ttl_inner} ${styles.animeBack}`}>
-                <h2>Marketing Partner</h2>
+                <h2>MARKETING PARTNER</h2>
               </div>
             </div>
           </div>
