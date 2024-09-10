@@ -224,7 +224,7 @@ $pcCamp: 1920;
   @media screen and (max-width: 576px) {
     background: url(../img/top/#{$bgImage-sp}.#{$kakutyoshi});
   }
-  @media screen and (min-width: 576px) {
+  @media screen and (min-width: 577px) {
     background: url(../img/top/#{$bgImage-pc}.#{$kakutyoshi});
   }
 }

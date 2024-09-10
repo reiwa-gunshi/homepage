@@ -380,7 +380,7 @@ div.animeBack {
             @media (min-width: 992px) {
               font-size: 1.4vw; /* パソコン版のフォントサイズ */
             }
-            @media screen and (min-width: 576px) {
+            @media screen and (min-width: 577px) {
               span {
                 &:nth-child(1) {
                   @include span_br(after);
@@ -399,7 +399,7 @@ div.animeBack {
             @include liquidSize(right, 0, 0);
             @include liquidSize(width, 2000, 320);
             @include liquidSize(height, 1400, 320);
-            @media screen and (max-width: 992px) and (min-width: 576px) {
+            @media screen and (max-width: 992px) and (min-width: 577px) {
               width: 365px;
               height: 365px;
             }
@@ -1042,7 +1042,7 @@ div.animeBack {
     @include liquidSize(left, -50, -70);
     @include liquidSize(width, 800, 320);
     @include liquidSize(height, 800, 320);
-    @media screen and (max-width: 992px) and (min-width: 576px) {
+    @media screen and (max-width: 992px) and (min-width: 577px) {
       width: 365px;
       height: 365px;
     }
@@ -1064,7 +1064,7 @@ div.animeBack {
       @include liquidSize(right, 150, -70);
       @include liquidSize(width, 600, 320);
       @include liquidSize(height, 500, 320);
-      @media screen and (max-width: 992px) and (min-width: 576px) {
+      @media screen and (max-width: 992px) and (min-width: 577px) {
         width: 365px;
         height: 365px;
       }
@@ -1104,7 +1104,7 @@ div.animeBack {
       ul {
         display: flex;
         justify-content: center;
-        @media screen and (min-width: 576px) {
+        @media screen and (min-width: 577px) {
           padding-top: 160px;
           padding-bottom: 120px;
         }
