@@ -4,6 +4,7 @@ import { AnimatePresence } from "framer-motion";
 import Layout from "../components/templates/Layout";
 import { useState, useEffect } from "react";
 import { MyProvider } from "../contexts/MyContext";
+import '../public/css/edit.css';
 
 function MyApp({ Component, pageProps, router }: AppProps) {
   const [show_screen, setShowScreen] = useState(false);

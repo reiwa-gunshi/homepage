@@ -1,0 +1,44 @@
+@media screen and (min-width: 1920px) {
+  .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC h3 {
+    line-height: normal;
+  }
+
+  .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC p {
+    font-size: 1.7vw;
+    line-height: normal;
+  }
+
+  .Home_mission__LY_vW .Home_container__97eC3 {
+    max-width: 80%;
+  }
+
+  .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_mission_ttl__X8UHP {
+    width: 100%;
+  }
+
+  .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_mission_ttl__X8UHP .Home_mission_detail__XFMOp p {
+    line-height: normal;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH {
+    width: 60%;
+  }
+
+  .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_chart__9GofP .Home_chartAbsolute__vNxZP {
+    width: 130%;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_chart__9GofP .Home_chartAbsolute__vNxZP {
+    width: 130%;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_competitor__x2QSH {
+    margin-bottom: -10%;
+    margin-left: 10%;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_competitor__x2QSH {
+    width: 50%;
+  }
+
+}
