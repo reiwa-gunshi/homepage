@@ -24,7 +24,7 @@
     width: 60% !important;
   }
 
-  .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_chart__9GofP .Home_chartAbsolute__vNxZP {
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_chart__9GofP .Home_chart_base__hJ6VH {
     width: 130% !important;
   }
 
@@ -41,4 +41,8 @@
     width: 50% !important;
   }
 
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB .Home_ScrollBase_cont__NZjZn .Home_japaneseScrollCont_txt__Q3A8X p {
+    font-size: 1vw !important;
+    line-height: normal !important;
+  }
 }
