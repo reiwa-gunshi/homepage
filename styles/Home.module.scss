@@ -494,7 +494,7 @@ div.animeBack {
           @include liquidSize(font-size, 16, 13);
           @include liquidSize(line-height, 32, 22);
           @media (max-width: 991px) {
-            font-size: 2.4vw; /* tab版のフォントサイズ */
+            font-size: 2.2vw; /* tab版のフォントサイズ */
             line-height: 1.5; /* tab版の行間 */
             text-align: center; /* ここで中央寄せ */
           }
