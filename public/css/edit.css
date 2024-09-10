@@ -46,3 +46,31 @@
     line-height: normal !important;
   }
 }
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_mission_ttl__X8UHP>img {
+    width: 70% !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL {
+    width: 100% !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_serviceFirstZoon__v0_lv {
+    padding-right: calc(80 / 768* 100vw) !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_strength_img_inner___blTO {
+    right: calc(30 / 768* 100vw) !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_competitor__x2QSH .Home_competitor_children__7c3kc {
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    gap: 15px !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_competitor__x2QSH .Home_competitor_children__7c3kc .Home_Competitor_mycompany__bVh_h {
+    width: calc(100 / 768* 100vw) !important;
+  }
+}
