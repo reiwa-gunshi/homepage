@@ -347,9 +347,12 @@ div.animeBack {
             @media (max-width: 768px) {
               @include liquidSize(padding-bottom, 0, 0);
               @include mb(54, 32);
-              font-size: 6.7vw; /* スマホ版のフォントサイズ */
+              font-size: 5.7vw; /* tab版のフォントサイズ */
               width: 90vw;
               white-space: nowrap; /* テキストを1行に収める */
+            }
+            @media (max-width: 576px) {
+              font-size: 6.7vw; /* スマホ版のフォントサイズ */
             }
             @media (min-width: 769px) {
               @include liquidSize(padding-bottom, 24, 24);
@@ -367,11 +370,14 @@ div.animeBack {
                 @include span_br(after);
               }
             }
-            @media (max-width: 768px) {
+            @media (max-width: 991px) {
+              font-size: 1.9vw; /* tab版のフォントサイズ */
+            }
+            @media (max-width: 576px) {
               @include font(16, 14, 48, 22, 200);
               font-size: 3vw; /* スマホ版のフォントサイズ */
             }
-            @media (min-width: 769px) {
+            @media (min-width: 992px) {
               font-size: 1.4vw; /* パソコン版のフォントサイズ */
             }
             @media screen and (min-width: 576px) {
@@ -487,17 +493,17 @@ div.animeBack {
           @include liquidSize(margin-bottom, 25, 10);
           @include liquidSize(font-size, 16, 13);
           @include liquidSize(line-height, 32, 22);
-          @media (max-width: 768px) {
-            font-size: 2.4vw; /* スマホ版のフォントサイズ */
-            line-height: 1.5; /* スマホ版の行間 */
+          @media (max-width: 991px) {
+            font-size: 2.4vw; /* tab版のフォントサイズ */
+            line-height: 1.5; /* tab版の行間 */
             text-align: center; /* ここで中央寄せ */
           }
-          @media (max-width: 640px) {
+          @media (max-width: 576px) {
             font-size: 3.4vw; /* スマホ版のフォントサイズ */
             line-height: 1.6; /* スマホ版の行間 */
             text-align: center; /* ここで中央寄せ */
           }
-          @media (min-width: 769px) {
+          @media (min-width: 992px) {
             font-size: 1.4vw; /* パソコン版のフォントサイズ */
             line-height: 1.6;
           }
@@ -720,6 +726,9 @@ div.animeBack {
           width: 120%;
         }
         @media screen and (min-width: 577px) {
+          width: 90vw;
+        }
+        @media screen and (min-width: 992px) {
           width: 56vw;
         }
         .cont {
@@ -812,11 +821,14 @@ div.animeBack {
                   h4 {
                     // @include liquidSize(font-size, 32, 24);
                     border-bottom: #000 1px solid;
-                    @media (max-width: 768px) {
+                    @media (max-width: 991px) {
                       padding-bottom: 16px;
+                      font-size: 4vw; /* tab版のフォントサイズ */
+                    }
+                    @media (max-width: 576px) {
                       font-size: 5vw; /* スマホ版のフォントサイズ */
                     }
-                    @media (min-width: 769px) and (max-width: 1024px) {
+                    @media (min-width: 992px) and (max-width: 1024px) {
                       padding-bottom: 16px;
                       font-size: 2vw; /* パソコン版のフォントサイズ */
                     }
@@ -1363,4 +1375,41 @@ div.animeBack {
       }
     }
   }
+}
+
+
+@media screen and (min-width: 1920px) {
+  .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC h3 {
+    line-height: normal;
+}
+  .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC p {
+      font-size: 1.7vw;
+      line-height: normal;
+  }
+  .Home_mission__LY_vW .Home_container__97eC3 {
+    max-width: 80%;
+}
+  .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_mission_ttl__X8UHP {
+    width: 100%;
+}
+.Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_mission_ttl__X8UHP .Home_mission_detail__XFMOp p {
+  line-height: normal;
+}
+.Home_service__Ie4vL .Home_inner__k19bH {
+  width: 60%;
+}
+.Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_chart__9GofP .Home_chartAbsolute__vNxZP {
+  width: 130%;
+}
+.Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_chart__9GofP .Home_chartAbsolute__vNxZP {
+  width: 130%;
+}
+.Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_competitor__x2QSH {
+  margin-bottom: -10%;
+  margin-left: 10%;
+}
+.Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_competitor__x2QSH {
+  width: 50%;
+}
+
 }
