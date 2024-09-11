@@ -89,112 +89,112 @@
   }
 
   .Home_works__9ywpe .Home_container__97eC3 {
-    max-width: 60vw;
+    max-width: 60vw !important;
   }
 
   .Home_works__9ywpe .Home_container__97eC3 .Home_achievements__b_49r>img {
-    width: 100%;
+    width: 100% !important;
   }
 
   .Home_member__9o60q .Home_container__97eC3 .Home_inner__k19bH ul li {
-    width: 10vw;
-    height: 20vw;
+    width: 10vw !important;
+    height: 20vw !important;
   }
 
   .Home_member__9o60q .Home_container__97eC3 .Home_inner__k19bH ul li a .Home_close_inner__RpIL9 .Home_member_name__NEyvD h6 {
-    font-size: 1.7vw;
-    letter-spacing: normal;
+    font-size: 1.7vw !important;
+    letter-spacing: normal !important;
   }
 
   .Home_member__9o60q .Home_container__97eC3 .Home_inner__k19bH ul li a .Home_close_inner__RpIL9 .Home_member_name__NEyvD p {
-    font-size: 1vw;
-    line-height: normal;
+    font-size: 1vw !important;
+    line-height: normal !important;
   }
 
   /* 3card */
   .Home_blog__iLAYq .Home_container__97eC3>ul {
-    column-gap: 2%;
+    column-gap: 2% !important;
   }
 
   .blogCard_blog_card___EEBZ .blogCard_blog_a__Ar8XO div.blogCard_blog_thumb__XLGFH {
-    width: 20vw;
-    height: 12vw;
+    width: 20vw !important;
+    height: 12vw !important;
   }
 
   .blogCard_blog_card___EEBZ .blogCard_blog_a__Ar8XO div.blogCard_blog_thumb__XLGFH .blogCard_border__AFl54 {
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
   }
 
   .blogCard_blog_card___EEBZ .blogCard_blog_a__Ar8XO .blogCard_blog_detail__LWTKa .blogCard_blog_sub_ttl__LX_J6 {
-    font-size: 1vw;
-    line-height: normal;
+    font-size: 1vw !important;
+    line-height: normal !important;
   }
 
   /* news */
   .Home_news__jpNEz .Home_container__97eC3 {
-    max-width: 60vw;
+    max-width: 60vw !important;
   }
 
   .Home_news__jpNEz .Home_container__97eC3 ul {
-    max-width: 100%;
+    max-width: 100% !important;
   }
 
   .newslist_news_list__K9c2E .newslist_time___RuOW .newslist_date_inner__ynEnq .newslist_date__VCzwL,
   .newslist_news_list__K9c2E .newslist_time___RuOW .newslist_date_inner__ynEnq .newslist_youbi__vQaNv,
   .newslist_news_list__K9c2E .newslist_time___RuOW .newslist_date_inner__ynEnq .newslist_year__n_6p0 {
-    font-size: 0.7vw;
-    line-height: normal;
+    font-size: 0.7vw !important;
+    line-height: normal !important;
   }
 
   .newslist_news_list__K9c2E .newslist_news_ttl__WdOyO .newslist_main_ttl__m3J_f {
-    font-size: 1.1vw;
-    line-height: normal;
+    font-size: 1.1vw !important;
+    line-height: normal !important;
   }
 
   .newslist_news_list__K9c2E .newslist_news_ttl__WdOyO .newslist_detail__3cDOr {
-    font-size: 0.7vw;
-    line-height: normal;
+    font-size: 0.7vw !important;
+    line-height: normal !important;
   }
 
   /* footer */
   .footer_footer__F0fS0 .footer_pamphlet__I_CmJ .footer_grid__nKeBW .footer_pamphlet_ttl__UcqIo p.footer_sub___FHuU {
-    font-size: 1vw;
-    line-height: normal;
+    font-size: 1vw !important;
+    line-height: normal !important;
   }
 
   .footer_footer__F0fS0 .footer_footer_nav__EMztQ .footer_footer_ul__ReS4f li {
-    font-size: 1vw;
-    line-height: normal;
+    font-size: 1vw !important;
+    line-height: normal !important;
   }
 
   /* header-menu */
   .header_header__Dg7eV .header_header_cont__odzQx .header_menu_btn___AWGu {
-    width: 10vw;
-    height: 10vw;
+    width: 10vw !important;
+    height: 10vw !important;
   }
 
   .header_header__Dg7eV .header_header_cont__odzQx .header_menu_btn___AWGu .header_hamburger___Uest {
-    gap: 0.4vw;
+    gap: 0.4vw !important;
   }
-
-  .header_open__dOUSy.header_header_cont__odzQx .header_header__Dg7eV .header_header_cont__odzQx .header_menu_btn___AWGu .header_hamburger___Uest {
-    gap: 0;
+  header_header_cont__odzQx
+  .header_open__dOUSy .header_hamburger___Uest {
+    gap: 0 !important;
   }
 
   .header_header__Dg7eV .header_header_cont__odzQx .header_menu_btn___AWGu .header_hamburger___Uest div {
-    width: 3vw;
-    height: 0.1vw;
+    width: 3vw !important;
+    height: 0.1vw !important;
   }
 
   .header_header__Dg7eV .header_header_cont__odzQx .header_nav_cont__djYqz .header_nav__s3g3s .header_ul__JNU_1 li a .header_header_items_name__23DNa {
-    font-size: 1.4vw;
-    line-height: normal;
+    font-size: 1.4vw !important;
+    line-height: normal !important;
   }
 
   .header_header__Dg7eV .header_header_cont__odzQx .header_nav_cont__djYqz .header_nav__s3g3s .header_ul__JNU_1 li a .header_header_items_yomikana__ynerK {
-    font-size: 0.7vw;
-    line-height: normal;
+    font-size: 0.7vw !important;
+    line-height: normal !important;
   }
 
 
