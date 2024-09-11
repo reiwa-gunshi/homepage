@@ -119,6 +119,10 @@
   }
 
   /* member */
+  .Home_member__9o60q .Home_container__97eC3 .Home_cat_ttl__EiIfA>img {
+    width: 25vw;
+  }
+
   .Home_member__9o60q .Home_container__97eC3 .Home_inner__k19bH ul li {
     width: 10vw !important;
     height: 20vw !important;
@@ -316,11 +320,5 @@
   .blogCard_blog_card___EEBZ .blogCard_blog_a__Ar8XO .blogCard_blog_detail__LWTKa .blogCard_blog_sub_ttl__LX_J6 {
     font-size: 1vw !important;
     line-height: normal !important;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .footer_footer__F0fS0 .footer_footer_nav__EMztQ .footer_footer_ul__ReS4f {
-    justify-content: center !important;
   }
 }
