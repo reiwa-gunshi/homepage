@@ -168,10 +168,10 @@
   }
 
   .Home_news__jpNEz .Home_container__97eC3 .Home_contact_btn__Q6ktF a .Home_rect_btn__385UK .Home_inner__k19bH {
-    width: 100%;
-    height: 100%;
-    font-size: 1vw;
-    line-height: normal;
+    width: 100% !important;
+    height: 100% !important;
+    font-size: 1vw !important;
+    line-height: normal !important;
   }
 
   /* footer */
