@@ -140,6 +140,10 @@
     max-width: 100% !important;
   }
 
+  .Home_news__jpNEz .Home_container__97eC3 ul li {
+    max-width: 100% !important;
+  }
+
   .newslist_news_list__K9c2E .newslist_time___RuOW .newslist_date_inner__ynEnq .newslist_date__VCzwL,
   .newslist_news_list__K9c2E .newslist_time___RuOW .newslist_date_inner__ynEnq .newslist_youbi__vQaNv,
   .newslist_news_list__K9c2E .newslist_time___RuOW .newslist_date_inner__ynEnq .newslist_year__n_6p0 {
@@ -157,7 +161,24 @@
     line-height: normal !important;
   }
 
+  /* news btn */
+  .Home_news__jpNEz .Home_container__97eC3 .Home_contact_btn__Q6ktF a .Home_rect_btn__385UK {
+    width: 15vw !important;
+    height: 3vw !important;
+  }
+
+  .Home_news__jpNEz .Home_container__97eC3 .Home_contact_btn__Q6ktF a .Home_rect_btn__385UK .Home_inner__k19bH {
+    width: 100%;
+    height: 100%;
+    font-size: 1vw;
+    line-height: normal;
+  }
+
   /* footer */
+  .footer_footer__F0fS0 .footer_pamphlet__I_CmJ {
+    max-width: 60vw !important;
+  }
+
   .footer_footer__F0fS0 .footer_pamphlet__I_CmJ .footer_grid__nKeBW .footer_pamphlet_ttl__UcqIo p.footer_sub___FHuU {
     font-size: 1vw !important;
     line-height: normal !important;
@@ -175,10 +196,10 @@
   }
 
   .header_header__Dg7eV .header_header_cont__odzQx .header_menu_btn___AWGu .header_hamburger___Uest {
-    gap: 0.4vw !important;
+    gap: 0.4vw;
   }
-  header_header_cont__odzQx
-  .header_open__dOUSy .header_hamburger___Uest {
+
+  .header_header__Dg7eV .header_open__dOUSy .header_menu_btn___AWGu .header_hamburger___Uest {
     gap: 0 !important;
   }
 
