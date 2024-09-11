@@ -1,4 +1,6 @@
 @media screen and (min-width: 1920px) {
+
+  /* font */
   .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC h3 {
     line-height: normal !important;
   }
@@ -8,6 +10,24 @@
     line-height: normal !important;
   }
 
+  /* btn */
+  .rectBtn_rect_btn__56LnC {
+    width: 15vw !important;
+    height: 3vw !important;
+  }
+
+  .rectBtn_rect_btn__56LnC .rectBtn_inner__Id7_l {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .rectBtn_rect_btn__56LnC .rectBtn_inner__Id7_l a {
+    letter-spacing: normal;
+    font-size: 1vw !important;
+    line-height: normal !important;
+  }
+
+  /* mission */
   .Home_mission__LY_vW .Home_container__97eC3 {
     max-width: 80% !important;
   }
@@ -20,6 +40,7 @@
     line-height: normal !important;
   }
 
+  /* service */
   .Home_service__Ie4vL .Home_inner__k19bH {
     width: 60% !important;
   }
@@ -79,6 +100,7 @@
     white-space: nowrap !important;
   }
 
+  /* works */
   .Home_works__9ywpe .Home_container__97eC3 .Home_cat_ttl__EiIfA>img {
     width: 10vw !important;
   }
@@ -96,6 +118,7 @@
     width: 100% !important;
   }
 
+  /* member */
   .Home_member__9o60q .Home_container__97eC3 .Home_inner__k19bH ul li {
     width: 10vw !important;
     height: 20vw !important;
@@ -174,6 +197,10 @@
     line-height: normal !important;
   }
 
+  .rectBtn_rect_btn__56LnC .rectBtn_inner__Id7_l {
+    height: 72px;
+  }
+
   /* footer */
   .footer_footer__F0fS0 .footer_pamphlet__I_CmJ {
     max-width: 60vw !important;
@@ -185,6 +212,18 @@
   }
 
   .footer_footer__F0fS0 .footer_footer_nav__EMztQ .footer_footer_ul__ReS4f li {
+    font-size: 1vw !important;
+    line-height: normal !important;
+  }
+
+  /* footer btn */
+  .footer_footer__F0fS0 .footer_pamphlet__I_CmJ .footer_grid__nKeBW .footer_btn__EXG0q .footer_rect_btn__aliwu {
+    width: 15vw !important;
+    height: 3vw !important;
+  }
+
+  .footer_footer__F0fS0 .footer_pamphlet__I_CmJ .footer_grid__nKeBW .footer_btn__EXG0q .footer_rect_btn__aliwu .footer_inner__h2f0j {
+    letter-spacing: normal;
     font-size: 1vw !important;
     line-height: normal !important;
   }
@@ -222,10 +261,13 @@
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
+
+  /* mission */
   .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_mission_ttl__X8UHP>img {
     width: 70% !important;
   }
 
+  /* service */
   .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL {
     width: 100% !important;
   }
