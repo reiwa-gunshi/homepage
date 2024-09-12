@@ -359,6 +359,13 @@
     right: -20vw !important;
   }
 
+  @media screen and (min-width: 577px) {
+    /* mission */
+    .Home_mission__LY_vW {
+      margin-top: 10vw !important;
+    }
+  }
+
   /* mission inner */
   .Home_mission__LY_vW .Home_container__97eC3 {
     width: 95% !important;
