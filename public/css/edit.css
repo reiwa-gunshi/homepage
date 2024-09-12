@@ -511,14 +511,17 @@
   }
 
   .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_competitor__x2QSH .Home_competitor_children__7c3kc .Home_Competitor_mycompany__bVh_h {
+    margin: 0 !important;
     padding: 0 !important;
     width: 12.2vw !important;
   }
 
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_competitor__x2QSH .Home_competitor_children__7c3kc .Home_Competitor_nomal__RHf18,
   .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_competitor__x2QSH .Home_competitor_children__7c3kc .Home_Competitor_big__99zNX {
-    padding: 0;
-    flex: 1;
-    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    flex: 1 !important;
+    width: 100% !important;
   }
 
   /* service 巻物-inner */
@@ -573,6 +576,40 @@
     padding-top: 1vw !important;
     font-size: 2.5vw !important;
     line-height: 1.5 !important;
+  }
+
+  /* service 我々の技能 */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw {
+    width: 100% !important;
+    margin-top: 15vw !important;
+  }
+
+  /* service 我々の技能-title */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw .Home_ttl__lAWVW {
+    width: 10vw !important;
+    margin: 0 !important;
+    padding-right: 2vw !important;
+  }
+
+  /* service 我々の技能-contents */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw ul {
+    padding-left: 2vw !important;
+    gap: 2vw !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw ul li a .Home_icon_img__l4Mim {
+    width: 22vw !important;
+    height: 22vw !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw ul li a .Home_icon_img__l4Mim .Home_iconInner__gbVbr {
+    width: 8vw !important;
+    height: 8vw !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw ul li a p {
+    font-size: 2.5vw !important;
+    letter-spacing: normal;
   }
 
 
