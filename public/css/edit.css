@@ -502,4 +502,22 @@
     align-items: center !important;
     row-gap: 5vw !important;
   }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_competitor__x2QSH .Home_competitor_children__7c3kc {
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 5vw !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_competitor__x2QSH .Home_competitor_children__7c3kc .Home_Competitor_mycompany__bVh_h {
+    padding: 0 !important;
+    width: 12.2vw !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_competitor__x2QSH .Home_competitor_children__7c3kc .Home_Competitor_big__99zNX {
+    padding: 0;
+    flex: 1;
+    width: 100%;
+  }
 }
