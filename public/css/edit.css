@@ -323,30 +323,128 @@
   }
 }
 
+/* 勝利に導くマーケティング会社 */
+.Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC h3 {
+  font-size: 5vw !important;
+  line-height: normal !important;
+  margin-bottom: 0 !important;
+}
+
+.Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC img {
+  width: 3.5vw !important;
+  margin-top: 4vw !important;
+  margin-bottom: 5vw !important;
+}
+
+/* 戦いに勝利し~ */
+.Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC p {
+  font-size: 3vw !important;
+  line-height: 3.5 !important;
+}
+
 @media screen and (max-width: 768px) {
 
-  /* 勝利に導くマーケティング会社 */
-  .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC h3 {
-    font-size: 5vw !important;
-    line-height: normal !important;
-    margin-bottom: 0 !important;
-  }
-
-  .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC img {
-    width: 3.5vw !important;
-    margin-top: 4vw !important;
-    margin-bottom: 5vw !important;
-  }
-
-  /* 戦いに勝利し~ */
-  .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC p {
-    font-size: 2.6vw !important;
-    line-height: normal !important;
+  /* mission 黄背景 */
+  .Home_mission__LY_vW .Home_yellow_rect__JMhhs {
+    width: 70vw !important;
+    height: 200vw !important;
+    top: 0 !important;
   }
 
   /* mission 赤背景 */
   .Home_mission__LY_vW .Home_mesh_img_inner__Qaw00 {
     width: 150vw !important;
+    height: 150vw !important;
+    top: -20vw !important;
+    right: -20vw !important;
+  }
+
+  /* mission inner */
+  .Home_mission__LY_vW .Home_container__97eC3 {
+    width: 95% !important;
+    max-width: 100% !important;
+  }
+
+  .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH {
+    width: 100% !important;
+    padding-top: 10vw !important;
+  }
+
+  .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_mission_ttl__X8UHP {
+    width: 100% !important;
+  }
+
+  .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_mission_ttl__X8UHP .Home_ttl_back__xenLT {
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+  }
+
+  /* mission title */
+  .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_mission_ttl__X8UHP>img {
+    margin-top: -25vw !important;
+    width: 90vw !important;
+    top: 16vw !important;
+    left: -5vw !important;
+  }
+
+  /* mission contents */
+  .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_mission_ttl__X8UHP .Home_mission_detail__XFMOp {
+    padding: 50vw 5vw !important;
+  }
+
+  /* 企業の長期利益を最大化 */
+  .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_mission_ttl__X8UHP .Home_mission_detail__XFMOp h4 {
+    font-size: 6vw !important;
+    line-height: normal !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* 令和の軍師と共に~ */
+  .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_mission_ttl__X8UHP .Home_mission_detail__XFMOp p {
+    font-size: 3vw !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-top: 10vw !important;
+  }
+
+  /* btn */
+  .rectBtn_rect_btn__56LnC {
+    margin-top: 10vw !important;
+    width: 54vw !important;
+    height: 11vw !important;
+  }
+
+  .rectBtn_rect_btn__56LnC .rectBtn_inner__Id7_l {
+    width: 95% !important;
+    height: 80% !important;
+  }
+
+  .rectBtn_rect_btn__56LnC .rectBtn_inner__Id7_l a {
+    font-size: 3.3vw !important;
+    letter-spacing: 1.5vw !important;
+    line-height: normal !important;
+  }
+
+  .rectBtn_rect_btn__56LnC:hover svg {
+    width: -8vw !important;
+  }
+
+
+  /* mission morotomi-img */
+  .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_tommy_img__tHyEw {
+    width: 75vw !important;
+    height: 75vw !important;
+    left: -35vw !important;
+    bottom: -35vw !important;
+  }
+
+  .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_tommy_img__tHyEw .Home_img_inner__skqvt {
+    width: 100% !important;
+    height: 100% !important;
   }
 
   /* service container */
