@@ -609,10 +609,25 @@
 
   .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw ul li a p {
     font-size: 2.5vw !important;
-    letter-spacing: normal;
+    letter-spacing: normal !important;
+  }
+
+  /* service morotomi-img */
+  .Home_service__Ie4vL .Home_yoshimoto_img__CLfXu {
+    width: 50vw !important;
+    height: 50vw !important;
+    right: -15vw !important;
+    bottom: -40vw !important;
+  }
+
+  .Home_service__Ie4vL .Home_yoshimoto_img__CLfXu .Home_img_inner__skqvt {
+    width: 100% !important;
+    height: 100% !important;
   }
 
 
 
 
+
+  
 }
