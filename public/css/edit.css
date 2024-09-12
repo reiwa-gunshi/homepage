@@ -322,3 +322,61 @@
     line-height: normal !important;
   }
 }
+
+@media screen and (max-width: 768px) {
+
+  /* 勝利に導くマーケティング会社 */
+  .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC h3 {
+    font-size: 5vw !important;
+    line-height: normal !important;
+  }
+
+  .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC img {
+    width: 3.5vw !important;
+    margin-top: 4vw !important;
+    margin-bottom: 5vw !important;
+  }
+
+  /* 戦いに勝利し~ */
+  .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC p {
+    font-size: 2.6vw !important;
+    line-height: normal !important;
+  }
+
+  /* mission 赤背景 */
+  .Home_mission__LY_vW .Home_mesh_img_inner__Qaw00 {
+    width: 150vw !important;
+  }
+
+  /* service container */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL {
+    width: 100% !important;
+  }
+
+  /* service inner */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_serviceFirstZoon__v0_lv {
+    padding: 25vw 5vw !important;
+  }
+
+  /* service sentence-container */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_content_p__Wryog {
+    padding: 10vw 0 !important;
+  }
+
+  /* service sentence */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_content_p__Wryog p {
+    font-size: 3vw !important;
+    line-height: 5.6vw !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  /* service title */
+  .Home_service__Ie4vL .Home_container__97eC3 .Home_strong_img_inner__V9EXB {
+    width: 75vw !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-60%, -20%) rotate(-90deg) !important;
+  }
+}
