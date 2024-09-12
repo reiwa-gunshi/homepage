@@ -329,6 +329,7 @@
   .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC h3 {
     font-size: 5vw !important;
     line-height: normal !important;
+    margin-bottom: 0 !important;
   }
 
   .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC img {
@@ -377,6 +378,6 @@
     position: absolute !important;
     top: 50% !important;
     left: 50% !important;
-    transform: translate(-60%, -20%) rotate(-90deg) !important;
+    transform: translate(-59%, -20%) rotate(-90deg) !important;
   }
 }
