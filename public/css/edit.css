@@ -625,9 +625,47 @@
     height: 100% !important;
   }
 
+  /* works */
+  .Home_works__9ywpe {
+    width: 100%;
+    margin: 0;
+    padding: 20vw 0 !important;
+  }
+
+  .Home_works__9ywpe .Home_container__97eC3 {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .Home_works__9ywpe .Home_container__97eC3 .Home_cat_ttl__EiIfA {
+    padding: 0 !important;
+  }
+
+  /* works 実績紹介 */
+  .Home_works__9ywpe .Home_container__97eC3 .Home_cat_ttl__EiIfA>img {
+    width: 30vw !important;
+    margin: 0 !important;
+  }
+
+  .Home_works__9ywpe .Home_container__97eC3 .Home_cat_ttl__EiIfA p {
+    padding: 1vw 0 !important;
+    margin-top: 5vw !important;
+    font-size: 3.3vw !important;
+    line-height: 1.5 !important;
+  }
+
+  /* works 取引先一覧 */
+  .Home_works__9ywpe .Home_container__97eC3 .Home_achievements__b_49r {
+    width: 90% !important;
+    margin: 5vw auto !important;
+  }
+
+  .Home_works__9ywpe .Home_container__97eC3 .Home_achievements__b_49r>img {
+    width: 100% !important;
+    margin: 0 !important;
+  }
 
 
-
-
-  
 }
