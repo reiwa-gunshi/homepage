@@ -323,6 +323,8 @@
   }
 }
 
+
+
 /* 勝利に導くマーケティング会社 */
 .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC h3 {
   font-size: 5vw !important;
@@ -336,7 +338,7 @@
   margin-bottom: 5vw !important;
 }
 
-/* 戦いに勝利し~ */
+/* concept sentence */
 .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC p {
   font-size: 3vw !important;
   line-height: 3.5 !important;
@@ -360,6 +362,7 @@
   }
 
   @media screen and (min-width: 577px) {
+
     /* mission */
     .Home_mission__LY_vW {
       margin-top: 10vw !important;
@@ -409,7 +412,7 @@
     padding: 0 !important;
   }
 
-  /* 令和の軍師と共に~ */
+  /* mission sentence */
   .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_mission_ttl__X8UHP .Home_mission_detail__XFMOp p {
     font-size: 3vw !important;
     line-height: 2 !important;
@@ -440,7 +443,6 @@
     width: -8vw !important;
   }
 
-
   /* mission morotomi-img */
   .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_tommy_img__tHyEw {
     width: 75vw !important;
@@ -452,6 +454,14 @@
   .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_tommy_img__tHyEw .Home_img_inner__skqvt {
     width: 100% !important;
     height: 100% !important;
+  }
+
+  /* 軍師プランとは？ */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_strength_img_inner___blTO {
+    top: -35vw !important;
+    right: 5vw !important;
+    width: 20vw !important;
+    z-index: 100 !important;
   }
 
   /* service container */
@@ -472,7 +482,7 @@
   /* service sentence */
   .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_content_p__Wryog p {
     font-size: 3vw !important;
-    line-height: 5.6vw !important;
+    line-height: 2 !important;
     text-align: center !important;
     margin: 0 !important;
   }
@@ -484,5 +494,12 @@
     top: 50% !important;
     left: 50% !important;
     transform: translate(-59%, -20%) rotate(-90deg) !important;
+  }
+
+  /* service グラフ */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX {
+    width: 100% !important;
+    align-items: center !important;
+    row-gap: 5vw !important;
   }
 }
