@@ -520,4 +520,62 @@
     flex: 1;
     width: 100%;
   }
+
+  /* service 巻物-inner */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_serviceSecondZoon__Ym1e4 {
+    padding: 10vw 5vw !important;
+  }
+
+  /* 主なマーケティング支援 */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_main_support_contents__Etfy_ {
+    width: 75vw !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_main_support_contents__Etfy_ img {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* service 巻物 */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH {
+    margin-top: 10vw !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 {
+    margin-top: 5vw !important;
+    margin-bottom: 0 !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB {
+    width: 105vw !important;
+    height: 32vw !important;
+    min-width: 100% !important;
+    padding-left: clamp(4px, 1.6vw, 10px) !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB .Home_ScrollBase_cont__NZjZn .Home_japaneseScrollCont_txt__Q3A8X {
+    width: 95% !important;
+    height: 100% !important;
+    padding: 2vw 5vw !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB .Home_ScrollBase_cont__NZjZn .Home_japaneseScrollCont_txt__Q3A8X h4 {
+    padding-bottom: 1vw !important;
+    font-size: 4vw !important;
+    line-height: 1.2 !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB .Home_ScrollBase_cont__NZjZn .Home_japaneseScrollCont_txt__Q3A8X p {
+    margin: 0 !important;
+    padding-top: 1vw !important;
+    font-size: 2.5vw !important;
+    line-height: 1.5 !important;
+  }
+
+
+
+
 }
