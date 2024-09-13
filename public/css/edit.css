@@ -132,38 +132,38 @@
   }
 
   /* 軍師プランとは？ */
-  /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_strength_img_inner___blTO {
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_strength_img_inner___blTO {
     top: -35vw !important;
     right: 5vw !important;
     width: 20vw !important;
     z-index: 100 !important;
-  } */
+  }
 
   /* service container */
-  /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL {
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL {
     width: 100% !important;
-  } */
+  }
 
   /* service inner */
-  /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_serviceFirstZoon__v0_lv {
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_serviceFirstZoon__v0_lv {
     padding: 25vw 5vw !important;
-  } */
+  }
 
   /* service sentence-container */
-  /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_content_p__Wryog {
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_content_p__Wryog {
     padding: 10vw 0 !important;
-  } */
+  }
 
   /* service sentence */
-  /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_content_p__Wryog p {
-    font-size: 3vw !important;
-    line-height: 2 !important;
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_content_p__Wryog p {
+    font-size: 3.4vw !important;
+    line-height: 1.6 !important;
     text-align: center !important;
     margin: 0 !important;
-  } */
+  }
 
   /* service グラフ */
-  /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX {
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX {
     width: 100% !important;
     align-items: center !important;
     row-gap: 5vw !important;
@@ -188,7 +188,7 @@
     padding: 0 !important;
     flex: 1 !important;
     width: 100% !important;
-  } */
+  }
 
   /* service 巻物-inner */
   /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_serviceSecondZoon__Ym1e4 {
