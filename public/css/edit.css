@@ -191,12 +191,12 @@
   }
 
   /* service 巻物-inner */
-  /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_serviceSecondZoon__Ym1e4 {
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_serviceSecondZoon__Ym1e4 {
     padding: 10vw 5vw !important;
-  } */
+  }
 
   /* 主なマーケティング支援 */
-  /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_main_support_contents__Etfy_ {
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_main_support_contents__Etfy_ {
     width: 75vw !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -206,7 +206,7 @@
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
-  } */
+  }
 
   /* service 巻物 */
   /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH {
@@ -245,20 +245,20 @@
   } */
 
   /* service 我々の技能 */
-  /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw {
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw {
     width: 100% !important;
     margin-top: 15vw !important;
-  } */
+  }
 
   /* service 我々の技能-title */
-  /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw .Home_ttl__lAWVW {
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw .Home_ttl__lAWVW {
     width: 10vw !important;
     margin: 0 !important;
     padding-right: 2vw !important;
-  } */
+  }
 
   /* service 我々の技能-contents */
-  /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw ul {
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw ul {
     padding-left: 2vw !important;
     gap: 2vw !important;
   }
@@ -276,10 +276,10 @@
   .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw ul li a p {
     font-size: 2.5vw !important;
     letter-spacing: normal !important;
-  } */
+  }
 
   /* service morotomi-img */
-  /* .Home_service__Ie4vL .Home_yoshimoto_img__CLfXu {
+  .Home_service__Ie4vL .Home_yoshimoto_img__CLfXu {
     width: 50vw !important;
     height: 50vw !important;
     right: -15vw !important;
@@ -289,7 +289,7 @@
   .Home_service__Ie4vL .Home_yoshimoto_img__CLfXu .Home_img_inner__skqvt {
     width: 100% !important;
     height: 100% !important;
-  } */
+  }
 
   /* works */
   /* .Home_works__9ywpe {
