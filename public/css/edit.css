@@ -8,6 +8,20 @@
   font-size: clamp(12px, calc(14 / 375* 100vw), 20px) !important;
 }
 
+
+@media screen and (max-width: 768px) {
+
+  /* service title */
+  .Home_service__Ie4vL .Home_container__97eC3 .Home_strong_img_inner__V9EXB {
+    width: 75vw !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-65%, -25%) rotate(-90deg) !important;
+  }
+
+}
+
 @media screen and (min-width: 550px) and (max-width: 768px) {
 
   /* mission 黄背景 */
@@ -147,19 +161,6 @@
     text-align: center !important;
     margin: 0 !important;
   } */
-
-  @media screen and (min-width: 0px) {
-
-    /* service title */
-    .Home_service__Ie4vL .Home_container__97eC3 .Home_strong_img_inner__V9EXB {
-      width: 75vw !important;
-      position: absolute !important;
-      top: 50% !important;
-      left: 50% !important;
-      transform: translate(-65%, -25%) rotate(-90deg) !important;
-    }
-
-  }
 
   /* service グラフ */
   /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX {
