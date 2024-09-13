@@ -209,11 +209,11 @@
   }
 
   /* service 巻物 */
-  /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH {
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH {
     margin-top: 10vw !important;
   }
 
-  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 {
+  /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 {
     margin-top: 5vw !important;
     margin-bottom: 0 !important;
   }
