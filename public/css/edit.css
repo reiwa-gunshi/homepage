@@ -148,13 +148,17 @@
     margin: 0 !important;
   } */
 
-  /* service title */
-  .Home_service__Ie4vL .Home_container__97eC3 .Home_strong_img_inner__V9EXB {
-    width: 75vw !important;
-    position: absolute !important;
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-65%, -25%) rotate(-90deg) !important;
+  @media screen and (min-width: 0px) {
+
+    /* service title */
+    .Home_service__Ie4vL .Home_container__97eC3 .Home_strong_img_inner__V9EXB {
+      width: 75vw !important;
+      position: absolute !important;
+      top: 50% !important;
+      left: 50% !important;
+      transform: translate(-65%, -25%) rotate(-90deg) !important;
+    }
+
   }
 
   /* service グラフ */
