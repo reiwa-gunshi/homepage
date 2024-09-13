@@ -19,8 +19,8 @@
 
   /* mission 赤背景 */
   .Home_mission__LY_vW .Home_mesh_img_inner__Qaw00 {
-    width: 270vw !important;
-    height: 270vw !important;
+    width: clamp(0px, 270vw, 1600px) !important;
+    height: clamp(0px, 270vw, 1600px) !important;
     top: -20vw !important;
     right: -80vw !important;
   }
@@ -69,7 +69,7 @@
 
   /* 企業の長期利益を最大化 */
   .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_mission_ttl__X8UHP .Home_mission_detail__XFMOp h4 {
-    font-size: 6vw !important;
+    font-size: 6.7vw !important;
     line-height: normal !important;
     width: 100% !important;
     margin: 0 !important;
@@ -79,6 +79,7 @@
   /* mission sentence */
   .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_mission_ttl__X8UHP .Home_mission_detail__XFMOp p {
     font-size: 3.7vw !important;
+    line-height: calc(22 / 375* 100vw) !important;
     margin: 0 !important;
     padding: 0 !important;
     margin-top: 10vw !important;
@@ -107,7 +108,7 @@
   }
 
   /* mission morotomi-img */
-  /* .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_tommy_img__tHyEw {
+  .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_tommy_img__tHyEw {
     width: 75vw !important;
     height: 75vw !important;
     left: -35vw !important;
@@ -117,7 +118,7 @@
   .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_tommy_img__tHyEw .Home_img_inner__skqvt {
     width: 100% !important;
     height: 100% !important;
-  } */
+  }
 
   /* 軍師プランとは？ */
   /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_strength_img_inner___blTO {
