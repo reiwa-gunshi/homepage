@@ -210,11 +210,36 @@
 
   /* service 巻物 */
   .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH {
+    width: 120%;
     margin-top: 10vw !important;
   }
 
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 {
+    margin-bottom: calc(47.5 / 768* 100vw);
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB {
+    height: 70vw;
+  }
+
   .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB .Home_ScrollBase_cont__NZjZn .Home_japaneseScrollCont__BUQO_>span>span {
-    padding: 66vw 0 0 ;
+    padding: 66vw 0 0;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB .Home_ScrollBase_cont__NZjZn .Home_japaneseScrollCont_txt__Q3A8X {
+    padding-right: 4vw;
+    padding-left: calc(55 / 375* 100vw);
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB .Home_ScrollBase_cont__NZjZn .Home_japaneseScrollCont_txt__Q3A8X h4 {
+    font-size: 5vw;
+    padding-bottom: 4.266vw;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB .Home_ScrollBase_cont__NZjZn .Home_japaneseScrollCont_txt__Q3A8X p {
+    margin-top: calc(20 / 375* 100vw);
+    font-size: calc(13 / 375* 100vw);
+    line-height: calc(22 / 375* 100vw);
   }
 
   /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 {
