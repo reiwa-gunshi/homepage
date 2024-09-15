@@ -338,22 +338,17 @@
 
   /* mission 黄背景 */
   .Home_mission__LY_vW .Home_yellow_rect__JMhhs {
-    width: calc(990 / 1440 * 100vw);
-    height: calc(750 / 1440 * 100vw);
+    width: calc(990 / 1440 * 100vw) !important;
+    height: calc(750 / 1440 * 100vw) !important;
   }
 
   /* mission 赤背景 */
   .Home_mission__LY_vW .Home_mesh_img_inner__Qaw00 {
-    width: calc(1530 / 1440 * 100vw);
-    height: calc(1530 / 1440 * 100vw);
+    width: calc(1530 / 1440 * 100vw) !important;
+    height: calc(1530 / 1440 * 100vw) !important;
     top: -12vw !important;
     right: -14vw !important;
   }
-
-  /* mission */
-  /* .Home_mission__LY_vW {
-    margin-top: 10vw !important;
-  } */
 
   /* mission inner */
   .Home_mission__LY_vW .Home_container__97eC3 {
