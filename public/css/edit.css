@@ -539,7 +539,36 @@
 
 
 
+  /* service 我々の技能-contents */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw ul {
+    justify-content: flex-start !important;
+    row-gap: calc(35 / 1920* 100vw) !important;
+    padding-left: calc(40 / 1920* 100vw) !important;
+  }
 
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw ul li {
+    width: 20% !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw ul li a {
+    font-size: calc(16 / 1920* 100vw) !important;
+    line-height: calc(45 / 1920* 100vw) !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw ul li a .Home_icon_img__l4Mim {
+    width: calc(140 / 1920* 100vw) !important;
+    height: calc(140 / 1920* 100vw) !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw ul li a .Home_icon_img__l4Mim .Home_iconInner__gbVbr {
+    width: calc(50 / 1920* 100vw) !important;
+    height: calc(50 / 1920* 100vw) !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw ul li a p {
+    font-size: calc(16 / 1920* 100vw) !important;
+    letter-spacing: 0 !important;
+  }
 
 }
 
