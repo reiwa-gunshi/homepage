@@ -336,6 +336,24 @@
 
 @media screen and (min-width: 787px) {
 
+  /* 勝利に導くマーケティング会社 */
+  .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC h3 {
+    /* font-size: clamp(43px, 3vw, 999px) !important; */
+    font-size: 3vw !important;
+    line-height: calc(72 / 1920 * 100vw) !important;
+    margin-bottom: calc(64 / 1920 * 100vw) !important;
+  }
+
+  .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC img {
+    margin-bottom: calc(80 / 1920* 100vw) !important;
+  }
+
+  /* concept sentence */
+  .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC p {
+    font-size: calc(24 / 1920* 100vw) !important;
+    line-height: calc(96 / 1920* 100vw) !important;
+  }
+
   /* mission 黄背景 */
   .Home_mission__LY_vW .Home_yellow_rect__JMhhs {
     width: calc(990 / 1440 * 100vw) !important;
