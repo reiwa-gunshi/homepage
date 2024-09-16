@@ -341,61 +341,68 @@
 
   /* member */
   .Home_member__9o60q {
-    padding-top: calc(230 / 375* 100vw);
-    padding-bottom: calc(140 / 375* 100vw);
+    padding-top: calc(230 / 375* 100vw) !important;
+    padding-bottom: calc(140 / 375* 100vw) !important;
   }
 
   /* member misaki-img */
   .Home_member__9o60q .Home_misaki_img__Ug6Uz {
-    width: calc(300 / 375* 100vw);
-    height: calc(300 / 375* 100vw);
+    width: calc(300 / 375* 100vw) !important;
+    height: calc(300 / 375* 100vw) !important;
+    top: calc(-50 / 375* 100vw) !important;
+    left: calc(-70 / 375* 100vw) !important;
   }
 
   /* member container */
   .Home_member__9o60q .Home_container__97eC3 {
-    padding: 0;
-    margin: 0 auto;
+    padding: 0 !important;
+    margin: 0 auto !important;
   }
 
   .Home_member__9o60q .Home_container__97eC3 .Home_cat_ttl__EiIfA {
-    padding-top: calc(88 / 375* 100vw);
+    padding-top: calc(88 / 375* 100vw) !important;
   }
 
   .Home_member__9o60q .Home_container__97eC3 .Home_cat_ttl__EiIfA>img {
-    width: calc(149 / 375* 100vw);
-    margin-bottom: calc(15 / 375* 100vw);
+    width: calc(149 / 375* 100vw) !important;
+    margin-bottom: calc(15 / 375* 100vw) !important;
   }
 
   .Home_member__9o60q .Home_container__97eC3 .Home_inner__k19bH {
-    padding-top: calc(40 / 375* 100vw);
-    padding-bottom: calc(40 / 375* 100vw);
+    padding-top: calc(40 / 375* 100vw) !important;
+    padding-bottom: calc(40 / 375* 100vw) !important;
   }
 
   .Home_member__9o60q .Home_container__97eC3 .Home_inner__k19bH ul {
-    row-gap: calc(0 / 375* 100vw);
-    column-gap: calc(60 / 375* 100vw);
+    row-gap: calc(0 / 375* 100vw) !important;
+    column-gap: calc(60 / 375* 100vw) !important;
   }
 
   .Home_member__9o60q .Home_yellow_div__c8ijh {
-    top: -2%;
+    top: -2% !important;
   }
 
   .Home_member__9o60q .Home_yellow_div__c8ijh .Home_yellow_bg__6LyAv {
-    width: 100%;
-    height: calc(920 / 375* 100vw);
+    width: 100% !important;
+    height: calc(920 / 375* 100vw) !important;
   }
 
   .Home_member__9o60q .Home_yellow_div__c8ijh .Home_triangle_area__zNcUm {
-    height: calc(60 / 375* 100vw);
+    height: calc(60 / 375* 100vw) !important;
   }
 
   /* member keiji-img */
   .Home_member__9o60q .Home_yellow_div__c8ijh .Home_keiji_img__iake8 {
-    width: calc(240 / 375* 100vw);
-    height: calc(320 / 375* 100vw);
-    bottom: 0;
+    width: calc(240 / 375* 100vw) !important;
+    height: calc(320 / 375* 100vw) !important;
+    right: -3% !important;
+    bottom: 0 !important;
   }
 
+  /* member morotomi-img */
+  .Home_member__9o60q .Home_tommy_pc__OPV1F {
+    display: none !important;
+  }
 
 
 
