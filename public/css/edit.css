@@ -13,7 +13,6 @@
 
 @media screen and (min-width: 550px) and (max-width: 786px) {
 
-
   /* 勝利に導くマーケティング会社 */
   .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC h3 {
     font-size: clamp(20px, 6vw, 43px) !important;
@@ -23,7 +22,7 @@
 
   .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC img {
     margin-bottom: calc(60 / 768* 100vw) !important;
-}
+  }
 
   /* concept sentence */
   .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC p {
@@ -541,5 +540,15 @@
 
 
 
+
+}
+
+
+@media screen and (min-width: 1920px) {
+
+  .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC img {
+    width: 3vw !important;
+    height: 3vw !important;
+  }
 
 }
