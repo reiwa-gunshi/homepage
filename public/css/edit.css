@@ -530,12 +530,12 @@
   .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_competitor__x2QSH {
     flex-shrink: 0;
     width: calc(219 / 1920 * 100vw) !important;
-    margin-bottom: calc(-80 / 1920* 100vw) !important;
+    margin-bottom: 0 !important;
   }
 
   .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_competitor_chart__XMRDX .Home_competitor__x2QSH .Home_competitor_children__7c3kc {
     display: block !important;
-    height: calc(216 / 1920 * 100vw) !important;
+    height: auto !important;
   }
 
 
