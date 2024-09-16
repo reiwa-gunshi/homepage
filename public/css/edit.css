@@ -438,6 +438,18 @@
     height: 100% !important;
   }
 
+  /* service inner */
+  .Home_container__97eC3 {
+    max-width: 100% !important;
+  }
+
+  /* service title */
+  .Home_service__Ie4vL .Home_container__97eC3 .Home_service_img_inner__bsMbe {
+    display: block !important;
+    width: calc(368 / 1920* 100vw) !important;
+    top: calc(-360 / 1920* 100vw) !important;
+  }
+
   /* 軍師プランとは？ */
   .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_strength_img_inner___blTO {
     top: calc(132 / 1920 * 100vw) !important;
@@ -465,6 +477,7 @@
   .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_content_p__Wryog p {
     font-size: 1.4vw !important;
     line-height: 1.6 !important;
+    text-align: justify !important;
     margin-bottom: calc(25 / 1920 * 100vw) !important;
   }
 
