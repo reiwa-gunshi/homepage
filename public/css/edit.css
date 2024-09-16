@@ -452,6 +452,12 @@
     display: none !important;
   }
 
+  /* service contents-inner */
+  .Home_service__Ie4vL .Home_inner__k19bH {
+    width: calc(1440 / 1920* 100vw) !important;
+    margin-top: calc(240 / 1920* 100vw) !important;
+  }
+
   /* 軍師プランとは？ */
   .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_strength_img_inner___blTO {
     top: calc(132 / 1920 * 100vw) !important;
