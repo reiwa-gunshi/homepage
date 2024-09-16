@@ -539,6 +539,72 @@
 
 
 
+
+
+  /* service 巻物-inner */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_serviceSecondZoon__Ym1e4 {
+    padding: calc(40 / 1920 * 100vw) calc(125 / 1920 * 100vw) calc(150 / 1920 * 100vw) calc(480 / 1920 * 100vw) !important;
+  }
+
+  /* 主なマーケティング支援 */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_main_support_contents__Etfy_ {
+    width: 80% !important;
+    margin: 0 !important;
+    padding: calc(32 / 1920 * 100vw) !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_main_support_contents__Etfy_ img {
+    width: calc(1400 / 1920 * 100vw) !important;
+    margin-bottom: calc(55 / 1920 * 100vw) !important;
+    padding: 0 !important;
+  }
+
+  /* service 巻物 */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH {
+    width: 56vw !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 {
+    margin-bottom: calc(80 / 1920 * 100vw) !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB .Home_scroll_line__bcUcm {
+    width: calc(60 / 1920* 100vw) !important;
+    margin-top: calc(20 / 1920* 100vw) !important;
+  }
+
+  /* .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB .Home_ScrollBase_cont__NZjZn .Home_japaneseScrollCont__BUQO_>span>span {
+    padding: 66vw 0 0 !important;
+  } */
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB .Home_ScrollBase_cont__NZjZn .Home_japaneseScrollCont_txt__Q3A8X {
+    padding-right: calc(20 / 1920 * 100vw) !important;
+    padding-left: calc(110 / 1920 * 100vw) !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB .Home_ScrollBase_cont__NZjZn .Home_japaneseScrollCont_txt__Q3A8X h4 {
+    font-size: 4vw !important;
+  }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB .Home_ScrollBase_cont__NZjZn .Home_japaneseScrollCont_txt__Q3A8X p {
+    margin-top: calc(25 / 1920 * 100vw) !important;
+    font-size: calc(20 / 1920 * 100vw) !important;
+    line-height: calc(32 / 1920 * 100vw) !important;
+  }
+
+  /* service 我々の技能 */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw {
+    width: 130% !important;
+    margin-top: calc(200 / 1920 * 100vw) !important;
+  }
+
+  /* service 我々の技能-title */
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw .Home_ttl__lAWVW {
+    width: calc(80 / 1920 * 100vw) !important;
+    margin: 0 !important;
+    padding-right: calc(20 / 1920 * 100vw) !important;
+  }
+
   /* service 我々の技能-contents */
   .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_service_intro__oPqIw ul {
     justify-content: flex-start !important;
@@ -570,6 +636,21 @@
     letter-spacing: 0 !important;
   }
 
+
+
+
+
+  /* service morotomi-img */
+  .Home_service__Ie4vL .Home_yoshimoto_img__CLfXu {
+    right: calc(-320 / 1920 * 100vw) !important;
+    bottom: calc(-240 / 1920 * 100vw) !important;
+  }
+
+  .Home_service__Ie4vL .Home_yoshimoto_img__CLfXu .Home_img_inner__skqvt {
+    width: calc(400 / 1920 * 100vw) !important;
+    height: calc(400 / 1920 * 100vw) !important;
+  }
+
 }
 
 
@@ -579,5 +660,7 @@
     width: 3vw !important;
     height: 3vw !important;
   }
+
+  .Home_service__Ie4vL .Home_inner__k19bH .Home_service_detail__A7XRL .Home_three_point__F0hMH .Home_cont__XW_Zr .Home_japaneseScrollBase__SV0O7 .Home_ScrollBase__6NExB .Home_ScrollBase_cont__NZjZn .Home_japaneseScrollCont_txt__Q3A8X h4 {}
 
 }
