@@ -423,8 +423,6 @@
     width: calc(56 / 1920 * 100vw) !important;
   }
 
-
-
   /* mission morotomi-img */
   .Home_mission__LY_vW .Home_container__97eC3 .Home_inner__k19bH .Home_tommy_img__tHyEw {
     width: calc(560 / 1920 * 100vw) !important;
@@ -448,6 +446,10 @@
     display: block !important;
     width: calc(368 / 1920* 100vw) !important;
     top: calc(-360 / 1920* 100vw) !important;
+  }
+
+  .Home_service__Ie4vL .Home_container__97eC3 .Home_strong_img_inner__V9EXB {
+    display: none !important;
   }
 
   /* 軍師プランとは？ */
