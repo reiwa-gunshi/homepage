@@ -1023,4 +1023,18 @@
     line-height: calc(32 / 1920* 100vw) !important;
   }
 
+  /* menu */
+  .header_header__Dg7eV .header_header_cont__odzQx .header_menu_btn___AWGu {
+    width: calc(105 / 1920* 100vw) !important;
+    height: calc(105 / 1920* 100vw) !important;
+    top: calc(40 / 1920* 100vw) !important;
+    right: calc(40 / 1920* 100vw) !important;
+  }
+
+  .header_header__Dg7eV .header_header_cont__odzQx .header_menu_btn___AWGu .header_hamburger___Uest div {
+    width: calc(24 / 1920* 100vw) !important;
+    height: calc(3 / 1920* 100vw) !important;
+    margin-bottom: calc(5 / 1920* 100vw) !important;
+  }
+
 }
