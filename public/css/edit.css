@@ -806,6 +806,16 @@
     height: calc(300 / 1920* 100vw) !important;
   }
 
+  .Home_member__9o60q .Home_yellow_div__c8ijh .Home_keiji_img__iake8 {
+    width: calc(640 / 1920* 100vw) !important;
+    height: calc(800 / 1920* 100vw) !important;
+  }
+
+  .Home_member__9o60q .Home_container__97eC3 .Home_inner__k19bH ul li {
+    width: calc(240 / 1024* 100vw) !important;
+    height: calc(480 / 1024* 100vw) !important;
+  }
+
 }
 
 @media screen and (min-width: 1920px) {
