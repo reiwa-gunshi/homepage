@@ -943,6 +943,17 @@
     line-height: calc(24 / 1920* 100vw) !important;
   }
 
+  /* menu */
+
+  .header_header__Dg7eV .header_open__dOUSy .header_hamburger___Uest div:first-child {
+    transform: translateY(2px) rotate(405deg);
+    margin-bottom: 0;
+}
+  .header_header__Dg7eV .header_open__dOUSy .header_hamburger___Uest div:nth-child(3) {
+    transform: translateY(-2px) rotate(-225deg);
+    margin-bottom: 0;
+}
+
 }
 
 @media screen and (min-width: 1920px) {
