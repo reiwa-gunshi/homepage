@@ -884,7 +884,60 @@
     font-size: clamp(9px, calc(13 / 1920* 100vw), 999px) !important;
   }
 
+  /* news */
+  .Home_news__jpNEz {
+    padding-bottom: calc(240 / 1920* 100vw) !important;
+  }
 
+  .Home_news__jpNEz .Home_container__97eC3 .Home_news_word__l_Qdt {
+    width: calc(345 / 1920* 100vw) !important;
+  }
+
+  .Home_news__jpNEz .Home_container__97eC3 ul {
+    max-width: calc(960 / 1360* 100vw) !important;
+    column-gap: calc(0 / 1920* 100vw) !important;
+    row-gap: calc(73 / 1920* 100vw) !important;
+    padding-bottom: calc(230 / 1920* 100vw) !important;
+    padding-top: calc(200 / 1920* 100vw) !important;
+  }
+
+  .Home_news__jpNEz .Home_container__97eC3 ul li {
+    max-width: 850px !important;
+    max-width: calc(850 / 1920* 100vw) !important;
+  }
+
+  .newslist_news_list__K9c2E {
+    column-gap: calc(83 / 1920* 100vw) !important;
+    row-gap: calc(0 / 1920* 100vw) !important;
+  }
+
+  .newslist_news_list__K9c2E .newslist_time___RuOW .newslist_date_inner__ynEnq .newslist_date__VCzwL {
+    font-size: clamp(20px, calc(32 / 1920* 100vw), 999px) !important;
+    line-height: clamp(20px, calc(32 / 1920* 100vw), 999px) !important;
+    margin-bottom: clamp(4px, calc(4 / 1920* 100vw), 999px) !important;
+  }
+
+  .newslist_news_list__K9c2E .newslist_time___RuOW .newslist_date_inner__ynEnq .newslist_youbi__vQaNv {
+    font-size: calc(16 / 1920* 100vw) !important;
+    line-height: calc(24 / 1920* 100vw) !important;
+  }
+
+  .newslist_news_list__K9c2E .newslist_time___RuOW .newslist_date_inner__ynEnq .newslist_year__n_6p0 {
+    font-size: calc(16 / 1920* 100vw) !important;
+    line-height: calc(24 / 1920* 100vw) !important;
+  }
+
+  .newslist_news_list__K9c2E .newslist_news_ttl__WdOyO .newslist_main_ttl__m3J_f {
+    padding-bottom: calc(12 / 1920* 100vw) !important;
+    font-size: clamp(20px, calc(32 / 1920* 100vw), 999px) !important;
+    line-height: clamp(20px, calc(32 / 1920* 100vw), 999px) !important;
+  }
+
+  .newslist_news_list__K9c2E .newslist_news_ttl__WdOyO .newslist_detail__3cDOr {
+    padding-top: calc(12 / 1920* 100vw) !important;
+    font-size: calc(16 / 1920* 100vw) !important;
+    line-height: calc(24 / 1920* 100vw) !important;
+  }
 
 
 }
