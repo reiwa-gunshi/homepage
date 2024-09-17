@@ -439,12 +439,12 @@
   }
 
   .header_header__Dg7eV .header_open__dOUSy .header_hamburger___Uest div:first-child {
-    transform: translateY(calc(1 / 375* 100vw)) rotate(405deg) !important;
+    transform: translateY(calc(3 / 375* 100vw)) rotate(405deg) !important;
     margin-bottom: 0 !important;
   }
 
   .header_header__Dg7eV .header_open__dOUSy .header_hamburger___Uest div:nth-child(3) {
-    transform: translateY(calc(-1 / 375* 100vw)) rotate(-225deg) !important;
+    transform: translateY(calc(-4 / 375* 100vw)) rotate(-225deg) !important;
     margin-bottom: 0 !important;
   }
 }
