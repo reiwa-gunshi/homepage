@@ -889,6 +889,10 @@
     padding-bottom: calc(240 / 1920* 100vw) !important;
   }
 
+  .Home_news__jpNEz .Home_container__97eC3 {
+    max-width: 100% !important;
+}
+
   .Home_news__jpNEz .Home_container__97eC3 .Home_news_word__l_Qdt {
     width: calc(345 / 1920* 100vw) !important;
   }
