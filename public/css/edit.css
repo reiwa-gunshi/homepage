@@ -316,7 +316,7 @@
   }
 
   .Home_member__9o60q .Home_container__97eC3 .Home_cat_ttl__EiIfA {
-    padding-top: calc(88 / 375* 100vw) !important;
+    padding-top: 0 !important;
   }
 
   .Home_member__9o60q .Home_container__97eC3 .Home_cat_ttl__EiIfA>img {
@@ -332,6 +332,22 @@
   .Home_member__9o60q .Home_container__97eC3 .Home_inner__k19bH ul {
     row-gap: calc(0 / 375* 100vw) !important;
     column-gap: calc(60 / 375* 100vw) !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .Home_member__9o60q .Home_container__97eC3 .Home_inner__k19bH ul li {
+    width: calc(120 / 375* 100vw) !important;
+    height: calc(240 / 375* 100vw) !important;
+  }
+
+  .Home_member__9o60q .Home_container__97eC3 .Home_inner__k19bH ul li a .Home_close_inner__RpIL9 .Home_member_name__NEyvD p {
+    font-size: calc(14 / 375* 100vw) !important;
+    line-height: calc(28 / 375* 100vw) !important;
+  }
+
+  .Home_member__9o60q .Home_container__97eC3 .Home_inner__k19bH ul li a .Home_close_inner__RpIL9 .Home_member_name__NEyvD h6 {
+    font-size: calc(28 / 375* 100vw) !important;
   }
 
   .Home_member__9o60q .Home_yellow_div__c8ijh {
@@ -340,7 +356,7 @@
 
   .Home_member__9o60q .Home_yellow_div__c8ijh .Home_yellow_bg__6LyAv {
     width: 100% !important;
-    height: calc(890 / 375* 100vw) !important;
+    height: calc(750 / 375* 100vw) !important;
   }
 
   .Home_member__9o60q .Home_yellow_div__c8ijh .Home_triangle_area__zNcUm {
