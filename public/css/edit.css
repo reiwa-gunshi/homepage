@@ -424,6 +424,29 @@
   .blogCard_blog_card___EEBZ .blogCard_blog_a__Ar8XO .blogCard_blog_detail__LWTKa>ul li {
     font-size: clamp(0px, calc(12 / 375* 100vw), 16px) !important;
   }
+
+  /* menu */
+  .header_header__Dg7eV .header_header_cont__odzQx .header_menu_btn___AWGu {
+    width: calc(75 / 375* 100vw) !important;
+    height: calc(75 / 375* 100vw) !important;
+    top: calc(15 / 375* 100vw) !important;
+    right: calc(15 / 375* 100vw) !important;
+  }
+
+  .header_header__Dg7eV .header_header_cont__odzQx .header_menu_btn___AWGu .header_hamburger___Uest div {
+    width: calc(16 / 375* 100vw) !important;
+    height: calc(1 / 375* 100vw) !important;
+  }
+
+  .header_header__Dg7eV .header_open__dOUSy .header_hamburger___Uest div:first-child {
+    transform: translateY(calc(1 / 375* 100vw)) rotate(405deg) !important;
+    margin-bottom: 0 !important;
+  }
+
+  .header_header__Dg7eV .header_open__dOUSy .header_hamburger___Uest div:nth-child(3) {
+    transform: translateY(calc(-1 / 375* 100vw)) rotate(-225deg) !important;
+    margin-bottom: 0 !important;
+  }
 }
 
 
