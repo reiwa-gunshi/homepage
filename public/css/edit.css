@@ -891,7 +891,7 @@
 
   .Home_news__jpNEz .Home_container__97eC3 {
     max-width: 100% !important;
-}
+  }
 
   .Home_news__jpNEz .Home_container__97eC3 .Home_news_word__l_Qdt {
     width: calc(345 / 1920* 100vw) !important;
@@ -943,7 +943,6 @@
     line-height: calc(24 / 1920* 100vw) !important;
   }
 
-
 }
 
 @media screen and (min-width: 1920px) {
@@ -951,6 +950,19 @@
   .Home_concept_area__fndBv .Home_concept_cont__nGDxW .Home_concept_inner__QzjaC img {
     width: 3vw !important;
     height: 3vw !important;
+  }
+
+  /* contact-btn */
+  .Home_news__jpNEz .Home_container__97eC3 .Home_contact_btn__Q6ktF a .Home_rect_btn__385UK {
+    width: calc(640 / 1920* 100vw) !important;
+    height: calc(80 / 1920* 100vw) !important;
+  }
+
+  .Home_news__jpNEz .Home_container__97eC3 .Home_contact_btn__Q6ktF a .Home_rect_btn__385UK .Home_inner__k19bH {
+    width: calc(636 / 1920* 100vw) !important;
+    height: calc(76 / 1920* 100vw) !important;
+    font-size: calc(24 / 1920* 100vw) !important;
+    line-height: calc(32 / 1920* 100vw) !important;
   }
 
 }
