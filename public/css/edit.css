@@ -867,7 +867,7 @@
   }
 
   .blogCard_blog_card___EEBZ .blogCard_blog_a__Ar8XO .blogCard_blog_detail__LWTKa {
-    padding: clamp(12px, calc(12 / 1920* 100vw), 999px) clamp(14px, calc(14 / 1920* 100vw), 999px);
+    padding: clamp(12px, calc(12 / 1920* 100vw), 999px) clamp(14px, calc(14 / 1920* 100vw), 999px) !important;
   }
 
   .blogCard_blog_card___EEBZ .blogCard_blog_a__Ar8XO .blogCard_blog_detail__LWTKa .blogCard_blog_sub_ttl__LX_J6 {
