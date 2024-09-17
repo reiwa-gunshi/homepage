@@ -965,4 +965,62 @@
     line-height: calc(32 / 1920* 100vw) !important;
   }
 
+  /* fotter */
+  .footer_footer__F0fS0 .footer_pamphlet__I_CmJ {
+    max-width: calc(700 / 1920* 100vw) !important;
+    margin: auto !important;
+  }
+
+  .footer_footer__F0fS0 .footer_pamphlet__I_CmJ .footer_grid__nKeBW {
+    column-gap: calc(50 / 1920* 100vw) !important;
+    row-gap: calc(15 / 1920* 100vw) !important;
+  }
+
+  .footer_footer__F0fS0 .footer_pamphlet__I_CmJ .footer_grid__nKeBW .footer_pamphlet_ttl__UcqIo p.footer_sub___FHuU {
+    margin-bottom: calc(12 / 1920* 100vw);
+    font-size: calc(16 / 1920* 100vw) !important;
+  }
+
+  .footer_footer__F0fS0 .footer_pamphlet__I_CmJ .footer_grid__nKeBW .footer_pamphlet_ttl__UcqIo p {
+    margin-bottom: calc(12 / 1920* 100vw) !important;
+    font-size: calc(16 / 1920* 100vw) !important;
+  }
+
+  .footer_footer__F0fS0 .footer_pamphlet__I_CmJ .footer_grid__nKeBW .footer_btn__EXG0q .footer_rect_btn__aliwu {
+    height: calc(80 / 1920* 100vw) !important;
+  }
+
+  .footer_footer__F0fS0 .footer_pamphlet__I_CmJ .footer_grid__nKeBW .footer_btn__EXG0q .footer_rect_btn__aliwu .footer_inner__h2f0j {
+    font-size: calc(24 / 1920* 100vw) !important;
+    line-height: calc(48 / 1920* 100vw) !important;
+  }
+
+  .footer_footer__F0fS0 .footer_footer_nav__EMztQ {
+    max-width: calc(960 / 1920* 100vw) !important;
+    padding: calc(80 / 1920* 100vw) calc(20 / 1920* 100vw) !important;
+  }
+
+  .footer_footer__F0fS0 .footer_footer_nav__EMztQ .footer_footer_ul__ReS4f {
+    row-gap: calc(30 / 1920* 100vw) !important;
+    column-gap: calc(100 / 1920* 100vw) !important;
+  }
+
+  .footer_footer__F0fS0 .footer_footer_nav__EMztQ .footer_footer_ul__ReS4f li {
+    font-size: calc(24 / 1920* 100vw) !important;
+  }
+
+  .footer_footer__F0fS0 .footer_footer_logo__frzXS {
+    width: calc(112 / 1920* 100vw) 0 !important;
+    padding: calc(80 / 1920* 100vw) 0 !important;
+  }
+
+  .footer_footer__F0fS0 .footer_copyright__bFhce {
+    padding: calc(16 / 1920* 100vw) 0 !important;
+  }
+
+  .footer_footer__F0fS0 .footer_copyright__bFhce p {
+    font-size: calc(16 / 1920* 100vw) !important;
+    line-height: calc(32 / 1920* 100vw) !important;
+  }
+
 }
