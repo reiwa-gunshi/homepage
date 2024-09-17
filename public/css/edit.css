@@ -792,6 +792,13 @@
     letter-spacing: 5px !important;
   }
 
+
+  @media screen and (max-width: 1024px) {
+    .Home_member__9o60q .Home_yellow_div__c8ijh .Home_yellow_bg__6LyAv {
+      height: calc(900 / 787* 100vw) !important;
+    }
+  }
+
   .Home_member__9o60q .Home_yellow_div__c8ijh .Home_yellow_bg__6LyAv {
     height: calc(1600 / 1920* 100vw) !important;
   }
