@@ -450,8 +450,9 @@
   }
 
   .blogCard_blog_card___EEBZ .blogCard_blog_a__Ar8XO .blogCard_blog_detail__LWTKa>ul li {
-    font-size: calc(12 / 375* 100vw) !important;
+    font-size: clamp(0px, calc(12 / 375* 100vw), 16px) !important;
   }
+
 
 
 
