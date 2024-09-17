@@ -1070,4 +1070,32 @@
     line-height: calc(32 / 1920* 100vw) !important;
   }
 
+  /* menu */
+  .header_header__Dg7eV .header_header_cont__odzQx .header_nav_cont__djYqz .header_nav__s3g3s {
+    width: calc(740 / 1920* 100vw) !important;
+    max-width: calc(740 / 1920* 100vw) !important;
+  }
+
+  .header_header__Dg7eV .header_header_cont__odzQx .header_nav_cont__djYqz .header_nav__s3g3s .header_ul__JNU_1 {
+    column-gap: calc(140 / 1920* 100vw) !important;
+    row-gap: calc(57 / 1920* 100vw) !important;
+  }
+
+  .header_header__Dg7eV .header_header_cont__odzQx .header_nav_cont__djYqz .header_nav__s3g3s .header_ul__JNU_1 li {
+    width: calc(300 / 1920* 100vw) !important;
+    max-width: calc(300 / 1920* 100vw) !important;
+  }
+
+  .header_header__Dg7eV .header_header_cont__odzQx .header_nav_cont__djYqz .header_nav__s3g3s .header_ul__JNU_1 li a .header_header_items_name__23DNa {
+    font-size: calc(40 / 1920* 100vw) !important;
+    line-height: calc(48 / 1920* 100vw) !important;
+    letter-spacing: calc(.58 / 1920* 100vw) !important;
+    padding-bottom: calc(5 / 1920* 100vw) !important;
+  }
+
+  .header_header__Dg7eV .header_header_cont__odzQx .header_nav_cont__djYqz .header_nav__s3g3s .header_ul__JNU_1 li a .header_header_items_yomikana__ynerK {
+    font-size: calc(16 / 1920* 100vw) !important;
+    line-height: calc(48 / 1920* 100vw) !important;
+  }
+
 }
