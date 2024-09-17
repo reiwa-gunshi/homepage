@@ -838,7 +838,7 @@
   .Home_blog__iLAYq .Home_blog_word__4En5H {
     width: calc(398 / 1920* 100vw) !important;
     left: calc(195 / 1920* 100vw) !important;
-    top: 20% !important;
+    top: 0 !important;
     transform: translate(-50%, -50%) rotate(90deg) !important;
   }
 
