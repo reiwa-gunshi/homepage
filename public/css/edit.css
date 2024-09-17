@@ -1010,7 +1010,7 @@
   }
 
   .footer_footer__F0fS0 .footer_footer_logo__frzXS {
-    width: calc(112 / 1920* 100vw) 0 !important;
+    width: calc(112 / 1920* 100vw) !important;
     padding: calc(80 / 1920* 100vw) 0 !important;
   }
 
