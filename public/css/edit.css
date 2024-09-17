@@ -1048,4 +1048,15 @@
     margin-bottom: calc(5 / 1920* 100vw) !important;
   }
 
+  /* menu */
+  .header_header__Dg7eV .header_open__dOUSy .header_hamburger___Uest div:first-child {
+    transform: translateY(calc(5 / 1920* 100vw)) rotate(405deg) !important;
+    margin-bottom: 0 !important;
+  }
+
+  .header_header__Dg7eV .header_open__dOUSy .header_hamburger___Uest div:nth-child(3) {
+    transform: translateY(calc(-5 / 1920* 100vw)) rotate(-225deg) !important;
+    margin-bottom: 0 !important;
+  }
+
 }
