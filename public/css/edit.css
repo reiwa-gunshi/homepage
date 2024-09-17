@@ -912,8 +912,8 @@
   }
 
   .newslist_news_list__K9c2E .newslist_time___RuOW .newslist_date_inner__ynEnq .newslist_date__VCzwL {
-    font-size: clamp(20px, calc(32 / 1920* 100vw), 999px) !important;
-    line-height: clamp(20px, calc(32 / 1920* 100vw), 999px) !important;
+    font-size: calc(32 / 1920* 100vw) !important;
+    line-height: calc(32 / 1920* 100vw) !important;
     margin-bottom: clamp(4px, calc(4 / 1920* 100vw), 999px) !important;
   }
 
@@ -929,8 +929,8 @@
 
   .newslist_news_list__K9c2E .newslist_news_ttl__WdOyO .newslist_main_ttl__m3J_f {
     padding-bottom: calc(12 / 1920* 100vw) !important;
-    font-size: clamp(20px, calc(32 / 1920* 100vw), 999px) !important;
-    line-height: clamp(20px, calc(32 / 1920* 100vw), 999px) !important;
+    font-size: calc(32 / 1920* 100vw) !important;
+    line-height: calc(32 / 1920* 100vw) !important;
   }
 
   .newslist_news_list__K9c2E .newslist_news_ttl__WdOyO .newslist_detail__3cDOr {
