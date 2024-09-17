@@ -783,12 +783,12 @@
   }
 
   .Home_member__9o60q .Home_container__97eC3 .Home_inner__k19bH ul li a .Home_close_inner__RpIL9 .Home_member_name__NEyvD p {
-    font-size: clamp(12px, calc(16 / 1920* 100vw), 999px) !important;
-    line-height: clamp(24px, calc(32 / 1920* 100vw), 999px) !important;
+    font-size: clamp(12px, calc(16 / 1280* 100vw), 999px) !important;
+    line-height: clamp(24px, calc(32 / 1280* 100vw), 999px) !important;
   }
 
   .Home_member__9o60q .Home_container__97eC3 .Home_inner__k19bH ul li a .Home_close_inner__RpIL9 .Home_member_name__NEyvD h6 {
-    font-size: clamp(26px, calc(32 / 1920* 100vw), 999px) !important;
+    font-size: clamp(26px, calc(32 / 1024* 100vw), 999px) !important;
     letter-spacing: 5px !important;
   }
 
