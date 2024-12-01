@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "https://reiwa-gunshi.co.jp",
+      "destination": "https://www.reiwa-gunshi.co.jp",
+      "permanent": true
+    }
+  ]
+}
